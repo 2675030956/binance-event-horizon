@@ -1,0 +1,27 @@
+{
+  "chains": ["56", "8453", "CT_501"],
+  "social_limit_per_chain": 8,
+  "unified_rank_types": [20],
+  "unified_limit_per_chain": 8,
+  "smart_signal_limit_per_chain": 8,
+  "smart_money_limit_per_chain": 6,
+  "alpha_limit": 16,
+  "spot_limit": 120,
+  "spot_min_quote_volume": 5000000,
+  "futures_limit": 120,
+  "futures_min_quote_volume": 10000000,
+  "futures_probe_limit": 8,
+  "announcement_catalog_ids": [48, 49, 93],
+  "announcement_limit_per_catalog": 3,
+  "history_dir": "output/history",
+  "history_keep_files": 72,
+  "request_timeout_seconds": 20,
+  "request_interval_seconds": 0.08,
+  "auto_refresh_seconds": 180,
+  "alert_thresholds": {
+    "high_funding_bps": 3.5,
+    "high_oi_change_pct": 1.5,
+    "low_liquidity_usd": 120000,
+    "hyper_move_pct": 20.0
+  }
+}

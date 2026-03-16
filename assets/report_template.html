@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>币安事件地平线</title>
+  <style>
+    :root{
+      --bg:#eef2ff;--bg2:#fbfcff;--ink:#0f172a;--muted:#5b6780;--line:rgba(71,85,105,.14);
+      --panel:rgba(255,255,255,.66);--panel2:rgba(255,255,255,.82);--shadow:0 24px 80px rgba(114,128,170,.18);
+      --cyan:#0ea5e9;--violet:#7c3aed;--pink:#ec4899;--lime:#84cc16;--red:#ef4444;--amber:#f59e0b;
+    }
+    *{box-sizing:border-box} html,body{height:100%}
+    body{
+      margin:0;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;overflow:hidden;
+      background:
+        radial-gradient(circle at 14% 20%, rgba(124,58,237,.15), transparent 26%),
+        radial-gradient(circle at 84% 18%, rgba(14,165,233,.14), transparent 24%),
+        radial-gradient(circle at 72% 84%, rgba(236,72,153,.13), transparent 22%),
+        radial-gradient(circle at 30% 82%, rgba(132,204,22,.11), transparent 16%),
+        linear-gradient(180deg, var(--bg2), var(--bg));
+    }
+    .shell{height:100%;max-width:1680px;margin:0 auto;padding:18px;display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;gap:14px}
+    .glass{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);box-shadow:var(--shadow);backdrop-filter:blur(18px)}
+    .topbar{display:grid;grid-template-columns:1.1fr 1fr auto;gap:14px;padding:14px;border-radius:30px;align-items:stretch}
+    .brand{display:grid;gap:6px;align-content:center;padding:8px 10px}
+    .kicker{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--violet);font-weight:700}
+    h1{margin:0;font-size:42px;line-height:1.02;letter-spacing:-1.5px}
+    .brand p{margin:0;color:var(--muted);font-size:14px;line-height:1.75}
+    .status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+    .pill{border:1px solid var(--line);border-radius:22px;padding:14px;background:rgba(255,255,255,.52)}
+    .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+    .pill .v{margin-top:8px;font-size:27px;font-weight:800;letter-spacing:-.7px}
+    .pill .m{margin-top:4px;color:var(--muted);font-size:12px;line-height:1.55}
+    .actions{display:grid;align-content:space-between;justify-items:end;min-width:210px}
+    .chip{width:100%;text-align:center;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.56);padding:10px 12px;color:var(--muted);font-size:13px}
+    .clock{display:grid;gap:8px;width:100%}
+    .button{border:none;border-radius:18px;padding:13px 18px;font:inherit;color:#fff;cursor:pointer;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 14px 36px rgba(124,58,237,.22);transition:transform .22s ease,box-shadow .22s ease,opacity .22s ease}
+    .button.alt{background:linear-gradient(135deg,var(--pink),var(--violet))}
+    .button:hover{transform:translateY(-1px);box-shadow:0 18px 38px rgba(124,58,237,.26)}
+    .button:active{transform:translateY(0)}
+    .button:disabled{opacity:.72;cursor:wait;transform:none}
+    .stage{position:relative;min-height:0;border-radius:34px;overflow:hidden}
+    .scene{display:none;height:100%;overflow:auto;padding:22px;scroll-behavior:smooth;scrollbar-gutter:stable}
+    .scene.active{display:block;animation:sceneIn .28s cubic-bezier(.22,.61,.36,1)}
+    @keyframes sceneIn{from{opacity:0;transform:translateY(10px) scale(.992)}to{opacity:1;transform:translateY(0) scale(1)}}
+    .stack,.brief,.list,.scores,.talks{display:grid;gap:12px}
+    .grid2{display:grid;grid-template-columns:1.04fr .96fr;gap:16px}
+    .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .panel{border:1px solid var(--line);border-radius:28px;background:rgba(255,255,255,.62);padding:20px;transition:transform .24s ease,box-shadow .24s ease,border-color .24s ease,background .24s ease}
+    .panel:hover{transform:translateY(-2px);box-shadow:0 18px 42px rgba(114,128,170,.12);border-color:rgba(71,85,105,.18)}
+    .panel h2,.panel h3{margin:0}.panel h2{font-size:30px;letter-spacing:-1px}.panel h3{font-size:22px;letter-spacing:-.4px}
+    .panel p{margin:10px 0 0;color:var(--muted);font-size:14px;line-height:1.75}
+    .heroCompact{min-height:520px;background:linear-gradient(180deg,rgba(255,255,255,.74),rgba(247,249,255,.58));display:grid;grid-template-rows:auto 1fr auto;gap:16px}
+    .heroCompactHead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .heroCompactHead p{max-width:560px}
+    .heroCompactHead .brief{justify-items:end;align-content:start}
+    .heroBoard{display:grid;grid-template-columns:170px minmax(0,1fr) 170px;gap:14px;align-items:stretch;min-height:300px}
+    .heroRail{display:grid;gap:12px;align-content:center}
+    .satCard,.heroMetricMini{border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.72);box-shadow:0 12px 30px rgba(120,136,173,.10);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+    .satCard:hover,.heroMetricMini:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(120,136,173,.12);border-color:rgba(71,85,105,.2)}
+    .satCard{padding:15px 14px}
+    .satCard .sym{font-size:22px;font-weight:800;letter-spacing:-.4px}
+    .satCard .meta{margin-top:4px;font-size:12px;color:var(--muted)}
+    .satCard .desc{margin-top:8px;font-size:13px;color:var(--muted);line-height:1.6}
+    .heroCenter{position:relative;display:grid;place-items:center;min-height:320px;overflow:hidden}
+    .heroGlow,.heroGlow:before,.heroGlow:after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;pointer-events:none}
+    .heroGlow{width:380px;height:380px;background:radial-gradient(circle at center, rgba(255,255,255,.96) 0%, rgba(255,255,255,.68) 18%, rgba(124,58,237,.28) 32%, rgba(14,165,233,.16) 48%, rgba(0,0,0,0) 72%)}
+    .heroGlow:before{width:468px;height:468px;border:1px solid rgba(124,58,237,.12);box-shadow:0 0 0 38px rgba(14,165,233,.05)}
+    .heroGlow:after{width:548px;height:548px;border:1px solid rgba(236,72,153,.10)}
+    .phaseCore{position:relative;z-index:2;width:292px;min-height:292px;border-radius:34px;border:1px solid rgba(255,255,255,.82);background:rgba(255,255,255,.78);box-shadow:0 20px 60px rgba(124,58,237,.14);padding:22px;display:grid;align-content:start;gap:10px;text-align:center}
+    .phaseCore .small{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1.1px}
+    .phaseCore .big{font-size:42px;font-weight:800;letter-spacing:-1.4px;line-height:1.04}
+    .phaseCore .sub{font-size:13px;color:var(--muted);line-height:1.65}
+    .phaseCore .topAsset{border:1px solid var(--line);border-radius:18px;padding:10px 12px;background:rgba(255,255,255,.64)}
+    .phaseCore .topAsset strong{display:block;font-size:18px}
+    .phaseRibbon{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .heroMetricMini{padding:14px}
+    .heroMetricMini .k{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}
+    .heroMetricMini .v{margin-top:7px;font-size:22px;font-weight:800;letter-spacing:-.6px}
+    .heroMetricMini .m{margin-top:5px;font-size:12px;color:var(--muted);line-height:1.5}
+    .phase{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .phaseCard{border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.62);padding:18px}
+    .phaseCard .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}.phaseCard .v{margin-top:8px;font-size:31px;font-weight:800}
+    .micro{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;border:1px solid rgba(71,85,105,.2);background:rgba(255,255,255,.72);font-size:12px;color:var(--muted)}
+    .top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+    .subline{margin-top:4px;color:var(--muted);font-size:13px}
+    .bar{display:flex;align-items:center;gap:10px;margin-top:10px}.rail{flex:1;height:10px;border-radius:999px;background:rgba(100,116,139,.12);overflow:hidden}.rail span{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--cyan),var(--violet),var(--pink))}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.tags span{padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.74);font-size:12px;color:var(--muted)}
+    .laneGrid,.watchGrid,.copyGrid,.scenarioGrid,.focusGrid,.gravityGrid{display:grid;gap:16px}
+    .laneGrid,.watchGrid,.copyGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .scenarioGrid,.focusGrid,.gravityGrid{grid-template-columns:.98fr 1.02fr}
+    .timeline{display:grid;gap:12px;position:relative;padding-left:24px}.timeline:before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--cyan),var(--violet),var(--pink))}
+    .timeItem{position:relative;border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.64);padding:16px}.timeItem:before{content:"";position:absolute;left:-22px;top:18px;width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 0 0 4px rgba(124,58,237,.12)}
+    .well{min-height:480px;display:grid;place-items:center;position:relative}.disc{width:320px;height:320px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at center, rgba(255,255,255,.96) 0%, rgba(255,255,255,.74) 18%, rgba(239,68,68,.30) 36%, rgba(124,58,237,.16) 54%, rgba(0,0,0,0) 70%);box-shadow:0 28px 80px rgba(239,68,68,.12);position:relative}
+    .disc:before,.disc:after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;border:1px solid rgba(239,68,68,.14)}.disc:before{width:390px;height:390px}.disc:after{width:470px;height:470px;border-color:rgba(124,58,237,.12)}
+    .disc .big{font-size:54px;font-weight:800;letter-spacing:-2px}.disc .small{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1.2px}.disc .meta{margin-top:10px;max-width:220px;text-align:center;color:var(--muted);font-size:14px;line-height:1.7}
+    .focusHero{min-height:520px;position:relative;background:linear-gradient(180deg,rgba(255,255,255,.76),rgba(246,248,255,.56));overflow:hidden}
+    .focusCard{position:absolute;inset:56px;border:1px solid var(--line);border-radius:28px;background:rgba(255,255,255,.72);padding:24px;display:grid;gap:14px}
+    .symbol{font-size:56px;font-weight:800;letter-spacing:-2px}
+    .score{border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.68);padding:14px}
+    .score .head{display:flex;justify-content:space-between;gap:10px;align-items:center}
+    .copyBox{border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.66);padding:18px}.copyBox textarea{width:100%;min-height:200px;border:none;outline:none;resize:vertical;background:transparent;color:var(--ink);font:inherit;line-height:1.75}
+    .dock{padding:10px 12px;border-radius:999px;display:flex;justify-content:center;gap:10px;overflow:auto}
+    .dockBtn{border:none;border-radius:999px;padding:12px 16px;font:inherit;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:transform .2s ease,background .2s ease,color .2s ease,box-shadow .2s ease}
+    .dockBtn:hover{transform:translateY(-1px);background:rgba(255,255,255,.56);color:var(--ink)}
+    .dockBtn.active{color:#fff;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 14px 30px rgba(124,58,237,.18)}
+    .foot{display:flex;justify-content:space-between;gap:12px;padding:0 6px;color:var(--muted);font-size:13px}
+    @media (max-width:1380px){.topbar{grid-template-columns:1fr}.status{grid-template-columns:repeat(2,minmax(0,1fr))}.actions{justify-items:stretch}.grid2,.grid3,.laneGrid,.watchGrid,.copyGrid,.scenarioGrid,.focusGrid,.gravityGrid{grid-template-columns:1fr}}
+    @media (max-width:1380px){.heroBoard{grid-template-columns:1fr}.heroRail{grid-template-columns:repeat(2,minmax(0,1fr));align-content:start}.phaseRibbon{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:780px){body{overflow:auto}.shell{height:auto;min-height:100%;grid-template-rows:auto auto auto auto}.stage{min-height:800px}.scene{padding:16px}.status{grid-template-columns:1fr}.heroCompact{min-height:auto}.heroBoard,.heroRail,.phaseRibbon{grid-template-columns:1fr}.phaseCore{width:100%;min-height:auto}.phaseCore .big{font-size:32px}.heroGlow,.heroGlow:before,.heroGlow:after{display:none}.disc{width:260px;height:260px}.disc:before{width:320px;height:320px}.disc:after{width:390px;height:390px}.symbol{font-size:42px}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar glass">
+      <div class="brand">
+        <div class="kicker">Binance Event Horizon</div>
+        <h1>币安事件地平线</h1>
+        <p id="phaseSummary">将分散在现货、合约、Alpha、官方公告、链上热度与聪明钱里的信号折叠为未来情景舱。</p>
+      </div>
+      <div class="status" id="statusStrip"></div>
+      <div class="actions">
+        <div class="clock">
+          <div class="chip" id="generatedAt">报告时间 --</div>
+          <div class="chip" id="localClock">当前本地时间 --</div>
+        </div>
+        <button class="button" id="refreshBtn" type="button">刷新报告</button>
+      </div>
+    </header>
+    <main class="stage glass">
+      <section class="scene active" id="scene-overview"></section>
+      <section class="scene" id="scene-constellation"></section>
+      <section class="scene" id="scene-scenarios"></section>
+      <section class="scene" id="scene-catalysts"></section>
+      <section class="scene" id="scene-gravity"></section>
+      <section class="scene" id="scene-watchlist"></section>
+      <section class="scene" id="scene-focus"></section>
+      <section class="scene" id="scene-broadcast"></section>
+    </main>
+    <nav class="dock glass" id="dock"></nav>
+    <footer class="foot"><span>全息情景舱</span><span id="footerRight">本地时间 --</span></footer>
+  </div>
+  <script id="report-json" type="application/json">__REPORT_JSON__</script>
+  <script>
+    const DATA_URL="__DATA_URL__",AUTO_REFRESH_SECONDS=Number("__AUTO_REFRESH_SECONDS__")||180,EMBEDDED_REPORT=JSON.parse(document.getElementById("report-json").textContent||"{}");
+    const state={report:EMBEDDED_REPORT,scene:"overview"},SCENES=[["overview","总览"],["constellation","星图"],["scenarios","场景"],["catalysts","催化"],["gravity","预警"],["watchlist","轨道"],["focus","聚焦"],["broadcast","广播"]];
+    const r=()=>state.report||{},text=(v,f="-")=>{const s=String(v??"").trim();return s||f;},num=(v,d=1)=>{const n=Number(v||0);return Number.isFinite(n)?n.toFixed(d):"-";},pct=(v)=>{const n=Number(v||0);return Number.isFinite(n)?`${n>=0?"+":""}${n.toFixed(2)}%`:"-";},money=(v)=>{const n=Number(v||0);if(!Number.isFinite(n))return "-";if(Math.abs(n)>=1e9)return `$${(n/1e9).toFixed(2)}B`;if(Math.abs(n)>=1e6)return `$${(n/1e6).toFixed(2)}M`;if(Math.abs(n)>=1e3)return `$${(n/1e3).toFixed(2)}K`;return `$${n.toFixed(2)}`;},esc=(v)=>text(v).replace(/[&<>"]/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])),timeText=(v)=>{if(!v)return "--";const d=new Date(v);return Number.isNaN(d.getTime())?"--":d.toLocaleString("zh-CN",{hour12:false});},micro=(v)=>`<span class="micro">${esc(v)}</span>`,bar=(s)=>`<div class="bar"><div class="rail"><span style="width:${Math.max(0,Math.min(100,Number(s||0)))}%"></span></div><strong>${num(s)}</strong></div>`;
+    const panel=(title,desc)=>`<div class="panel"><h2>${esc(title)}</h2><p>${esc(desc)}</p></div>`;
+    function renderStatus(){const p=r().market_phase||{},t=p.top_asset||{};document.getElementById("statusStrip").innerHTML=[["市场相位",text(p.phase_name),text(p.phase_summary)],["信号密度",num(p.signal_density),"多源信号叠加强度"],["杠杆温度",num(p.leverage_temperature),`Top ${text(t.symbol)}`],["催化压力",num(p.catalyst_pressure),`引力 ${num(p.gravity_pressure)}`]].map(i=>`<div class="pill"><div class="k">${esc(i[0])}</div><div class="v">${esc(i[1])}</div><div class="m">${esc(i[2])}</div></div>`).join("");document.getElementById("generatedAt").textContent=`报告时间 ${timeText(r().generated_at)}`;document.getElementById("phaseSummary").textContent=text((r().market_phase||{}).phase_summary,"将分散信号折叠为未来情景舱。")}
+    function orbitNodes(items){const rs=[150,210,246,182,230,136];return items.slice(0,6).map((it,i)=>{const a=(360/Math.max(items.length,1))*i-70,rad=rs[i%rs.length];return `<div class="node" style="left:50%;top:50%;transform:translate(-50%,-50%) rotate(${a}deg) translate(${rad}px) rotate(-${a}deg)"><div class="bubble"><div class="sym">${esc(it.symbol)}</div><div class="meta">${esc(it.priority||"-")} · ${num(it.opportunity_score)}</div></div></div>`}).join("")}
+    function renderOverview(){const p=r().market_phase||{},t=r().temporal_shift||{},w=r().orbit_watchlist||[],b=r().live_brief||[];document.getElementById("scene-overview").innerHTML=`<div class="stack"><div class="grid2"><div class="panel hero"><div class="core"><div><div class="small">Current Phase</div><div class="big">${esc(p.phase_name||"-")}</div><div class="sub">${esc(p.phase_transition_hint||"多源信号正在重新排列市场重心")}</div></div></div>${orbitNodes(w)}</div><div class="stack"><div class="panel"><h2>相位面板</h2><p>${esc(p.phase_summary||"暂无相位描述")}</p><div class="phase" style="margin-top:16px"><div class="phaseCard"><div class="k">Signal Density</div><div class="v">${num(p.signal_density)}</div></div><div class="phaseCard"><div class="k">Leverage Temp</div><div class="v">${num(p.leverage_temperature)}</div></div><div class="phaseCard"><div class="k">Catalyst Pressure</div><div class="v">${num(p.catalyst_pressure)}</div></div><div class="phaseCard"><div class="k">Gravity Pressure</div><div class="v">${num(p.gravity_pressure)}</div></div></div></div><div class="panel"><h3>即时摘要</h3><div class="brief" style="margin-top:14px">${b.map(x=>`<div class="pill" style="border-radius:22px;padding:14px">${esc(x)}</div>`).join("")}</div></div><div class="panel"><h3>时间漂移</h3><div class="brief" style="margin-top:14px"><div class="pill" style="border-radius:22px;padding:14px">相位迁移：${esc(t.phase_transition_hint||"暂无")}</div><div class="pill" style="border-radius:22px;padding:14px">新增：${(t.new_arrivals||[]).map(x=>text(x.symbol)).join("、")||"暂无"}</div><div class="pill" style="border-radius:22px;padding:14px">增强：${(t.accelerating_assets||[]).map(x=>text(x.symbol)).join("、")||"暂无"}</div></div></div></div></div></div>`}
+    function renderConstellation(){const lanes=r().signal_constellation||[];document.getElementById("scene-constellation").innerHTML=`<div class="stack">${panel("信号星图","这里不按接口分页，而是按轨道层来展示哪些信号正在共同塑造市场引力。")}<div class="laneGrid">${lanes.map(l=>`<div class="panel"><div class="top"><div><h3>${esc(l.title)}</h3><div class="subline">强度 ${num(l.intensity)} · 数量 ${text(l.count)}</div></div>${micro("轨道层")}</div>${bar(l.intensity)}<p>${esc(l.summary)}</p><div class="tags">${(l.assets||[]).map(a=>`<span>${esc(a.symbol)} · ${num(a.score)}</span>`).join("")}</div></div>`).join("")}</div></div>`}
+    function renderScenarios(){const s=r().scenario_engine||[];document.getElementById("scene-scenarios").innerHTML=`<div class="stack">${panel("场景引擎","把现在的多源信号转成未来 6h / 24h 的情景推演，而不是停留在“谁涨了”。")}<div class="scenarioGrid"><div class="stack">${s.map(i=>`<div class="panel"><div class="top"><div><h3>${esc(i.title)}</h3><div class="subline">${esc(i.archetype)} · ${esc(i.horizon)}</div></div>${micro(i.primary_asset||"-")}</div>${bar(i.probability)}<p>触发：${esc(i.trigger)}</p><p>失效：${esc(i.invalidation)}</p><p>依据：${esc(i.rationale)}</p></div>`).join("")}</div><div class="stack">${s.map(i=>`<div class="panel"><h3>${num(i.probability)}%</h3><p>${esc(i.title)}</p><p>${esc(i.primary_asset||"-")} 当前是这个情景的主锚点。</p></div>`).join("")}</div></div></div>`}
+    function renderCatalysts(){const cs=r().catalyst_reactor||[];document.getElementById("scene-catalysts").innerHTML=`<div class="stack">${panel("催化反应堆","把官方公告映射成再定价路径，看它究竟是点火、扩张还是噪音。")}<div class="timeline">${cs.map(i=>`<div class="timeItem"><div class="top"><div><h3>${esc(i.title)}</h3><div class="subline">${esc(i.lane||"-")} · ${timeText(i.published_at)}</div></div>${micro(`影响 ${num(i.impact_score)}`)}</div><p>${esc(i.summary||"官方动作已进入系统催化层")}</p><div class="tags">${(i.linked_assets||[]).length?(i.linked_assets||[]).map(a=>`<span>${esc(a)}</span>`).join(""):`<span>暂未建立直接映射</span>`}</div></div>`).join("")}</div></div>`}
+    function renderGravity(){const a=r().gravity_alerts||[],top=a[0]||{};document.getElementById("scene-gravity").innerHTML=`<div class="stack"><div class="gravityGrid"><div class="panel well"><div class="disc"><div><div class="small">Gravity Well</div><div class="big">${num(top.gravity_score||0)}</div><div class="meta">${esc(top.symbol?`${top.symbol} 是当前最高优先级引力预警。`:"当前暂无高等级引力预警。")}</div></div></div></div><div class="stack">${panel("引力预警","机会和风险被强制拆开，避免把高热度误读成高质量。")}<div class="list">${a.map(i=>`<div class="panel"><div class="top"><div><h3>${esc(i.symbol)}</h3><div class="subline">${esc(i.severity)} · ${num(i.gravity_score)}</div></div>${micro("预警")}</div><p>${esc(i.summary)}</p><p>动作：${esc(i.action)}</p></div>`).join("")}</div></div></div></div>`}
+    function renderWatch(){const list=r().orbit_watchlist||[];document.getElementById("scene-watchlist").innerHTML=`<div class="stack">${panel("优先观察轨道","这是给机器人、内容团队和人工盯盘直接接力的执行层，不是普通排行榜。")}<div class="watchGrid">${list.map(i=>`<div class="panel"><div class="top"><div><h3>${esc(i.symbol)}</h3><div class="subline">${esc(i.orbit_type)} · ${esc(i.priority||"-")} · ${pct(i.change_pct)}</div></div>${micro(`分数 ${num(i.opportunity_score)}`)}</div><p>${esc(i.thesis)}</p><p>触发：${esc(i.trigger)}</p><p>失效：${esc(i.invalidate)}</p></div>`).join("")}</div></div>`}
+    function renderFocus(){const f=r().focus_asset||{};document.getElementById("scene-focus").innerHTML=f.symbol?`<div class="stack"><div class="focusGrid"><div class="panel focusHero"><div class="focusCard"><div class="kicker">Focus Asset</div><div class="symbol">${esc(f.symbol)}</div><h3>${esc(f.headline||"-")}</h3><p>${esc(f.summary||"-")}</p><div class="tags">${(f.source_list||[]).map(x=>`<span>${esc(x)}</span>`).join("")}</div><div class="scores">${(f.score_stack||[]).map(s=>`<div class="score"><div class="head"><strong>${esc(s.label)}</strong><span>${num(s.score)}</span></div>${bar(s.score)}</div>`).join("")}</div></div></div><div class="stack"><div class="panel"><h2>触发条件</h2><div class="list" style="margin-top:14px">${(f.trigger_stack||[]).map(x=>`<div class="pill" style="border-radius:22px;padding:14px">${esc(x)}</div>`).join("")}</div></div><div class="panel"><h2>失效条件</h2><div class="list" style="margin-top:14px">${(f.invalidation_stack||[]).map(x=>`<div class="pill" style="border-radius:22px;padding:14px">${esc(x)}</div>`).join("")}</div></div><div class="panel"><h2>官方关联</h2><div class="tags" style="margin-top:14px">${(f.official_titles||[]).length?(f.official_titles||[]).map(x=>`<span>${esc(x)}</span>`).join(""):`<span>暂无直接官方标题映射</span>`}</div></div></div></div></div>`:`<div class="stack">${panel("聚焦资产","当前没有可展示的聚焦资产。")}</div>`}
+    function renderBroadcast(){const p=r().broadcast_pack||{};document.getElementById("scene-broadcast").innerHTML=`<div class="stack">${panel(p.headline||"广播封包","这不是分析页的附属功能，而是直接面向 X、广场和直播讲解的发布层。")}<div class="copyGrid"><div class="copyBox"><div class="top"><h3>X 文案</h3><button class="button alt" data-copy="xCopy" type="button">复制</button></div><textarea id="xCopy" readonly>${text(p.x_post,"")}</textarea></div><div class="copyBox"><div class="top"><h3>广场文案</h3><button class="button alt" data-copy="squareCopy" type="button">复制</button></div><textarea id="squareCopy" readonly>${text(p.square_post,"")}</textarea></div></div><div class="panel"><h3>讲解要点</h3><div class="talks" style="margin-top:14px">${(p.talking_points||[]).map(x=>`<div class="pill" style="border-radius:22px;padding:14px">${esc(x)}</div>`).join("")}</div></div></div>`}
+    function renderDock(){document.getElementById("dock").innerHTML=SCENES.map(([id,label])=>`<button class="dockBtn ${state.scene===id?"active":""}" data-scene="${id}" type="button">${label}</button>`).join("")}
+    function renderScene(){document.querySelectorAll(".scene").forEach(n=>n.classList.remove("active"));document.getElementById(`scene-${state.scene}`).classList.add("active");({overview:renderOverview,constellation:renderConstellation,scenarios:renderScenarios,catalysts:renderCatalysts,gravity:renderGravity,watchlist:renderWatch,focus:renderFocus,broadcast:renderBroadcast}[state.scene]||renderOverview)()}
+    function renderAll(){renderStatus();renderDock();renderScene()}
+    async function refreshData(force=false){if(!DATA_URL)return;try{const res=await fetch(`${DATA_URL}?t=${Date.now()}`,{cache:"no-store"});if(!res.ok)throw new Error(`HTTP ${res.status}`);state.report=await res.json();renderAll()}catch(err){if(force)console.warn("refresh failed",err)}}
+    async function copyFrom(id){const node=document.getElementById(id);if(!node)return;try{await navigator.clipboard.writeText(node.value||node.textContent||"")}catch(err){node.select?.()}}
+    function tickClock(){const value=new Date().toLocaleString("zh-CN",{hour12:false});document.getElementById("localClock").textContent=`当前本地时间 ${value}`;document.getElementById("footerRight").textContent=`当前本地时间 ${value}`}
+    document.addEventListener("click",async(e)=>{const s=e.target.closest("[data-scene]");if(s){state.scene=s.getAttribute("data-scene");renderDock();renderScene()}if(e.target.id==="refreshBtn")await refreshData(true);const c=e.target.closest("[data-copy]");if(c)await copyFrom(c.getAttribute("data-copy"))});
+    const padItems=(items,count)=>Array.from({length:count},(_,i)=>items[i]||null);
+    function satCard(item){
+      if(!item)return `<div class="satCard"><div class="sym">待补位</div><div class="meta">Orbit Slot</div><div class="desc">当前轨道候选不足，下一轮刷新后补齐观察目标。</div></div>`;
+      const trend=Number(item.change_pct||0)>=0?"上行":"回撤";
+      return `<div class="satCard"><div class="sym">${esc(item.symbol)}</div><div class="meta">${esc(item.orbit_type||"-")} · ${esc(item.priority||"-")}</div><div class="desc">${esc(item.thesis||"多源信号正在共同抬升关注度")}</div><div class="tags"><span>机会 ${num(item.opportunity_score)}</span><span>${trend} ${pct(item.change_pct)}</span></div></div>`;
+    }
+    function miniMetric(item){
+      if(!item)return `<div class="heroMetricMini"><div class="k">Waiting</div><div class="v">--</div><div class="m">等待下一轮轨道资产补位。</div></div>`;
+      return `<div class="heroMetricMini"><div class="k">${esc(item.symbol)}</div><div class="v">${num(item.opportunity_score)}</div><div class="m">${esc(item.orbit_type||"-")} · ${pct(item.change_pct)}</div></div>`;
+    }
+    renderOverview=function(){
+      const p=r().market_phase||{},t=r().temporal_shift||{},w=r().orbit_watchlist||[],b=r().live_brief||[];
+      const leftRail=padItems(w.slice(0,2),2).map(satCard).join("");
+      const rightRail=padItems(w.slice(2,4),2).map(satCard).join("");
+      const ribbon=padItems(w.slice(4,7),3).map(miniMetric).join("");
+      const top=p.top_asset||w[0]||{};
+      const arrivals=(t.new_arrivals||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
+      const accelerating=(t.accelerating_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
+      const fading=(t.fading_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
+      const briefs=(b.length?b.slice(0,4):["当前暂无即时摘要，等待下一轮信号汇流。"]).map(x=>`<div class="pill" style="border-radius:22px;padding:14px">${esc(x)}</div>`).join("");
+      document.getElementById("scene-overview").innerHTML=`<div class="stack"><div class="grid2"><div class="panel heroCompact"><div class="heroCompactHead"><div><div class="kicker">Overview Matrix</div><h2>${esc(p.phase_name||"-")}</h2><p>${esc(p.phase_transition_hint||"多源信号正在重新排列市场重心")}</p></div><div class="brief">${micro(`Top ${text(top.symbol)}`)}${micro(`Signal ${num(p.signal_density)}`)}${micro(`Catalyst ${num(p.catalyst_pressure)}`)}</div></div><div class="heroBoard"><div class="heroRail">${leftRail}</div><div class="heroCenter"><div class="heroGlow"></div><div class="phaseCore"><div class="small">Current Phase</div><div class="big">${esc(p.phase_name||"-")}</div><div class="sub">${esc(p.phase_summary||"暂无相位描述")}</div><div class="topAsset"><div class="small">Phase Pivot</div><strong>${esc(top.symbol||"-")}</strong><span>${esc(text(top.display_name||top.symbol,"暂无焦点资产"))}</span></div><div class="tags" style="justify-content:center"><span>Leverage ${num(p.leverage_temperature)}</span><span>Gravity ${num(p.gravity_pressure)}</span></div></div></div><div class="heroRail">${rightRail}</div></div><div class="phaseRibbon">${ribbon}</div></div><div class="stack"><div class="panel"><h2>相位矩阵</h2><p>${esc(p.phase_summary||"暂无相位描述")}</p><div class="phase" style="margin-top:16px"><div class="phaseCard"><div class="k">Signal Density</div><div class="v">${num(p.signal_density)}</div></div><div class="phaseCard"><div class="k">Leverage Temp</div><div class="v">${num(p.leverage_temperature)}</div></div><div class="phaseCard"><div class="k">Catalyst Pressure</div><div class="v">${num(p.catalyst_pressure)}</div></div><div class="phaseCard"><div class="k">Gravity Pressure</div><div class="v">${num(p.gravity_pressure)}</div></div></div></div><div class="panel"><h3>即时摘要</h3><div class="brief" style="margin-top:14px">${briefs}</div></div><div class="panel"><h3>时间漂移</h3><div class="brief" style="margin-top:14px"><div class="pill" style="border-radius:22px;padding:14px">相位迁移：${esc(t.phase_transition_hint||"暂无")}</div><div class="pill" style="border-radius:22px;padding:14px">新增轨道：${esc(arrivals)}</div><div class="pill" style="border-radius:22px;padding:14px">增强轨道：${esc(accelerating)}</div><div class="pill" style="border-radius:22px;padding:14px">降温轨道：${esc(fading)}</div></div></div></div></div></div>`;
+    };
+    renderScene=function(){
+      const scenes=document.querySelectorAll(".scene"),target=document.getElementById(`scene-${state.scene}`),renderer=({overview:renderOverview,constellation:renderConstellation,scenarios:renderScenarios,catalysts:renderCatalysts,gravity:renderGravity,watchlist:renderWatch,focus:renderFocus,broadcast:renderBroadcast}[state.scene]||renderOverview);
+      scenes.forEach(n=>n.classList.remove("active"));
+      renderer();
+      if(target)target.scrollTop=0;
+      requestAnimationFrame(()=>target?.classList.add("active"));
+    };
+    let refreshTask=null;
+    refreshData=async function(force=false){
+      if(!DATA_URL)return false;
+      if(refreshTask)return refreshTask;
+      refreshTask=(async()=>{try{const res=await fetch(`${DATA_URL}?t=${Date.now()}`,{cache:"no-store"});if(!res.ok)throw new Error(`HTTP ${res.status}`);state.report=await res.json();renderAll();return true}catch(err){if(force)console.warn("refresh failed",err);return false}finally{refreshTask=null}})();
+      return refreshTask;
+    };
+    document.addEventListener("click",async(e)=>{
+      const sceneBtn=e.target.closest("[data-scene]");
+      if(sceneBtn){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        state.scene=sceneBtn.getAttribute("data-scene");
+        renderDock();
+        renderScene();
+        return;
+      }
+      const refreshBtn=e.target.closest("#refreshBtn");
+      if(refreshBtn){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        const originalText=refreshBtn.textContent;
+        refreshBtn.disabled=true;
+        refreshBtn.textContent="刷新中...";
+        try{await refreshData(true)}finally{refreshBtn.disabled=false;refreshBtn.textContent=originalText}
+        return;
+      }
+      const copyBtn=e.target.closest("[data-copy]");
+      if(copyBtn){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        await copyFrom(copyBtn.getAttribute("data-copy"));
+      }
+    },true);
+    tickClock();renderAll();setInterval(tickClock,1000);setInterval(()=>refreshData(true),AUTO_REFRESH_SECONDS*1000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "币安事件地平线"
+  short_description: "把公告、Alpha、合约、社媒与聪明钱折叠成未来情景驾驶舱"
+  default_prompt: "使用 $binance-event-horizon 生成最新事件地平线报告，并给出场景引擎、引力预警和优先观察轨道"
