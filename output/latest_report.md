@@ -1,39 +1,40 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-16T10:23:50.748538+00:00
+- 生成时间：2026-03-16T12:25:56.647222+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 39.0 | 资产：BTC、ETH、BNB、SOL
-- 杠杆热层 | 强度 37.5 | 资产：G
-- 官方催化带 | 强度 37.4 | 资产：BTC、ETH、BNB、NIGHT
-- Alpha 前沿层 | 强度 31.9 | 资产：LYN、PUMP、COLLECT、QUQ
-- Launchpad 迷因团 | 强度 25.3 | 资产：CATMODE、THE、KITE、REZ
-- 聪明钱跃迁层 | 强度 25.0 | 资产：CATMODE、JUNO、REI、SE
+- 社媒引力场 | 强度 41.1 | 资产：BTC、ETH、CAKE、BNB
+- 官方催化带 | 强度 37.6 | 资产：BTC、ETH、BNB、NIGHT
+- 杠杆热层 | 强度 31.0 | 资产：G、KITE、PIPPIN、ME
+- Alpha 前沿层 | 强度 29.5 | 资产：PUMP、COLLECT、QUQ、WMTX
+- Launchpad 迷因团 | 强度 29.0 | 资产：PLUMBER、KITE、THE、REZ
+- 聪明钱跃迁层 | 强度 25.8 | 资产：PLUMBER、JUNO、REI、扭曲销毁
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- G 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- CATMODE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- LYN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- KITE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- PLUMBER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - CRUDE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - AGETHER | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - VEESA | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ZEUS | Medium | 链上风险或标签风险偏高
 - GRASS | Medium | 链上风险或标签风险偏高
-- G | Medium | 合约杠杆热度偏高
+- G1 | Medium | 链上风险或标签风险偏高；流动性偏薄
+- AERO | Medium | 链上风险或标签风险偏高
+- PIPPIN | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- LYN | Frontier Orbit | Alpha 前沿强度高
-- G | Volatility Orbit | 合约热度明显抬升
+- CAKE | Core Orbit | 社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - SOL | Core Orbit | 社媒热度已形成外部引力
-- CAKE | Core Orbit | 社媒热度已形成外部引力
+- G | Core Orbit | 合约热度明显抬升
+- PLUMBER | Core Orbit | 聪明钱或信号确认偏强
 - PUMP | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产

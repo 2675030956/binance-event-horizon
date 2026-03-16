@@ -20,37 +20,40 @@
         radial-gradient(circle at 30% 82%, rgba(132,204,22,.11), transparent 16%),
         linear-gradient(180deg, var(--bg2), var(--bg));
     }
-    .shell{height:100%;max-width:1680px;margin:0 auto;padding:18px;display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;gap:14px}
+    .shell{height:100%;max-width:1680px;margin:0 auto;padding:18px;display:grid;grid-template-rows:auto minmax(0,1fr);gap:14px}
     .glass{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);box-shadow:var(--shadow);backdrop-filter:blur(18px)}
-    .topbar{display:grid;grid-template-columns:1.1fr 1fr auto;gap:14px;padding:14px;border-radius:30px;align-items:stretch}
-    .brand{display:grid;gap:6px;align-content:center;padding:8px 10px}
+    .topbar{display:grid;grid-template-rows:auto auto;gap:12px;padding:18px 20px 16px;border-radius:30px}
+    .headerRow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:start}
+    .toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center}
+    .brand{display:grid;gap:8px;align-content:center;padding:2px 4px}
     .kicker{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--violet);font-weight:700}
-    h1{margin:0;font-size:42px;line-height:1.02;letter-spacing:-1.5px}
-    .brand p{margin:0;color:var(--muted);font-size:14px;line-height:1.75}
-    .status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
-    .pill{border:1px solid var(--line);border-radius:22px;padding:14px;background:rgba(255,255,255,.52)}
+    h1{margin:0;font-size:30px;line-height:1.04;letter-spacing:-1.2px}
+    .brand p{margin:0;max-width:760px;color:var(--muted);font-size:14px;line-height:1.65}
+    .status{display:grid;grid-template-columns:repeat(4,minmax(140px,1fr));gap:10px}
+    .pill{border:1px solid var(--line);border-radius:18px;padding:12px 14px;background:rgba(255,255,255,.56)}
     .pill .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
-    .pill .v{margin-top:8px;font-size:27px;font-weight:800;letter-spacing:-.7px}
-    .pill .m{margin-top:4px;color:var(--muted);font-size:12px;line-height:1.55}
-    .actions{display:grid;align-content:space-between;justify-items:end;min-width:210px}
+    .pill .v{margin-top:6px;font-size:20px;font-weight:800;letter-spacing:-.6px;line-height:1.15}
+    .pill .m{margin-top:6px;color:var(--muted);font-size:12px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+    .headerAside{display:flex;align-items:center;justify-content:flex-end}
+    .actions{display:flex;align-items:center;justify-content:flex-end}
     .chip{width:100%;text-align:center;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.56);padding:10px 12px;color:var(--muted);font-size:13px}
-    .clock{display:grid;gap:8px;width:100%}
-    .button{border:none;border-radius:18px;padding:13px 18px;font:inherit;color:#fff;cursor:pointer;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 14px 36px rgba(124,58,237,.22);transition:transform .22s ease,box-shadow .22s ease,opacity .22s ease}
+    .clock{display:none}
+    .button{border:none;border-radius:16px;padding:12px 18px;font:inherit;color:#fff;cursor:pointer;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 14px 36px rgba(124,58,237,.22);transition:transform .22s ease,box-shadow .22s ease,opacity .22s ease}
     .button.alt{background:linear-gradient(135deg,var(--pink),var(--violet))}
     .button:hover{transform:translateY(-1px);box-shadow:0 18px 38px rgba(124,58,237,.26)}
     .button:active{transform:translateY(0)}
     .button:disabled{opacity:.72;cursor:wait;transform:none}
-    .stage{position:relative;min-height:0;border-radius:34px;overflow:hidden}
-    .scene{display:none;height:100%;overflow:auto;padding:22px;scroll-behavior:smooth;scrollbar-gutter:stable}
+    .stage{position:relative;min-height:0;border-radius:30px;overflow:hidden}
+    .scene{display:none;height:100%;overflow:auto;padding:18px;scroll-behavior:smooth;scrollbar-gutter:stable}
     .scene.active{display:block;animation:sceneIn .28s cubic-bezier(.22,.61,.36,1)}
     @keyframes sceneIn{from{opacity:0;transform:translateY(10px) scale(.992)}to{opacity:1;transform:translateY(0) scale(1)}}
     .stack,.brief,.list,.scores,.talks{display:grid;gap:12px}
     .grid2{display:grid;grid-template-columns:1.04fr .96fr;gap:16px}
     .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-    .panel{border:1px solid var(--line);border-radius:28px;background:rgba(255,255,255,.62);padding:20px;transition:transform .24s ease,box-shadow .24s ease,border-color .24s ease,background .24s ease}
+    .panel{border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.62);padding:18px;transition:transform .24s ease,box-shadow .24s ease,border-color .24s ease,background .24s ease}
     .panel:hover{transform:translateY(-2px);box-shadow:0 18px 42px rgba(114,128,170,.12);border-color:rgba(71,85,105,.18)}
-    .panel h2,.panel h3{margin:0}.panel h2{font-size:30px;letter-spacing:-1px}.panel h3{font-size:22px;letter-spacing:-.4px}
-    .panel p{margin:10px 0 0;color:var(--muted);font-size:14px;line-height:1.75}
+    .panel h2,.panel h3{margin:0}.panel h2{font-size:26px;letter-spacing:-.8px}.panel h3{font-size:20px;letter-spacing:-.3px}
+    .panel p{margin:8px 0 0;color:var(--muted);font-size:13px;line-height:1.7}
     .heroCompact{min-height:520px;background:linear-gradient(180deg,rgba(255,255,255,.74),rgba(247,249,255,.58));display:grid;grid-template-rows:auto 1fr auto;gap:16px}
     .heroCompactHead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
     .heroCompactHead p{max-width:560px}
@@ -101,14 +104,14 @@
     .score{border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.68);padding:14px}
     .score .head{display:flex;justify-content:space-between;gap:10px;align-items:center}
     .copyBox{border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.66);padding:18px}.copyBox textarea{width:100%;min-height:200px;border:none;outline:none;resize:vertical;background:transparent;color:var(--ink);font:inherit;line-height:1.75}
-    .dock{padding:10px 12px;border-radius:999px;display:flex;justify-content:center;gap:10px;overflow:auto}
-    .dockBtn{border:none;border-radius:999px;padding:12px 16px;font:inherit;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:transform .2s ease,background .2s ease,color .2s ease,box-shadow .2s ease}
+    .dock{padding:6px 8px;border-radius:20px;display:flex;justify-content:flex-start;gap:6px;overflow:auto;border:1px solid var(--line);background:rgba(255,255,255,.4)}
+    .dockBtn{border:none;border-radius:14px;padding:10px 14px;font:inherit;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:transform .2s ease,background .2s ease,color .2s ease,box-shadow .2s ease}
     .dockBtn:hover{transform:translateY(-1px);background:rgba(255,255,255,.56);color:var(--ink)}
-    .dockBtn.active{color:#fff;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 14px 30px rgba(124,58,237,.18)}
-    .foot{display:flex;justify-content:space-between;gap:12px;padding:0 6px;color:var(--muted);font-size:13px}
-    @media (max-width:1380px){.topbar{grid-template-columns:1fr}.status{grid-template-columns:repeat(2,minmax(0,1fr))}.actions{justify-items:stretch}.grid2,.grid3,.laneGrid,.watchGrid,.copyGrid,.scenarioGrid,.focusGrid,.gravityGrid{grid-template-columns:1fr}}
+    .dockBtn.active{color:#fff;background:linear-gradient(135deg,var(--violet),var(--cyan));box-shadow:0 10px 24px rgba(124,58,237,.18)}
+    .foot{display:none}
+    @media (max-width:1380px){.headerRow,.toolbar{grid-template-columns:1fr}.headerAside{justify-content:flex-start}.status{grid-template-columns:repeat(2,minmax(0,1fr))}.grid2,.grid3,.laneGrid,.watchGrid,.copyGrid,.scenarioGrid,.focusGrid,.gravityGrid{grid-template-columns:1fr}}
     @media (max-width:1380px){.heroBoard{grid-template-columns:1fr}.heroRail{grid-template-columns:repeat(2,minmax(0,1fr));align-content:start}.phaseRibbon{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media (max-width:780px){body{overflow:auto}.shell{height:auto;min-height:100%;grid-template-rows:auto auto auto auto}.stage{min-height:800px}.scene{padding:16px}.status{grid-template-columns:1fr}.heroCompact{min-height:auto}.heroBoard,.heroRail,.phaseRibbon{grid-template-columns:1fr}.phaseCore{width:100%;min-height:auto}.phaseCore .big{font-size:32px}.heroGlow,.heroGlow:before,.heroGlow:after{display:none}.disc{width:260px;height:260px}.disc:before{width:320px;height:320px}.disc:after{width:390px;height:390px}.symbol{font-size:42px}}
+    @media (max-width:780px){body{overflow:auto}.shell{height:auto;min-height:100%;grid-template-rows:auto auto}.topbar{padding:16px}.stage{min-height:800px}.scene{padding:14px}.status{grid-template-columns:1fr}.heroCompact{min-height:auto}.heroBoard,.heroRail,.phaseRibbon{grid-template-columns:1fr}.phaseCore{width:100%;min-height:auto}.phaseCore .big{font-size:32px}.heroGlow,.heroGlow:before,.heroGlow:after{display:none}.disc{width:260px;height:260px}.disc:before{width:320px;height:320px}.disc:after{width:390px;height:390px}.symbol{font-size:42px}}
   </style>
 </head>
 <body>
@@ -227,7 +230,69 @@
         await copyFrom(copyBtn.getAttribute("data-copy"));
       }
     },true);
-    tickClock();renderAll();setInterval(tickClock,1000);setInterval(()=>refreshData(true),AUTO_REFRESH_SECONDS*1000);
+    function normalizeLayout(){
+      const topbar=document.querySelector(".topbar");
+      const brand=topbar?.querySelector(".brand");
+      const status=document.getElementById("statusStrip");
+      const actions=topbar?.querySelector(".actions");
+      const refreshBtn=document.getElementById("refreshBtn");
+      const dock=document.getElementById("dock");
+      if(!topbar||!brand||!status||!actions||!refreshBtn||!dock)return;
+      let headerRow=topbar.querySelector(".headerRow");
+      if(!headerRow){
+        headerRow=document.createElement("div");
+        headerRow.className="headerRow";
+        topbar.prepend(headerRow);
+      }
+      let headerAside=topbar.querySelector(".headerAside");
+      if(!headerAside){
+        headerAside=document.createElement("div");
+        headerAside.className="headerAside";
+      }
+      let toolbar=topbar.querySelector(".toolbar");
+      if(!toolbar){
+        toolbar=document.createElement("div");
+        toolbar.className="toolbar";
+      }
+      if(brand.parentElement!==headerRow)headerRow.appendChild(brand);
+      if(refreshBtn.parentElement!==headerAside)headerAside.appendChild(refreshBtn);
+      if(headerAside.parentElement!==headerRow)headerRow.appendChild(headerAside);
+      if(status.parentElement!==toolbar)toolbar.appendChild(status);
+      if(dock.parentElement!==toolbar)toolbar.appendChild(dock);
+      if(toolbar.parentElement!==topbar)topbar.appendChild(toolbar);
+      actions.remove();
+      document.querySelector("footer.foot")?.remove();
+    }
+    renderStatus=function(){
+      const p=r().market_phase||{},t=p.top_asset||{};
+      document.getElementById("statusStrip").innerHTML=[
+        ["市场相位",text(p.phase_name),"当前主导阶段"],
+        ["信号密度",num(p.signal_density),"多源叠加强度"],
+        ["杠杆温度",num(p.leverage_temperature),`关注 ${text(t.symbol)}`],
+        ["催化压力",num(p.catalyst_pressure),`引力 ${num(p.gravity_pressure)}`]
+      ].map(i=>`<div class="pill"><div class="k">${esc(i[0])}</div><div class="v">${esc(i[1])}</div><div class="m">${esc(i[2])}</div></div>`).join("");
+      document.getElementById("phaseSummary").textContent=text(p.phase_summary,"将分散信号折叠为更清晰的机会阅读界面。");
+    };
+    renderCatalysts=function(){
+      const cs=r().catalyst_reactor||[];
+      document.getElementById("scene-catalysts").innerHTML=`<div class="stack">${panel("催化反应堆","把官方公告映射成再定价路径，直接看它是点火、扩张还是噪音。")}<div class="timeline">${cs.map(i=>`<div class="timeItem"><div class="top"><div><h3>${esc(i.title)}</h3><div class="subline">${esc(i.lane||"官方催化")}</div></div>${micro(`影响 ${num(i.impact_score)}`)}</div><p>${esc(i.summary||"官方动作已进入系统催化层")}</p><div class="tags">${(i.linked_assets||[]).length?(i.linked_assets||[]).map(a=>`<span>${esc(a)}</span>`).join(""):`<span>暂无直接映射资产</span>`}</div></div>`).join("")}</div></div>`;
+    };
+    renderOverview=function(){
+      const p=r().market_phase||{},t=r().temporal_shift||{},w=r().orbit_watchlist||[],b=r().live_brief||[];
+      const leftRail=padItems(w.slice(0,2),2).map(satCard).join("");
+      const rightRail=padItems(w.slice(2,4),2).map(satCard).join("");
+      const ribbon=padItems(w.slice(4,7),3).map(miniMetric).join("");
+      const top=p.top_asset||w[0]||{};
+      const arrivals=(t.new_arrivals||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
+      const accelerating=(t.accelerating_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
+      const fading=(t.fading_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
+      const briefs=(b.length?b.slice(0,4):["当前暂无即时摘要，等待下一轮信号汇流。"]).map(x=>`<div class="pill" style="border-radius:18px;padding:12px 14px">${esc(x)}</div>`).join("");
+      document.getElementById("scene-overview").innerHTML=`<div class="stack"><div class="grid2"><div class="panel heroCompact"><div class="heroCompactHead"><div><div class="kicker">Overview Matrix</div><h2>${esc(p.phase_name||"-")}</h2><p>${esc(p.phase_transition_hint||"多源信号正在重新排列市场重心")}</p></div><div class="brief">${micro(`Top ${text(top.symbol)}`)}${micro(`Signal ${num(p.signal_density)}`)}${micro(`Catalyst ${num(p.catalyst_pressure)}`)}</div></div><div class="heroBoard"><div class="heroRail">${leftRail}</div><div class="heroCenter"><div class="heroGlow"></div><div class="phaseCore"><div class="small">Current Phase</div><div class="big">${esc(p.phase_name||"-")}</div><div class="sub">${esc(p.phase_summary||"暂无相位描述")}</div><div class="topAsset"><div class="small">Phase Pivot</div><strong>${esc(top.symbol||"-")}</strong><span>${esc(text(top.display_name||top.symbol,"暂无焦点资产"))}</span></div><div class="tags" style="justify-content:center"><span>Leverage ${num(p.leverage_temperature)}</span><span>Gravity ${num(p.gravity_pressure)}</span></div></div></div><div class="heroRail">${rightRail}</div></div><div class="phaseRibbon">${ribbon}</div></div><div class="stack"><div class="panel"><h2>相位矩阵</h2><p>${esc(p.phase_summary||"暂无相位描述")}</p><div class="phase" style="margin-top:14px"><div class="phaseCard"><div class="k">Signal Density</div><div class="v">${num(p.signal_density)}</div></div><div class="phaseCard"><div class="k">Leverage Temp</div><div class="v">${num(p.leverage_temperature)}</div></div><div class="phaseCard"><div class="k">Catalyst Pressure</div><div class="v">${num(p.catalyst_pressure)}</div></div><div class="phaseCard"><div class="k">Gravity Pressure</div><div class="v">${num(p.gravity_pressure)}</div></div></div></div><div class="panel"><h3>即时摘要</h3><div class="brief" style="margin-top:12px">${briefs}</div></div><div class="panel"><h3>轨道变化</h3><div class="brief" style="margin-top:12px"><div class="pill" style="border-radius:18px;padding:12px 14px">相位迁移：${esc(t.phase_transition_hint||"暂无")}</div><div class="pill" style="border-radius:18px;padding:12px 14px">新增观察：${esc(arrivals)}</div><div class="pill" style="border-radius:18px;padding:12px 14px">增强观察：${esc(accelerating)}</div><div class="pill" style="border-radius:18px;padding:12px 14px">降温观察：${esc(fading)}</div></div></div></div></div></div>`;
+    };
+    tickClock=function(){};
+    normalizeLayout();
+    renderAll();
+    setInterval(()=>refreshData(true),AUTO_REFRESH_SECONDS*1000);
   </script>
 </body>
 </html>
