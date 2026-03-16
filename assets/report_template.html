@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
@@ -120,7 +120,7 @@
       <div class="brand">
         <div class="kicker">Binance Event Horizon</div>
         <h1>币安事件地平线</h1>
-        <p id="phaseSummary">将分散在现货、合约、Alpha、官方公告、链上热度与聪明钱里的信号折叠为未来情景舱。</p>
+        <p id="phaseSummary">面向币安生态的多源事件监测与情景研判系统，持续整合市场、公告、Alpha 与链上信号，输出可跟踪的资产线索与风险变化。</p>
       </div>
       <div class="status" id="statusStrip"></div>
       <div class="actions">
@@ -167,28 +167,27 @@
     async function copyFrom(id){const node=document.getElementById(id);if(!node)return;try{await navigator.clipboard.writeText(node.value||node.textContent||"")}catch(err){node.select?.()}}
     function tickClock(){const value=new Date().toLocaleString("zh-CN",{hour12:false});document.getElementById("localClock").textContent=`当前本地时间 ${value}`;document.getElementById("footerRight").textContent=`当前本地时间 ${value}`}
     document.addEventListener("click",async(e)=>{const s=e.target.closest("[data-scene]");if(s){state.scene=s.getAttribute("data-scene");renderDock();renderScene()}if(e.target.id==="refreshBtn")await refreshData(true);const c=e.target.closest("[data-copy]");if(c)await copyFrom(c.getAttribute("data-copy"))});
+    const SYSTEM_SUMMARY="面向币安生态的多源事件监测与情景研判系统，持续整合市场、公告、Alpha 与链上信号，输出可跟踪的资产线索与风险变化。";
+    const PRODUCT_COPY={
+      constellation:"按来源、强度与资产分布归集市场驱动信号，用于识别当前影响价格发现的核心因子。",
+      scenarios:"基于实时信号组合生成重点场景清单，辅助判断观察窗口、触发条件与失效边界。",
+      catalysts:"跟踪币安官方公告与产品动作，评估其对交易活跃度、关注度与再定价节奏的影响。",
+      gravity:"识别高波动、高拥挤、低流动性与高风险暴露资产，供风险控制与优先级管理参考。",
+      watch:"基于综合机会评分输出当前优先跟踪资产池，便于盘中观察、内容决策与后续分析。",
+      focus:"对单一资产进行聚合式拆解，展示当前驱动、关键条件与官方关联信息。",
+      broadcast:"将同一份分析结果整理为可直接发布的内容草稿，适配 X、广场与直播场景。"
+    };
     const padItems=(items,count)=>Array.from({length:count},(_,i)=>items[i]||null);
+    const symbolList=(items,count=4)=>(items||[]).slice(0,count).map(x=>text(x.symbol)).filter(Boolean).join("、")||"暂无";
     function satCard(item){
-      if(!item)return `<div class="satCard"><div class="sym">待补位</div><div class="meta">Orbit Slot</div><div class="desc">当前轨道候选不足，下一轮刷新后补齐观察目标。</div></div>`;
-      const trend=Number(item.change_pct||0)>=0?"上行":"回撤";
-      return `<div class="satCard"><div class="sym">${esc(item.symbol)}</div><div class="meta">${esc(item.orbit_type||"-")} · ${esc(item.priority||"-")}</div><div class="desc">${esc(item.thesis||"多源信号正在共同抬升关注度")}</div><div class="tags"><span>机会 ${num(item.opportunity_score)}</span><span>${trend} ${pct(item.change_pct)}</span></div></div>`;
+      if(!item)return `<div class="satCard"><div class="sym">待补位</div><div class="meta">观察席位</div><div class="desc">当前席位暂无新增标的，下一轮更新后自动补充。</div></div>`;
+      const trend=Number(item.change_pct||0)>=0?"上涨":"回撤";
+      return `<div class="satCard"><div class="sym">${esc(item.symbol)}</div><div class="meta">${esc(item.orbit_type||"-")} · ${esc(item.priority||"-")}</div><div class="desc">${esc(item.thesis||"当前多源信号对该资产形成联合支撑。")}</div><div class="tags"><span>机会 ${num(item.opportunity_score)}</span><span>${trend} ${pct(item.change_pct)}</span></div></div>`;
     }
     function miniMetric(item){
-      if(!item)return `<div class="heroMetricMini"><div class="k">Waiting</div><div class="v">--</div><div class="m">等待下一轮轨道资产补位。</div></div>`;
+      if(!item)return `<div class="heroMetricMini"><div class="k">观察席位</div><div class="v">--</div><div class="m">等待后续数据补充。</div></div>`;
       return `<div class="heroMetricMini"><div class="k">${esc(item.symbol)}</div><div class="v">${num(item.opportunity_score)}</div><div class="m">${esc(item.orbit_type||"-")} · ${pct(item.change_pct)}</div></div>`;
     }
-    renderOverview=function(){
-      const p=r().market_phase||{},t=r().temporal_shift||{},w=r().orbit_watchlist||[],b=r().live_brief||[];
-      const leftRail=padItems(w.slice(0,2),2).map(satCard).join("");
-      const rightRail=padItems(w.slice(2,4),2).map(satCard).join("");
-      const ribbon=padItems(w.slice(4,7),3).map(miniMetric).join("");
-      const top=p.top_asset||w[0]||{};
-      const arrivals=(t.new_arrivals||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
-      const accelerating=(t.accelerating_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
-      const fading=(t.fading_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
-      const briefs=(b.length?b.slice(0,4):["当前暂无即时摘要，等待下一轮信号汇流。"]).map(x=>`<div class="pill" style="border-radius:22px;padding:14px">${esc(x)}</div>`).join("");
-      document.getElementById("scene-overview").innerHTML=`<div class="stack"><div class="grid2"><div class="panel heroCompact"><div class="heroCompactHead"><div><div class="kicker">Overview Matrix</div><h2>${esc(p.phase_name||"-")}</h2><p>${esc(p.phase_transition_hint||"多源信号正在重新排列市场重心")}</p></div><div class="brief">${micro(`Top ${text(top.symbol)}`)}${micro(`Signal ${num(p.signal_density)}`)}${micro(`Catalyst ${num(p.catalyst_pressure)}`)}</div></div><div class="heroBoard"><div class="heroRail">${leftRail}</div><div class="heroCenter"><div class="heroGlow"></div><div class="phaseCore"><div class="small">Current Phase</div><div class="big">${esc(p.phase_name||"-")}</div><div class="sub">${esc(p.phase_summary||"暂无相位描述")}</div><div class="topAsset"><div class="small">Phase Pivot</div><strong>${esc(top.symbol||"-")}</strong><span>${esc(text(top.display_name||top.symbol,"暂无焦点资产"))}</span></div><div class="tags" style="justify-content:center"><span>Leverage ${num(p.leverage_temperature)}</span><span>Gravity ${num(p.gravity_pressure)}</span></div></div></div><div class="heroRail">${rightRail}</div></div><div class="phaseRibbon">${ribbon}</div></div><div class="stack"><div class="panel"><h2>相位矩阵</h2><p>${esc(p.phase_summary||"暂无相位描述")}</p><div class="phase" style="margin-top:16px"><div class="phaseCard"><div class="k">Signal Density</div><div class="v">${num(p.signal_density)}</div></div><div class="phaseCard"><div class="k">Leverage Temp</div><div class="v">${num(p.leverage_temperature)}</div></div><div class="phaseCard"><div class="k">Catalyst Pressure</div><div class="v">${num(p.catalyst_pressure)}</div></div><div class="phaseCard"><div class="k">Gravity Pressure</div><div class="v">${num(p.gravity_pressure)}</div></div></div></div><div class="panel"><h3>即时摘要</h3><div class="brief" style="margin-top:14px">${briefs}</div></div><div class="panel"><h3>时间漂移</h3><div class="brief" style="margin-top:14px"><div class="pill" style="border-radius:22px;padding:14px">相位迁移：${esc(t.phase_transition_hint||"暂无")}</div><div class="pill" style="border-radius:22px;padding:14px">新增轨道：${esc(arrivals)}</div><div class="pill" style="border-radius:22px;padding:14px">增强轨道：${esc(accelerating)}</div><div class="pill" style="border-radius:22px;padding:14px">降温轨道：${esc(fading)}</div></div></div></div></div></div>`;
-    };
     renderScene=function(){
       const scenes=document.querySelectorAll(".scene"),target=document.getElementById(`scene-${state.scene}`),renderer=({overview:renderOverview,constellation:renderConstellation,scenarios:renderScenarios,catalysts:renderCatalysts,gravity:renderGravity,watchlist:renderWatch,focus:renderFocus,broadcast:renderBroadcast}[state.scene]||renderOverview);
       scenes.forEach(n=>n.classList.remove("active"));
@@ -237,7 +236,7 @@
       const actions=topbar?.querySelector(".actions");
       const refreshBtn=document.getElementById("refreshBtn");
       const dock=document.getElementById("dock");
-      if(!topbar||!brand||!status||!actions||!refreshBtn||!dock)return;
+      if(!topbar||!brand||!status||!refreshBtn||!dock)return;
       let headerRow=topbar.querySelector(".headerRow");
       if(!headerRow){
         headerRow=document.createElement("div");
@@ -260,22 +259,18 @@
       if(status.parentElement!==toolbar)toolbar.appendChild(status);
       if(dock.parentElement!==toolbar)toolbar.appendChild(dock);
       if(toolbar.parentElement!==topbar)topbar.appendChild(toolbar);
-      actions.remove();
+      actions?.remove();
       document.querySelector("footer.foot")?.remove();
     }
     renderStatus=function(){
       const p=r().market_phase||{},t=p.top_asset||{};
       document.getElementById("statusStrip").innerHTML=[
         ["市场相位",text(p.phase_name),"当前主导阶段"],
-        ["信号密度",num(p.signal_density),"多源叠加强度"],
+        ["信号密度",num(p.signal_density),"多源信号强度"],
         ["杠杆温度",num(p.leverage_temperature),`关注 ${text(t.symbol)}`],
-        ["催化压力",num(p.catalyst_pressure),`引力 ${num(p.gravity_pressure)}`]
+        ["催化压力",num(p.catalyst_pressure),`风险 ${num(p.gravity_pressure)}`]
       ].map(i=>`<div class="pill"><div class="k">${esc(i[0])}</div><div class="v">${esc(i[1])}</div><div class="m">${esc(i[2])}</div></div>`).join("");
-      document.getElementById("phaseSummary").textContent=text(p.phase_summary,"将分散信号折叠为更清晰的机会阅读界面。");
-    };
-    renderCatalysts=function(){
-      const cs=r().catalyst_reactor||[];
-      document.getElementById("scene-catalysts").innerHTML=`<div class="stack">${panel("催化反应堆","把官方公告映射成再定价路径，直接看它是点火、扩张还是噪音。")}<div class="timeline">${cs.map(i=>`<div class="timeItem"><div class="top"><div><h3>${esc(i.title)}</h3><div class="subline">${esc(i.lane||"官方催化")}</div></div>${micro(`影响 ${num(i.impact_score)}`)}</div><p>${esc(i.summary||"官方动作已进入系统催化层")}</p><div class="tags">${(i.linked_assets||[]).length?(i.linked_assets||[]).map(a=>`<span>${esc(a)}</span>`).join(""):`<span>暂无直接映射资产</span>`}</div></div>`).join("")}</div></div>`;
+      document.getElementById("phaseSummary").textContent=SYSTEM_SUMMARY;
     };
     renderOverview=function(){
       const p=r().market_phase||{},t=r().temporal_shift||{},w=r().orbit_watchlist||[],b=r().live_brief||[];
@@ -283,11 +278,39 @@
       const rightRail=padItems(w.slice(2,4),2).map(satCard).join("");
       const ribbon=padItems(w.slice(4,7),3).map(miniMetric).join("");
       const top=p.top_asset||w[0]||{};
-      const arrivals=(t.new_arrivals||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
-      const accelerating=(t.accelerating_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
-      const fading=(t.fading_assets||[]).slice(0,4).map(x=>text(x.symbol)).join("、")||"暂无";
-      const briefs=(b.length?b.slice(0,4):["当前暂无即时摘要，等待下一轮信号汇流。"]).map(x=>`<div class="pill" style="border-radius:18px;padding:12px 14px">${esc(x)}</div>`).join("");
-      document.getElementById("scene-overview").innerHTML=`<div class="stack"><div class="grid2"><div class="panel heroCompact"><div class="heroCompactHead"><div><div class="kicker">Overview Matrix</div><h2>${esc(p.phase_name||"-")}</h2><p>${esc(p.phase_transition_hint||"多源信号正在重新排列市场重心")}</p></div><div class="brief">${micro(`Top ${text(top.symbol)}`)}${micro(`Signal ${num(p.signal_density)}`)}${micro(`Catalyst ${num(p.catalyst_pressure)}`)}</div></div><div class="heroBoard"><div class="heroRail">${leftRail}</div><div class="heroCenter"><div class="heroGlow"></div><div class="phaseCore"><div class="small">Current Phase</div><div class="big">${esc(p.phase_name||"-")}</div><div class="sub">${esc(p.phase_summary||"暂无相位描述")}</div><div class="topAsset"><div class="small">Phase Pivot</div><strong>${esc(top.symbol||"-")}</strong><span>${esc(text(top.display_name||top.symbol,"暂无焦点资产"))}</span></div><div class="tags" style="justify-content:center"><span>Leverage ${num(p.leverage_temperature)}</span><span>Gravity ${num(p.gravity_pressure)}</span></div></div></div><div class="heroRail">${rightRail}</div></div><div class="phaseRibbon">${ribbon}</div></div><div class="stack"><div class="panel"><h2>相位矩阵</h2><p>${esc(p.phase_summary||"暂无相位描述")}</p><div class="phase" style="margin-top:14px"><div class="phaseCard"><div class="k">Signal Density</div><div class="v">${num(p.signal_density)}</div></div><div class="phaseCard"><div class="k">Leverage Temp</div><div class="v">${num(p.leverage_temperature)}</div></div><div class="phaseCard"><div class="k">Catalyst Pressure</div><div class="v">${num(p.catalyst_pressure)}</div></div><div class="phaseCard"><div class="k">Gravity Pressure</div><div class="v">${num(p.gravity_pressure)}</div></div></div></div><div class="panel"><h3>即时摘要</h3><div class="brief" style="margin-top:12px">${briefs}</div></div><div class="panel"><h3>轨道变化</h3><div class="brief" style="margin-top:12px"><div class="pill" style="border-radius:18px;padding:12px 14px">相位迁移：${esc(t.phase_transition_hint||"暂无")}</div><div class="pill" style="border-radius:18px;padding:12px 14px">新增观察：${esc(arrivals)}</div><div class="pill" style="border-radius:18px;padding:12px 14px">增强观察：${esc(accelerating)}</div><div class="pill" style="border-radius:18px;padding:12px 14px">降温观察：${esc(fading)}</div></div></div></div></div></div>`;
+      const arrivals=symbolList(t.new_arrivals,4);
+      const accelerating=symbolList(t.accelerating_assets,4);
+      const fading=symbolList(t.fading_assets,4);
+      const briefs=(b.length?b.slice(0,4):["当前暂无新增摘要，系统将在下一轮数据更新后自动补充。"]).map(x=>`<div class="pill" style="border-radius:18px;padding:12px 14px">${esc(x)}</div>`).join("");
+      document.getElementById("scene-overview").innerHTML=`<div class="stack"><div class="grid2"><div class="panel heroCompact"><div class="heroCompactHead"><div><div class="kicker">系统总览</div><h2>${esc(p.phase_name||"-")}</h2><p>${esc(p.phase_transition_hint||"系统正在根据最新信号重估当前市场阶段。")}</p></div><div class="brief">${micro(`核心资产 ${text(top.symbol)}`)}${micro(`信号密度 ${num(p.signal_density)}`)}${micro(`催化压力 ${num(p.catalyst_pressure)}`)}</div></div><div class="heroBoard"><div class="heroRail">${leftRail}</div><div class="heroCenter"><div class="heroGlow"></div><div class="phaseCore"><div class="small">当前阶段</div><div class="big">${esc(p.phase_name||"-")}</div><div class="sub">${esc(p.phase_summary||"暂无阶段说明")}</div><div class="topAsset"><div class="small">核心跟踪资产</div><strong>${esc(top.symbol||"-")}</strong><span>${esc(text(top.display_name||top.symbol,"暂无核心资产"))}</span></div><div class="tags" style="justify-content:center"><span>杠杆温度 ${num(p.leverage_temperature)}</span><span>风险压力 ${num(p.gravity_pressure)}</span></div></div></div><div class="heroRail">${rightRail}</div></div><div class="phaseRibbon">${ribbon}</div></div><div class="stack"><div class="panel"><h2>阶段矩阵</h2><p>汇总当前阶段、信号密度、杠杆温度与风险压力，用于快速判断市场所处环境。</p><div class="phase" style="margin-top:14px"><div class="phaseCard"><div class="k">信号密度</div><div class="v">${num(p.signal_density)}</div></div><div class="phaseCard"><div class="k">杠杆温度</div><div class="v">${num(p.leverage_temperature)}</div></div><div class="phaseCard"><div class="k">催化压力</div><div class="v">${num(p.catalyst_pressure)}</div></div><div class="phaseCard"><div class="k">风险压力</div><div class="v">${num(p.gravity_pressure)}</div></div></div></div><div class="panel"><h3>动态摘要</h3><div class="brief" style="margin-top:12px">${briefs}</div></div><div class="panel"><h3>跟踪变化</h3><div class="brief" style="margin-top:12px"><div class="pill" style="border-radius:18px;padding:12px 14px">阶段变化：${esc(t.phase_transition_hint||"暂无")}</div><div class="pill" style="border-radius:18px;padding:12px 14px">新增纳入：${esc(arrivals)}</div><div class="pill" style="border-radius:18px;padding:12px 14px">强度上修：${esc(accelerating)}</div><div class="pill" style="border-radius:18px;padding:12px 14px">观察降级：${esc(fading)}</div></div></div></div></div></div>`;
+    };
+    renderConstellation=function(){
+      const lanes=r().signal_constellation||[];
+      document.getElementById("scene-constellation").innerHTML=`<div class="stack">${panel("信号星图",PRODUCT_COPY.constellation)}<div class="laneGrid">${lanes.map(l=>`<div class="panel"><div class="top"><div><h3>${esc(l.title)}</h3><div class="subline">强度 ${num(l.intensity)} · 覆盖 ${text(l.count)} 项</div></div>${micro("信号层")}</div>${bar(l.intensity)}<p>${esc(l.summary)}</p><div class="tags">${(l.assets||[]).map(a=>`<span>${esc(a.symbol)} · ${num(a.score)}</span>`).join("")}</div></div>`).join("")}</div></div>`;
+    };
+    renderScenarios=function(){
+      const s=r().scenario_engine||[];
+      document.getElementById("scene-scenarios").innerHTML=`<div class="stack">${panel("场景引擎",PRODUCT_COPY.scenarios)}<div class="scenarioGrid"><div class="stack">${s.map(i=>`<div class="panel"><div class="top"><div><h3>${esc(i.title)}</h3><div class="subline">${esc(i.archetype)} · ${esc(i.horizon)}</div></div>${micro(i.primary_asset||"-")}</div>${bar(i.probability)}<p>触发条件：${esc(i.trigger)}</p><p>失效条件：${esc(i.invalidation)}</p><p>研判依据：${esc(i.rationale)}</p></div>`).join("")}</div><div class="stack">${s.map(i=>`<div class="panel"><h3>${num(i.probability)}%</h3><p>${esc(i.title)}</p><p>核心观察资产：${esc(i.primary_asset||"-")}</p></div>`).join("")}</div></div></div>`;
+    };
+    renderCatalysts=function(){
+      const cs=r().catalyst_reactor||[];
+      document.getElementById("scene-catalysts").innerHTML=`<div class="stack">${panel("催化反应堆",PRODUCT_COPY.catalysts)}<div class="timeline">${cs.map(i=>`<div class="timeItem"><div class="top"><div><h3>${esc(i.title)}</h3><div class="subline">${esc(i.lane||"官方催化")}</div></div>${micro(`影响 ${num(i.impact_score)}`)}</div><p>${esc(i.summary||"该事件已进入催化跟踪列表。")}</p><div class="tags">${(i.linked_assets||[]).length?(i.linked_assets||[]).map(a=>`<span>${esc(a)}</span>`).join(""):`<span>暂无直接映射资产</span>`}</div></div>`).join("")}</div></div>`;
+    };
+    renderGravity=function(){
+      const a=r().gravity_alerts||[],top=a[0]||{};
+      document.getElementById("scene-gravity").innerHTML=`<div class="stack"><div class="gravityGrid"><div class="panel well"><div class="disc"><div><div class="small">风险优先级</div><div class="big">${num(top.gravity_score||0)}</div><div class="meta">${esc(top.symbol?`${top.symbol} 当前位于风险优先级首位。`:"当前未识别到高优先级风险资产。")}</div></div></div></div><div class="stack">${panel("引力预警",PRODUCT_COPY.gravity)}<div class="list">${a.map(i=>`<div class="panel"><div class="top"><div><h3>${esc(i.symbol)}</h3><div class="subline">${esc(i.severity)} · ${num(i.gravity_score)}</div></div>${micro("预警")}</div><p>${esc(i.summary)}</p><p>建议动作：${esc(i.action)}</p></div>`).join("")}</div></div></div></div>`;
+    };
+    renderWatch=function(){
+      const list=r().orbit_watchlist||[];
+      document.getElementById("scene-watchlist").innerHTML=`<div class="stack">${panel("优先观察轨道",PRODUCT_COPY.watch)}<div class="watchGrid">${list.map(i=>`<div class="panel"><div class="top"><div><h3>${esc(i.symbol)}</h3><div class="subline">${esc(i.orbit_type)} · ${esc(i.priority||"-")} · ${pct(i.change_pct)}</div></div>${micro(`分数 ${num(i.opportunity_score)}`)}</div><p>${esc(i.thesis)}</p><p>关注条件：${esc(i.trigger)}</p><p>失效条件：${esc(i.invalidate)}</p></div>`).join("")}</div></div>`;
+    };
+    renderFocus=function(){
+      const f=r().focus_asset||{};
+      document.getElementById("scene-focus").innerHTML=f.symbol?`<div class="stack"><div class="focusGrid"><div class="panel focusHero"><div class="focusCard"><div class="kicker">聚焦资产</div><div class="symbol">${esc(f.symbol)}</div><h3>${esc(f.headline||"-")}</h3><p>${esc(f.summary||"-")}</p><div class="tags">${(f.source_list||[]).map(x=>`<span>${esc(x)}</span>`).join("")}</div><div class="scores">${(f.score_stack||[]).map(s=>`<div class="score"><div class="head"><strong>${esc(s.label)}</strong><span>${num(s.score)}</span></div>${bar(s.score)}</div>`).join("")}</div></div></div><div class="stack"><div class="panel"><h2>触发条件</h2><p>${PRODUCT_COPY.focus}</p><div class="list" style="margin-top:14px">${(f.trigger_stack||[]).map(x=>`<div class="pill" style="border-radius:18px;padding:12px 14px">${esc(x)}</div>`).join("")}</div></div><div class="panel"><h2>失效条件</h2><div class="list" style="margin-top:14px">${(f.invalidation_stack||[]).map(x=>`<div class="pill" style="border-radius:18px;padding:12px 14px">${esc(x)}</div>`).join("")}</div></div><div class="panel"><h2>官方关联</h2><div class="tags" style="margin-top:14px">${(f.official_titles||[]).length?(f.official_titles||[]).map(x=>`<span>${esc(x)}</span>`).join(""):`<span>暂无直接官方关联</span>`}</div></div></div></div></div>`:`<div class="stack">${panel("聚焦资产",PRODUCT_COPY.focus)}<div class="panel"><p>当前没有可展示的聚焦资产。</p></div></div>`;
+    };
+    renderBroadcast=function(){
+      const p=r().broadcast_pack||{};
+      document.getElementById("scene-broadcast").innerHTML=`<div class="stack">${panel(p.headline||"内容封装",PRODUCT_COPY.broadcast)}<div class="copyGrid"><div class="copyBox"><div class="top"><h3>X 文案</h3><button class="button alt" data-copy="xCopy" type="button">复制</button></div><textarea id="xCopy" readonly>${text(p.x_post,"")}</textarea></div><div class="copyBox"><div class="top"><h3>广场文案</h3><button class="button alt" data-copy="squareCopy" type="button">复制</button></div><textarea id="squareCopy" readonly>${text(p.square_post,"")}</textarea></div></div><div class="panel"><h3>解读提要</h3><div class="talks" style="margin-top:14px">${(p.talking_points||[]).map(x=>`<div class="pill" style="border-radius:18px;padding:12px 14px">${esc(x)}</div>`).join("")}</div></div></div>`;
     };
     tickClock=function(){};
     normalizeLayout();
@@ -296,3 +319,5 @@
   </script>
 </body>
 </html>
+
+

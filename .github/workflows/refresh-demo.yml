@@ -1,0 +1,45 @@
+name: Refresh Demo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate latest demo assets
+        run: |
+          python scripts/binance_event_horizon.py \
+            --config config.example.json \
+            --json-output demo/latest_report.json \
+            --markdown-output demo/latest_report.md \
+            --html-output demo/index.html
+
+      - name: Refresh sample snapshot
+        run: |
+          cp demo/latest_report.json demo/sample_report.json
+          cp demo/latest_report.md demo/sample_report.md
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add demo/latest_report.json demo/latest_report.md demo/sample_report.json demo/sample_report.md demo/index.html
+          git diff --cached --quiet || git commit -m "chore: refresh event horizon demo"
+          git push

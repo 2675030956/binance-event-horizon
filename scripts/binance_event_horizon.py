@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import json
@@ -1473,34 +1473,49 @@ class EventHorizonBuilder:
     def build_live_brief(self, market_phase: Dict[str, Any], signal_constellation: List[Dict[str, Any]], scenarios: List[Dict[str, Any]], gravity_alerts: List[Dict[str, Any]], orbit_watchlist: List[Dict[str, Any]], focus_asset: Dict[str, Any]) -> List[str]:
         lines: List[str] = []
         if market_phase.get("phase_name"):
-            lines.append(f"当前市场相位是「{market_phase['phase_name']}」，核心判断是：{market_phase.get('phase_summary')}")
+            lines.append(f"市场当前处于「{market_phase['phase_name']}」阶段，核心研判为：{market_phase.get('phase_summary')}")
         if signal_constellation:
             top_lane = signal_constellation[0]
             top_assets = "、".join(item.get("symbol") or "-" for item in top_lane.get("assets") or [] if item.get("symbol"))
-            lines.append(f"最强信号轨道是「{top_lane.get('title')}」，当前核心资产集中在：{top_assets or '暂无明确集中点'}。")
+            lines.append(f"当前主导驱动为「{top_lane.get('title')}」，重点涉及资产：{top_assets or '暂无明确集中资产'}。")
         if scenarios:
             first = scenarios[0]
-            lines.append(f"最值得跟踪的场景是「{first.get('title')}」，窗口在 {first.get('horizon')}。")
+            lines.append(f"未来重点跟踪场景为「{first.get('title')}」，观察窗口：{first.get('horizon')}。")
         if gravity_alerts:
             alert = gravity_alerts[0]
-            lines.append(f"最高优先级引力预警来自 {alert.get('symbol')}，原因是：{alert.get('summary')}")
+            lines.append(f"首要风险关注 {alert.get('symbol')}，主要原因：{alert.get('summary')}。")
         if orbit_watchlist:
             watch_symbols = "、".join(item.get("symbol") or "-" for item in orbit_watchlist[:3])
-            lines.append(f"当前优先观察轨道前三是：{watch_symbols}。")
+            lines.append(f"当前优先跟踪资产池包括：{watch_symbols}。")
         if focus_asset.get("symbol"):
-            lines.append(f"聚焦资产为 {focus_asset.get('symbol')}，当前摘要：{focus_asset.get('summary')}")
+            lines.append(f"当前聚焦资产为 {focus_asset.get('symbol')}，核心结论：{focus_asset.get('summary')}。")
         return lines[:6]
 
     def build_broadcast_pack(self, market_phase: Dict[str, Any], signal_constellation: List[Dict[str, Any]], scenarios: List[Dict[str, Any]], gravity_alerts: List[Dict[str, Any]], orbit_watchlist: List[Dict[str, Any]], focus_asset: Dict[str, Any], live_brief: List[str]) -> Dict[str, Any]:
         top_lane = signal_constellation[0] if signal_constellation else {}
         top_watch = orbit_watchlist[0] if orbit_watchlist else {}
-        headline = f"{market_phase.get('phase_name', '事件地平线')}：{top_lane.get('title', '多源信号')} 正在主导市场注意力"
-        x_post = clip_text(f"我做了一个「币安事件地平线」：把现货、合约、Alpha、聪明钱、社媒热度和官方公告折叠成未来情景驾驶舱。 当前相位={market_phase.get('phase_name', '-')}，最强轨道={top_lane.get('title', '-')}，优先观察={top_watch.get('symbol', '-')}，最高风险={gravity_alerts[0].get('symbol', '-') if gravity_alerts else '-'}。", max_chars=270)
-        square_post = clip_text("今天的币安事件地平线显示，市场并不是简单的普涨或普跌，而是进入了由官方催化、杠杆温度和链上注意力共同塑形的多层结构。"
-            f"当前相位是「{market_phase.get('phase_name', '-')}」，最强轨道来自「{top_lane.get('title', '-')}」，优先观察资产是 {top_watch.get('symbol', '-')}。如果继续出现二次承接和信号扩散，短线会更容易进入非线性放大；但高热和低流动性共振的资产也正在靠近引力井。", max_chars=600)
-        return {"headline": headline, "x_post": x_post, "square_post": square_post, "talking_points": live_brief[:5], "openclaw_prompts": ["使用 $binance-event-horizon 生成最新币安事件地平线报告", f"使用 $binance-event-horizon 聚焦分析 {focus_asset.get('symbol') or 'BTCUSDT'}", "使用 $binance-event-horizon 输出今天最值得盯的场景与广播封包"]}
-
-
+        headline = f"{market_phase.get('phase_name', '事件地平线')} | {top_lane.get('title', '多源信号')} 监测摘要"
+        x_post = clip_text(
+            f"币安事件地平线最新监测：当前市场处于 {market_phase.get('phase_name', '-')} 阶段，主导驱动为 {top_lane.get('title', '-')}，优先跟踪资产为 {top_watch.get('symbol', '-')}，首要风险关注 {gravity_alerts[0].get('symbol', '-') if gravity_alerts else '-'}。",
+            max_chars=270,
+        )
+        square_post = clip_text(
+            "币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。"
+            f" 当前阶段为「{market_phase.get('phase_name', '-')}」，主导驱动为「{top_lane.get('title', '-')}」，优先跟踪资产为 {top_watch.get('symbol', '-')}。"
+            " 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。",
+            max_chars=600,
+        )
+        return {
+            "headline": headline,
+            "x_post": x_post,
+            "square_post": square_post,
+            "talking_points": live_brief[:5],
+            "openclaw_prompts": [
+                "使用 $binance-event-horizon 生成最新币安事件地平线报告",
+                f"使用 $binance-event-horizon 聚焦分析 {focus_asset.get('symbol') or 'BTCUSDT'}",
+                "使用 $binance-event-horizon 输出今天最值得跟踪的场景与内容封装",
+            ],
+        }
 def load_history_reports(history_dir: Path, keep_files: int) -> List[Dict[str, Any]]:
     if not history_dir.exists():
         return []
@@ -1610,3 +1625,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
