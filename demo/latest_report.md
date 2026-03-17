@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-17T05:15:16.489328+00:00
+- 生成时间：2026-03-17T08:03:09.592536+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 41.1 | 资产：BTC、ETH、CFG、BNB
+- 官方催化带 | 强度 41.0 | 资产：BTC、ETH、CFG、BNB
 - 社媒引力场 | 强度 38.4 | 资产：BTC、ETH、SOL、NIGHT
-- 聪明钱跃迁层 | 强度 32.5 | 资产：KILL、GERALD、MAX999、CLAWRIS
 - Alpha 前沿层 | 强度 32.5 | 资产：PIPPIN、QUQ、ESPORTS、WMTX
-- Launchpad 迷因团 | 强度 28.2 | 资产：GERALD、MAX999、TITAN、SHELLY
+- 聪明钱跃迁层 | 强度 30.9 | 资产：KILL、CLAWRIS、TITAN、FELIX
+- Launchpad 迷因团 | 强度 25.2 | 资产：TITAN、ANGELA、OIL、BIG
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -20,6 +20,7 @@
 - GRASS | Medium | 链上风险或标签风险偏高
 - UP | Medium | 链上风险或标签风险偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ZORA | Medium | 链上风险或标签风险偏高
 - TRUST | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
@@ -28,9 +29,9 @@
 - CFG | Catalyst Orbit | 官方催化已入场
 - PIPPIN | Frontier Orbit | Alpha 前沿强度高
 - BNB | Catalyst Orbit | 官方催化已入场
-- KILL | Core Orbit | 聪明钱或信号确认偏强
 - TAO | Catalyst Orbit | 官方催化已入场
-- GERALD | Core Orbit | 聪明钱或信号确认偏强
+- KILL | Core Orbit | 聪明钱或信号确认偏强
+- UNI | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
