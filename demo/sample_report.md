@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-18T23:01:17.148092+00:00
+- 生成时间：2026-03-18T23:56:37.443060+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 42.5 | 资产：ROBO、BSB、ASTER、PIPPIN
+- Alpha 前沿层 | 强度 42.2 | 资产：ROBO、BSB、ASTER、PIPPIN
 - 官方催化带 | 强度 41.9 | 资产：ROBO、BSB、KAT、BNB
-- 社媒引力场 | 强度 37.6 | 资产：ASTER、KAT、PIPPIN、BNB
-- Launchpad 迷因团 | 强度 34.3 | 资产：BALLWARS、PIPPIN、AIFRUITS、EIDI
-- 聪明钱跃迁层 | 强度 31.3 | 资产：BALLWARS、AIFRUITS、EIDI、SKI
+- 社媒引力场 | 强度 37.2 | 资产：ASTER、KAT、BNB、PIPPIN
+- Launchpad 迷因团 | 强度 31.0 | 资产：BALLWARS、PIPPIN、SQUIRE、FARTCOIN
+- 聪明钱跃迁层 | 强度 27.8 | 资产：BALLWARS、SQUIRE、DOGUE、SKI
 
 ## 场景引擎
 - ROBO 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -18,9 +18,7 @@
 
 ## 引力预警
 - SAIMMY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ALIENBABY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - VVV | Medium | 链上风险或标签风险偏高
-- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - ROBO | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
@@ -28,9 +26,9 @@
 - ASTER | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - KAT | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - BALLWARS | Core Orbit | 聪明钱或信号确认偏强
-- PIPPIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- AIFRUITS | Core Orbit | 聪明钱或信号确认偏强
+- PIPPIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- SOL | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - ROBO | ROBO 当前位于 Spec 级观测轨道
