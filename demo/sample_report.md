@@ -1,36 +1,36 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-18T21:51:35.013249+00:00
+- 生成时间：2026-03-18T23:01:17.148092+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 42.8 | 资产：ROBO、BSB、ASTER、PIPPIN
-- 官方催化带 | 强度 42.0 | 资产：ROBO、BSB、KAT、BNB
-- 社媒引力场 | 强度 35.6 | 资产：KAT、PIPPIN、BNB、SOL
-- 聪明钱跃迁层 | 强度 30.1 | 资产：ASTER、BALLWARS、SKI、忍者
-- Launchpad 迷因团 | 强度 28.4 | 资产：PIPPIN、BALLWARS、忍者、OPN
+- Alpha 前沿层 | 强度 42.5 | 资产：ROBO、BSB、ASTER、PIPPIN
+- 官方催化带 | 强度 41.9 | 资产：ROBO、BSB、KAT、BNB
+- 社媒引力场 | 强度 37.6 | 资产：ASTER、KAT、PIPPIN、BNB
+- Launchpad 迷因团 | 强度 34.3 | 资产：BALLWARS、PIPPIN、AIFRUITS、EIDI
+- 聪明钱跃迁层 | 强度 31.3 | 资产：BALLWARS、AIFRUITS、EIDI、SKI
 
 ## 场景引擎
 - ROBO 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ASTER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BALLWARS 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BSB Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - SAIMMY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ALIENS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ALIENBABY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - VVV | Medium | 链上风险或标签风险偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - ROBO | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - BSB | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
-- ASTER | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
+- ASTER | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - KAT | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
+- BALLWARS | Core Orbit | 聪明钱或信号确认偏强
 - PIPPIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- SOL | Core Orbit | 社媒热度已形成外部引力
-- BALLWARS | Core Orbit | 聪明钱或信号确认偏强
+- AIFRUITS | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
 - ROBO | ROBO 当前位于 Spec 级观测轨道
