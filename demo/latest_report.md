@@ -1,19 +1,19 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-20T21:57:07.066266+00:00
+- 生成时间：2026-03-20T23:00:29.632017+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 36.0 | 资产：LYN、QUQ、BSB、APR
-- 社媒引力场 | 强度 30.4 | 资产：SOL、BTC、BNB、ETH
-- Launchpad 迷因团 | 强度 28.1 | 资产：CHIBIFY、PA、SPIDERMAN、USD
-- 聪明钱跃迁层 | 强度 27.1 | 资产：CHIBIFY、PA、SPIDERMAN、DOGEFATHER
-- 官方催化带 | 强度 24.3 | 资产：USD
+- Alpha 前沿层 | 强度 35.5 | 资产：LYN、BSB、APR、QUQ
+- 社媒引力场 | 强度 30.5 | 资产：SOL、BTC、BNB、ETH
+- Launchpad 迷因团 | 强度 26.2 | 资产：PA、LIBERTY、USD、DEGO
+- 聪明钱跃迁层 | 强度 25.2 | 资产：PA、LIBERTY、INCOME、CLAYMATION
+- 官方催化带 | 强度 24.4 | 资产：USD
 
 ## 场景引擎
 - USD 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- CHIBIFY 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- PA 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - LYN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -24,17 +24,17 @@
 - XMONEYDEPLOYED | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - BEE | Medium | 链上风险或标签风险偏高；流动性偏薄
 - VLR | Medium | 链上风险或标签风险偏高
-- PHY | Medium | 链上风险或标签风险偏高；流动性偏薄
+- LIBERTY | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - LYN | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
 - BSB | Frontier Orbit | Alpha 前沿强度高
 - APR | Frontier Orbit | Alpha 前沿强度高
+- QUQ | Frontier Orbit | Alpha 前沿强度高
 - SOL | Core Orbit | 社媒热度已形成外部引力
-- CHIBIFY | Core Orbit | 聪明钱或信号确认偏强
+- PA | Core Orbit | 聪明钱或信号确认偏强
 - WMTX | Frontier Orbit | Alpha 前沿强度高
-- BTC | Core Orbit | 社媒热度已形成外部引力
+- PUMP | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - LYN | LYN 当前位于 Spec 级观测轨道
