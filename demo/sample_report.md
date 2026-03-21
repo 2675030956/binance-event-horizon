@@ -1,19 +1,19 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-21T22:00:53.434938+00:00
+- 生成时间：2026-03-21T22:56:08.204085+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 35.9 | 资产：UP、BSB、UAI、QUQ
-- 社媒引力场 | 强度 31.4 | 资产：BNB、PIPPIN、BTC、SOL
-- 官方催化带 | 强度 27.9 | 资产：UP、BNB、EDGE、CFG
-- Launchpad 迷因团 | 强度 26.0 | 资产：PIPPIN、PISSTINA、RDNT、POMNI
-- 聪明钱跃迁层 | 强度 22.2 | 资产：PISSTINA、BANI、Q4、SHIMAENAGA
+- Alpha 前沿层 | 强度 36.0 | 资产：UP、BSB、UAI、QUQ
+- 社媒引力场 | 强度 32.2 | 资产：BNB、PA、PIPPIN、BTC
+- Launchpad 迷因团 | 强度 30.9 | 资产：PA、PIPPIN、SPANBERGER、BURRITO
+- 聪明钱跃迁层 | 强度 29.0 | 资产：SPANBERGER、BURRITO、STUPIDBOOK、TERAFAB
+- 官方催化带 | 强度 28.1 | 资产：UP、BNB、EDGE、CFG
 
 ## 场景引擎
 - UP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- BANI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- SPANBERGER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BSB Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -22,9 +22,9 @@
 - PISSELON | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - 8888 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - COMMON | Medium | 链上风险或标签风险偏高；流动性偏薄
+- BOB | Medium | 链上风险或标签风险偏高
+- GRASS | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- BR | Medium | 链上风险或标签风险偏高
-- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - UP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
@@ -33,8 +33,8 @@
 - UAI | Frontier Orbit | Alpha 前沿强度高
 - QUQ | Frontier Orbit | Alpha 前沿强度高
 - GUA | Frontier Orbit | Alpha 前沿强度高
+- PA | Core Orbit | 社媒热度已形成外部引力
 - WMTX | Frontier Orbit | Alpha 前沿强度高
-- KOGE | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - UP | UP 当前位于 Spec 级观测轨道
