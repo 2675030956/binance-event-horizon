@@ -1,19 +1,19 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-21T09:02:46.400603+00:00
+- 生成时间：2026-03-21T09:57:25.123350+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
 - Alpha 前沿层 | 强度 34.0 | 资产：BSB、QUQ、UAI、WMTX
 - 社媒引力场 | 强度 33.3 | 资产：BNB、SOL、BTC、ETH
-- Launchpad 迷因团 | 强度 21.7 | 资产：STUPIDBOOK、SPUDNIK、OPTIMI、ETHFI
-- 官方催化带 | 强度 21.4 | 资产：BNB、EDGE、UP、CFG
-- 聪明钱跃迁层 | 强度 18.6 | 资产：STUPIDBOOK、OPTIMI、LIBERTY、FORGE
+- 官方催化带 | 强度 21.5 | 资产：BNB、EDGE、UP、CFG
+- Launchpad 迷因团 | 强度 21.3 | 资产：SNIFFER、ETHFI、DEWY、DEGO
+- 聪明钱跃迁层 | 强度 15.9 | 资产：SNIFFER、DEWY、自由的定义、BOSS
 
 ## 场景引擎
 - BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- STUPIDBOOK 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- SNIFFER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BSB Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -23,6 +23,7 @@
 - COMMON | Medium | 链上风险或标签风险偏高；流动性偏薄
 - VLR | Medium | 链上风险或标签风险偏高
 - BEE | Medium | 链上风险或标签风险偏高；流动性偏薄
+- UP | Medium | 链上风险或标签风险偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
@@ -31,8 +32,8 @@
 - QUQ | Frontier Orbit | Alpha 前沿强度高
 - SOL | Core Orbit | 社媒热度已形成外部引力
 - UAI | Frontier Orbit | Alpha 前沿强度高
-- WMTX | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
+- WMTX | Frontier Orbit | Alpha 前沿强度高
 - GUA | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
