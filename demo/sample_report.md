@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-22T15:50:56.105280+00:00
+- 生成时间：2026-03-22T16:58:42.935042+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 41.6 | 资产：UP、SIREN、BANANAS31、LYN
-- 社媒引力场 | 强度 36.0 | 资产：SIREN、BNKR、BTC、SOL
-- 官方催化带 | 强度 31.0 | 资产：UP、BNB、SXT、CFG
-- Launchpad 迷因团 | 强度 27.2 | 资产：SIREN、NOTHING、RDNT、SIGN
-- 聪明钱跃迁层 | 强度 24.4 | 资产：BNKR、NOTHING、CLAWRIS、MOLTEN
+- Alpha 前沿层 | 强度 41.4 | 资产：SIREN、UP、BANANAS31、BSB
+- 社媒引力场 | 强度 36.7 | 资产：SIREN、BNKR、SOL、BTC
+- 官方催化带 | 强度 31.1 | 资产：UP、BNB、SXT、CFG
+- Launchpad 迷因团 | 强度 29.5 | 资产：SIREN、WRONG、ASPEN、RDNT
+- 聪明钱跃迁层 | 强度 26.7 | 资产：BNKR、WRONG、ASPEN、老子
 
 ## 场景引擎
 - UP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -22,23 +22,24 @@
 - COMMON | Medium | 链上风险或标签风险偏高；流动性偏薄
 - BR | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
+- CLAWRIS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ASPEN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
-- UP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - SIREN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- UP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - BNKR | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - BANANAS31 | Frontier Orbit | Alpha 前沿强度高
-- LYN | Frontier Orbit | Alpha 前沿强度高
 - BNB | Catalyst Orbit | 官方催化已入场
 - BSB | Frontier Orbit | Alpha 前沿强度高
 - QUQ | Frontier Orbit | Alpha 前沿强度高
+- JCT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
-- UP | UP 当前位于 Spec 级观测轨道
-- 摘要：官方催化已入场；Alpha 前沿强度高
+- SIREN | SIREN 当前位于 Spec 级观测轨道
+- 摘要：Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：引力压缩 | Alpha 前沿层 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 Alpha 前沿层，优先跟踪资产为 UP，首要风险关注 CBTRUMP。
-- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「Alpha 前沿层」，优先跟踪资产为 UP。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
+- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 Alpha 前沿层，优先跟踪资产为 SIREN，首要风险关注 CBTRUMP。
+- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「Alpha 前沿层」，优先跟踪资产为 SIREN。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
