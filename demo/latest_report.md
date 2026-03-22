@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-22T20:57:12.853132+00:00
+- 生成时间：2026-03-22T21:52:28.006936+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 42.2 | 资产：SIREN、UP、BANANAS31、CYS
-- 社媒引力场 | 强度 35.8 | 资产：SIREN、RIVER、SOL、SXT
-- 官方催化带 | 强度 30.7 | 资产：UP、BNB、SXT、CFG
-- 聪明钱跃迁层 | 强度 28.0 | 资产：SIREN、RIVER、BNKR、CLAWRIS
-- Launchpad 迷因团 | 强度 25.8 | 资产：SIREN、SUI、SIGN、FET
+- Alpha 前沿层 | 强度 42.0 | 资产：SIREN、UP、BANANAS31、LYN
+- 聪明钱跃迁层 | 强度 36.3 | 资产：SIREN、RIVER、LYN、BNKR
+- 社媒引力场 | 强度 35.4 | 资产：SIREN、RIVER、SOL、SXT
+- 官方催化带 | 强度 30.9 | 资产：UP、BNB、SXT、CFG
+- Launchpad 迷因团 | 强度 28.8 | 资产：SIREN、CHIBIFY、OPTIMISTIC、SUI
 
 ## 场景引擎
 - UP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -22,17 +22,18 @@
 - CLAWRIS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ASPEN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - TRUST | Medium | 链上风险或标签风险偏高
-- LOBSTER | Medium | 链上风险或标签风险偏高
+- SINCLAIR | Medium | 链上风险或标签风险偏高；流动性偏薄
+- SURPRISE | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - SIREN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - UP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - BANANAS31 | Frontier Orbit | Alpha 前沿强度高
 - RIVER | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
-- CYS | Frontier Orbit | Alpha 前沿强度高
+- LYN | Frontier Orbit | Alpha 前沿强度高
 - BNB | Catalyst Orbit | 官方催化已入场
+- CYS | Frontier Orbit | Alpha 前沿强度高
 - BSB | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - SIREN | SIREN 当前位于 Spec 级观测轨道
