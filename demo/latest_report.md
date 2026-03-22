@@ -1,19 +1,19 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-22T09:05:20.681360+00:00
+- 生成时间：2026-03-22T09:58:38.419399+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 37.5 | 资产：UP、BANANAS31、UAI、BSB
+- Alpha 前沿层 | 强度 37.4 | 资产：UP、BANANAS31、BSB、UAI
 - 社媒引力场 | 强度 30.9 | 资产：BNB、BTC、SOL、ETH
-- 官方催化带 | 强度 30.5 | 资产：UP、BNB、SXT、EDGE
-- Launchpad 迷因团 | 强度 26.1 | 资产：TERAFAB、SIREN、PIPPIN、ASPEN
-- 聪明钱跃迁层 | 强度 24.2 | 资产：TERAFAB、TERAFAB、ASPEN、PISS
+- 官方催化带 | 强度 30.6 | 资产：UP、BNB、SXT、EDGE
+- Launchpad 迷因团 | 强度 21.5 | 资产：SIREN、LOCKDOWN、SIGN、RESOLV
+- 聪明钱跃迁层 | 强度 18.2 | 资产：LOCKDOWN、CLAWRIS、龙虾、PENGUIN
 
 ## 场景引擎
 - UP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- TERAFAB 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- CLAWRIS 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BANANAS31 Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -28,9 +28,9 @@
 ## 优先观察轨道
 - UP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - BANANAS31 | Frontier Orbit | Alpha 前沿强度高
-- UAI | Frontier Orbit | Alpha 前沿强度高
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - BSB | Frontier Orbit | Alpha 前沿强度高
+- UAI | Frontier Orbit | Alpha 前沿强度高
 - QUQ | Frontier Orbit | Alpha 前沿强度高
 - KOGE | Frontier Orbit | Alpha 前沿强度高
 - WMTX | Frontier Orbit | Alpha 前沿强度高
