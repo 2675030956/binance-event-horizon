@@ -1,40 +1,41 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-23T05:48:39.084888+00:00
+- 生成时间：2026-03-23T08:36:54.896450+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 41.0 | 资产：SIREN、UP、BANANAS31、CYS
-- 社媒引力场 | 强度 37.3 | 资产：SIREN、BTC、ETH、SOL
-- 聪明钱跃迁层 | 强度 36.4 | 资产：SIREN、CHIBSTAR、骡子快跑、ケイジ
-- Launchpad 迷因团 | 强度 36.4 | 资产：SIREN、CHIBSTAR、骡子快跑、ケイジ
-- 官方催化带 | 强度 21.8 | 资产：EDGE
+- Alpha 前沿层 | 强度 39.2 | 资产：SIREN、UP、CYS、BANANAS31
+- 社媒引力场 | 强度 39.1 | 资产：SIREN、LOL、SOL、BTC
+- 聪明钱跃迁层 | 强度 37.0 | 资产：SIREN、LOL、BNKR、1000PERP
+- Launchpad 迷因团 | 强度 35.3 | 资产：SIREN、LOL、1000PERP、BEAR
+- 官方催化带 | 强度 8.0 | 资产：BINANCE
 
 ## 场景引擎
-- EDGE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- CHIBSTAR 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- SIREN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- BINANCE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- SIREN 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- UP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - VVV | Medium | 链上风险或标签风险偏高
-- AERO | Medium | 链上风险或标签风险偏高
-- ANICLAW | Medium | 链上风险或标签风险偏高
 - BR | Medium | 链上风险或标签风险偏高
+- ANICLAW | Medium | 链上风险或标签风险偏高
+- SAROS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- DOGSHIT | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
-- SIREN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- SIREN | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高；社媒热度已形成外部引力
+- LOL | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - UP | Frontier Orbit | Alpha 前沿强度高
-- BANANAS31 | Frontier Orbit | Alpha 前沿强度高
-- CHIBSTAR | Core Orbit | 聪明钱或信号确认偏强
-- BTC | Core Orbit | 社媒热度已形成外部引力
 - CYS | Frontier Orbit | Alpha 前沿强度高
+- BANANAS31 | Frontier Orbit | Alpha 前沿强度高
 - QUQ | Frontier Orbit | Alpha 前沿强度高
 - BSB | Frontier Orbit | Alpha 前沿强度高
+- WMTX | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
-- SIREN | SIREN 当前位于 Spec 级观测轨道
-- 摘要：Alpha 前沿强度高；社媒热度已形成外部引力
+- SIREN | SIREN 当前位于 Watch 级观测轨道
+- 摘要：聪明钱或信号确认偏强；Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：引力压缩 | Alpha 前沿层 监测摘要
