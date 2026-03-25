@@ -1,35 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-03-25T20:05:39.914546+00:00
+- 生成时间：2026-03-25T21:59:45.042557+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 47.9 | 资产：SIREN、ETH、SOL、PRL
-- Alpha 前沿层 | 强度 41.5 | 资产：SIREN、PRL、PIPPIN、CYS
-- 官方催化带 | 强度 38.3 | 资产：ETH、SOL、ICNT
-- Launchpad 迷因团 | 强度 34.3 | 资产：SIREN、CATCHA、TRUMPBOT、TRUMPBOT3000
-- 聪明钱跃迁层 | 强度 26.7 | 资产：CATCHA、TRUMPBOT、TRUMPBOT3000、LOBSTAR
+- 社媒引力场 | 强度 47.4 | 资产：SIREN、ETH、SOL、PRL
+- Alpha 前沿层 | 强度 41.2 | 资产：SIREN、PRL、PIPPIN、CYS
+- 官方催化带 | 强度 38.1 | 资产：ETH、SOL、ICNT
+- Launchpad 迷因团 | 强度 37.3 | 资产：SIREN、BENJI、AGENT、龙虾王
+- 聪明钱跃迁层 | 强度 32.3 | 资产：BENJI、AGENT、龙虾王、PTC
 
 ## 场景引擎
 - ETH 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- CATCHA 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BENJI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - SIREN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - CSTAR | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- MOLT | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- IOSRULESCRIPT | Medium | 链上风险或标签风险偏高
+- STABLEDIFFUSION | Medium | 链上风险或标签风险偏高；流动性偏薄
 - BEE | Medium | 链上风险或标签风险偏高
+- NETDATA | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - SIREN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - SOL | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - PRL | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- BTC | Core Orbit | 社媒热度已形成外部引力
 - PIPPIN | Frontier Orbit | Alpha 前沿强度高
+- BTC | Core Orbit | 社媒热度已形成外部引力
+- BENJI | Core Orbit | 聪明钱或信号确认偏强
 - CYS | Frontier Orbit | Alpha 前沿强度高
-- ARTX | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - SIREN | SIREN 当前位于 Spec 级观测轨道
