@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-04-19T19:57:36.635517+00:00
+- 生成时间：2026-04-19T20:40:23.752115+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 43.6 | 资产：RAVE、GENIUS、SIREN、ST
-- 社媒引力场 | 强度 41.3 | 资产：RAVE、BTC、币安人生、ETH
-- 官方催化带 | 强度 35.4 | 资产：BTC、GENIUS、BNB、UNC
-- Launchpad 迷因团 | 强度 31.8 | 资产：SIREN、币安人生、UNC、NIANNIAN
-- 聪明钱跃迁层 | 强度 30.8 | 资产：SIREN、ASTROID、UNC、NIANNIAN
+- Alpha 前沿层 | 强度 43.9 | 资产：RAVE、GENIUS、SIREN、ST
+- 社媒引力场 | 强度 41.4 | 资产：RAVE、BTC、ETH、币安人生
+- 官方催化带 | 强度 35.6 | 资产：BTC、GENIUS、BNB、UNC
+- Launchpad 迷因团 | 强度 33.4 | 资产：SIREN、币安人生、ASTEROID、UNC
+- 聪明钱跃迁层 | 强度 31.0 | 资产：SIREN、ASTEROID、UNC、LOL
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -19,7 +19,8 @@
 ## 引力预警
 - BEE | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- BOS | Medium | 链上风险或标签风险偏高
+- MINIGPT4 | Medium | 链上风险或标签风险偏高；流动性偏薄
+- V2RAYN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - RAVE | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
@@ -27,8 +28,8 @@
 - GENIUS | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - SIREN | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
 - ST | Frontier Orbit | Alpha 前沿强度高
-- 币安人生 | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- 币安人生 | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BASED | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
