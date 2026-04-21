@@ -1,36 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-04-21T07:17:15.757249+00:00
+- 生成时间：2026-04-21T09:06:24.961816+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 36.0 | 资产：RAVE、ST、STRIKE、SKYAI
-- 社媒引力场 | 强度 34.5 | 资产：RAVE、BTC、ETH、AAVE
-- 聪明钱跃迁层 | 强度 23.7 | 资产：EDGE、ASTER、ASTROPEPE、你我借
-- Launchpad 迷因团 | 强度 21.9 | 资产：BABYASTEROID、ASTROPEPE、EDU、PORTAL
-- 官方催化带 | 强度 21.3 | 资产：EDGE、BNB、UNC、SOON
+- Alpha 前沿层 | 强度 35.8 | 资产：RAVE、BASED、STRIKE、SKYAI
+- 社媒引力场 | 强度 33.3 | 资产：RAVE、BTC、ETH、SOL
+- 聪明钱跃迁层 | 强度 27.8 | 资产：WTF、种子计划、OPG、LUNCHMONEY
+- Launchpad 迷因团 | 强度 26.9 | 资产：WTF、种子计划、UNC、LUNCHMONEY
+- 官方催化带 | 强度 19.5 | 资产：BNB、UNC、SOON、GENIUS
 
 ## 场景引擎
-- EDGE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ASTER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- WTF 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - RAVE Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - NAORIS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- AEVAL | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- OPG | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - VVV | Medium | 链上风险或标签风险偏高
-- PEACE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ANOMA | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - RAVE | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- ST | Frontier Orbit | Alpha 前沿强度高
+- BASED | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - STRIKE | Frontier Orbit | Alpha 前沿强度高
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - SKYAI | Frontier Orbit | Alpha 前沿强度高
-- TRADOOR | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
+- PRL | Frontier Orbit | Alpha 前沿强度高
+- 币安人生 | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - RAVE | RAVE 当前位于 Spec 级观测轨道
