@@ -1,38 +1,35 @@
 # 币安事件地平线
 
-- 生成时间：2026-04-22T17:43:36.162617+00:00
+- 生成时间：2026-04-22T18:46:37.716057+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
 - 官方催化带 | 强度 54.9 | 资产：CHIP
-- Alpha 前沿层 | 强度 36.9 | 资产：CHIP、MET、QUQ、RAVE
-- 社媒引力场 | 强度 27.8 | 资产：BTC、ETH、SOL、XRP
-- Launchpad 迷因团 | 强度 23.1 | 资产：VPNAI、UNC、MTGA、SPK
-- 聪明钱跃迁层 | 强度 22.6 | 资产：VPNAI、UNC、MTGA、PLASTIC
+- Alpha 前沿层 | 强度 37.0 | 资产：CHIP、MET、TRADOOR、QUQ
+- 社媒引力场 | 强度 27.9 | 资产：BTC、ETH、SOL、XRP
+- 聪明钱跃迁层 | 强度 26.7 | 资产：PAPI、NOOB、XBT、旺柴
+- Launchpad 迷因团 | 强度 22.7 | 资产：NOOB、旺柴、PUPR、SP500
 
 ## 场景引擎
 - CHIP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- VPNAI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- PAPI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - MET Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - GRASS | Medium | 链上风险或标签风险偏高
 - AERO | Medium | 链上风险或标签风险偏高
-- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- PYTHON | Medium | 链上风险或标签风险偏高；流动性偏薄
-- JAGER | Medium | 链上风险或标签风险偏高
 - CHECK | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - CHIP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
+- PAPI | Core Orbit | 聪明钱或信号确认偏强
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - MET | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
-- RAVE | Frontier Orbit | Alpha 前沿强度高
 - TRADOOR | Frontier Orbit | Alpha 前沿强度高
-- BASED | Frontier Orbit | Alpha 前沿强度高
+- QUQ | Frontier Orbit | Alpha 前沿强度高
+- NOOB | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
 - CHIP | CHIP 当前位于 Spec 级观测轨道
