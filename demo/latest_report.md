@@ -1,19 +1,19 @@
 # 币安事件地平线
 
-- 生成时间：2026-04-26T14:33:08.634169+00:00
+- 生成时间：2026-04-26T15:24:06.693612+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 39.5 | 资产：RAVE、OPG、ZBT、LAB
-- 官方催化带 | 强度 36.1 | 资产：CHIP
-- 社媒引力场 | 强度 34.3 | 资产：RAVE、BTC、ETH、ASTER
-- Launchpad 迷因团 | 强度 23.2 | 资产：BIBI、CATCOIN、HYPER、HIGH
-- 聪明钱跃迁层 | 强度 22.0 | 资产：BIBI、CATCOIN、TRUSTY、共建
+- Alpha 前沿层 | 强度 39.7 | 资产：RAVE、OPG、ZBT、LAB
+- 官方催化带 | 强度 36.9 | 资产：CHIP
+- 社媒引力场 | 强度 34.5 | 资产：RAVE、BTC、ETH、ASTER
+- 聪明钱跃迁层 | 强度 21.6 | 资产：GDER、FRIDRIK、ADS、重返巅峰
+- Launchpad 迷因团 | 强度 20.2 | 资产：FRIDRIK、HYPER、D、HIGH
 
 ## 场景引擎
 - CHIP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- BIBI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- GDER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - RAVE Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -21,6 +21,9 @@
 - GRASS | Medium | 链上风险或标签风险偏高
 - AERO | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
+- SKR | Medium | 链上风险或标签风险偏高
+- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- SHERLOCK | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - RAVE | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
@@ -29,8 +32,8 @@
 - CHIP | Catalyst Orbit | 官方催化已入场
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - LAB | Frontier Orbit | Alpha 前沿强度高
+- ENSO | Frontier Orbit | Alpha 前沿强度高
 - QUQ | Frontier Orbit | Alpha 前沿强度高
-- BASED | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - RAVE | RAVE 当前位于 Spec 级观测轨道
