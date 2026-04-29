@@ -1,36 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-04-29T20:17:25.942773+00:00
+- 生成时间：2026-04-29T21:33:38.869208+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 41.2 | 资产：AIGENSYN、CHIP
-- Alpha 前沿层 | 强度 40.0 | 资产：AIGENSYN、PUMP、BSB、PRL
-- 社媒引力场 | 强度 38.8 | 资产：BTC、PUMP、ETH、BIO
-- Launchpad 迷因团 | 强度 25.0 | 资产：BIO、CLOSEDAI、AI、TON
-- 聪明钱跃迁层 | 强度 23.0 | 资产：TAC、GDER、CLOSEDAI、PUP
+- 官方催化带 | 强度 41.7 | 资产：AIGENSYN、CHIP
+- Alpha 前沿层 | 强度 39.6 | 资产：AIGENSYN、BSB、PUMP、PRL
+- 社媒引力场 | 强度 38.4 | 资产：BTC、PUMP、ETH、QCOM
+- Launchpad 迷因团 | 强度 33.8 | 资产：QCOM、BIO、BOTDICK、WISH
+- 聪明钱跃迁层 | 强度 30.9 | 资产：BOTDICK、WISH、CHUDHOUSE、KIDS
 
 ## 场景引擎
 - CHIP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- TAC 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BOTDICK 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AIGENSYN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - RLS | Medium | 链上风险或标签风险偏高
-- CHADELON | Medium | 链上风险或标签风险偏高；流动性偏薄
+- JAVASCRIPT | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - NAORIS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- CLAWLETT | Medium | 链上风险或标签风险偏高；流动性偏薄
+- OPC | Medium | 链上风险或标签风险偏高
+- HP | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 
 ## 优先观察轨道
 - AIGENSYN | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- CHIP | Catalyst Orbit | 官方催化已入场
 - BSB | Frontier Orbit | Alpha 前沿强度高
+- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - PRL | Frontier Orbit | Alpha 前沿强度高
+- CHIP | Catalyst Orbit | 官方催化已入场
 - ETH | Core Orbit | 社媒热度已形成外部引力
-- BIO | Core Orbit | 社媒热度已形成外部引力
+- QCOM | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - AIGENSYN | AIGENSYN 当前位于 Spec 级观测轨道
