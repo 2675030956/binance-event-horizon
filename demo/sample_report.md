@@ -1,39 +1,39 @@
 # 币安事件地平线
 
-- 生成时间：2026-05-10T04:08:13.629307+00:00
+- 生成时间：2026-05-10T06:41:47.437694+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 38.0 | 资产：BTC、VVV、ETH、XRP
-- 官方催化带 | 强度 36.0 | 资产：BTC、ETH、GALA、BNB
-- Alpha 前沿层 | 强度 34.9 | 资产：VVV、SHARE、QUQ、Q
-- Launchpad 迷因团 | 强度 28.8 | 资产：AGI、BIO、TRIPLET、T
-- 聪明钱跃迁层 | 强度 25.3 | 资产：AGI、TRIPLET、ALIENMUSK、NOCOIN
+- 社媒引力场 | 强度 44.6 | 资产：BTC、TROLL、AURA、ETH
+- 聪明钱跃迁层 | 强度 36.9 | 资产：TROLL、AURA、HANTA、BILL
+- Alpha 前沿层 | 强度 36.4 | 资产：TROLL、QUQ、OPG、SKYAI
+- 官方催化带 | 强度 35.4 | 资产：BTC、ETH、GALA、BNB
+- Launchpad 迷因团 | 强度 22.6 | 资产：BIO、LAYER、SCORE、变种猿
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- AGI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- VVV Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- TROLL 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- QUQ Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - BILL | Medium | 链上风险或标签风险偏高
+- VVV | Medium | 链上风险或标签风险偏高
 - AERO | Medium | 链上风险或标签风险偏高
-- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- V2RAYN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- CHECK | Medium | 链上风险或标签风险偏高
+- Q | Medium | 链上风险或标签风险偏高
 - ZORA | Medium | 链上风险或标签风险偏高
 - TYCOON | Medium | 链上风险或标签风险偏高
+- TRUST | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- AGI | Core Orbit | 聪明钱或信号确认偏强
-- VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- SHARE | Frontier Orbit | Alpha 前沿强度高
+- TROLL | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高；社媒热度已形成外部引力
+- AURA | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - QUQ | Frontier Orbit | Alpha 前沿强度高
-- Q | Frontier Orbit | Alpha 前沿强度高
+- OPG | Frontier Orbit | Alpha 前沿强度高
 - SKYAI | Frontier Orbit | Alpha 前沿强度高
+- BAS | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
