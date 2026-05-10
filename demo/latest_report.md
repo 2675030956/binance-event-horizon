@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-05-10T21:57:11.296131+00:00
+- 生成时间：2026-05-10T22:49:31.190363+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 37.0 | 资产：BTC、TROLL、ETH、MEGA
-- 官方催化带 | 强度 34.8 | 资产：BTC、ETH、MEGA、BNB
-- Alpha 前沿层 | 强度 32.4 | 资产：TROLL、SHARE、QUQ、BILL
-- Launchpad 迷因团 | 强度 26.1 | 资产：GOBLIN、VESPER、BIO、LIKE
-- 聪明钱跃迁层 | 强度 21.5 | 资产：GOBLIN、VESPER、POLYSCOPE、PAW
+- 社媒引力场 | 强度 37.2 | 资产：BTC、ETH、TROLL、MEGA
+- 官方催化带 | 强度 35.1 | 资产：BTC、ETH、MEGA、BNB
+- Alpha 前沿层 | 强度 32.1 | 资产：TROLL、QUQ、SHARE、BILL
+- Launchpad 迷因团 | 强度 24.4 | 资产：GOBLIN、BIO、TRETARD、LIMINAL
+- 聪明钱跃迁层 | 强度 21.0 | 资产：GOBLIN、TRETARD、PAW、尊贵的美股交易员
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -21,18 +21,16 @@
 - DEEPSEEK | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - AERO | Medium | 链上风险或标签风险偏高
 - EPT | Medium | 链上风险或标签风险偏高；流动性偏薄
-- FHE | Medium | 链上风险或标签风险偏高
-- RKL | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ZORA | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- TROLL | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- TROLL | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - MEGA | Core Orbit | 社媒热度已形成外部引力
 - GOBLIN | Core Orbit | 聪明钱或信号确认偏强
-- SHARE | Frontier Orbit | Alpha 前沿强度高
 - QUQ | Frontier Orbit | Alpha 前沿强度高
+- SHARE | Frontier Orbit | Alpha 前沿强度高
 - BILL | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
