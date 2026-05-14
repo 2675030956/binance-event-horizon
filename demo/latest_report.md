@@ -1,39 +1,36 @@
 # 币安事件地平线
 
-- 生成时间：2026-05-14T14:39:22.879457+00:00
+- 生成时间：2026-05-14T16:31:42.244985+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 37.2 | 资产：VVV、BASED、SIREN、B
-- 社媒引力场 | 强度 34.2 | 资产：VVV、BTC、SOL、XRP
-- 聪明钱跃迁层 | 强度 27.4 | 资产：币安人、MEOWL、USSR、世界杯
-- Launchpad 迷因团 | 强度 27.4 | 资产：币安人、MEOWL、USSR、世界杯
-- 官方催化带 | 强度 22.2 | 资产：BASED、AIGENSYN、PHAROS
+- Alpha 前沿层 | 强度 37.7 | 资产：VVV、AERO、SIREN、BILL
+- 社媒引力场 | 强度 36.3 | 资产：VVV、AERO、BTC、SOL
+- 聪明钱跃迁层 | 强度 28.9 | 资产：RKC、HOB、COBOT、足球
+- Launchpad 迷因团 | 强度 28.2 | 资产：RKC、HOB、足球、ARMA
+- 官方催化带 | 强度 16.0 | 资产：AIGENSYN
 
 ## 场景引擎
 - AIGENSYN 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- 币安人 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- RKC 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - VVV Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- WCOR | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- MYKCLAWD | Medium | 链上风险或标签风险偏高；流动性偏薄
+- WCOR | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - STAR | Medium | 链上风险或标签风险偏高
-- AEON | Medium | 链上风险或标签风险偏高
-- BELLA | Medium | 链上风险或标签风险偏高
-- BELLAB | Medium | 链上风险或标签风险偏高
-- K | Medium | 链上风险或标签风险偏高；流动性偏薄
+- PINGORA | Medium | 链上风险或标签风险偏高；流动性偏薄
+- GRASS | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- BASED | Frontier Orbit | Alpha 前沿强度高
-- BTC | Core Orbit | 社媒热度已形成外部引力
+- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - SIREN | Frontier Orbit | Alpha 前沿强度高
-- B | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
+- BTC | Core Orbit | 社媒热度已形成外部引力
 - BILL | Frontier Orbit | Alpha 前沿强度高
-- SKYAI | Frontier Orbit | Alpha 前沿强度高
+- B | Frontier Orbit | Alpha 前沿强度高
+- UP | Frontier Orbit | Alpha 前沿强度高
+- QUQ | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - VVV | VVV 当前位于 Spec 级观测轨道
