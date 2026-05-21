@@ -1,25 +1,26 @@
 # 币安事件地平线
 
-- 生成时间：2026-05-21T22:55:42.170016+00:00
+- 生成时间：2026-05-21T23:58:56.233620+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 37.9 | 资产：BTC、ETH、QBTS、SOL
-- 官方催化带 | 强度 36.2 | 资产：BTC、ETH、XUSD、BNB
+- 社媒引力场 | 强度 37.7 | 资产：BTC、ETH、QBTS、SOL
+- 官方催化带 | 强度 36.0 | 资产：BTC、ETH、XUSD、BNB
 - Alpha 前沿层 | 强度 29.2 | 资产：NEX、QUQ、BILL、B
-- Launchpad 迷因团 | 强度 26.2 | 资产：QBTS、XHERMES、LIBRA、VIRL
-- 聪明钱跃迁层 | 强度 24.7 | 资产：ADS、XHERMES、LIBRA、CARDS
+- Launchpad 迷因团 | 强度 27.2 | 资产：QBTS、大力神杯、X、SUI
+- 聪明钱跃迁层 | 强度 22.5 | 资产：大力神杯、X、SXAI、HOOTERS
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ADS 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- 大力神杯 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - NEX Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- IMRYLE | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- GRASS | Medium | 链上风险或标签风险偏高
+- IMRYLE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- K0 | Medium | 链上风险或标签风险偏高；流动性偏薄
 - BOB | Medium | 链上风险或标签风险偏高
+- GRASS | Medium | 链上风险或标签风险偏高
 - CHECK | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
@@ -27,10 +28,10 @@
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - QBTS | Core Orbit | 社媒热度已形成外部引力
 - NEX | Frontier Orbit | Alpha 前沿强度高
+- 大力神杯 | Core Orbit | 聪明钱或信号确认偏强
 - QUQ | Frontier Orbit | Alpha 前沿强度高
 - BILL | Frontier Orbit | Alpha 前沿强度高
 - B | Frontier Orbit | Alpha 前沿强度高
-- SOL | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
