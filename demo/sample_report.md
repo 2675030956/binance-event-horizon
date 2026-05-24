@@ -1,39 +1,39 @@
 # 币安事件地平线
 
-- 生成时间：2026-05-24T19:52:03.926440+00:00
+- 生成时间：2026-05-24T20:39:28.007886+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 社媒引力场 | 强度 40.9 | 资产：STAKE、BNKR、BNB、BTC
-- 聪明钱跃迁层 | 强度 40.8 | 资产：STAKE、BNKR、TRALALERO、SPCX
-- Launchpad 迷因团 | 强度 40.4 | 资产：STAKE、BNB、TRALALERO、SPCX
-- Alpha 前沿层 | 强度 35.6 | 资产：B2、ZEST、QUQ、BILL
-- 官方催化带 | 强度 25.4 | 资产：GENIUS、OPG
+- Alpha 前沿层 | 强度 36.2 | 资产：B2、BSB、ZEST、QUQ
+- 社媒引力场 | 强度 34.8 | 资产：BNB、BTC、ETH、XRP
+- Launchpad 迷因团 | 强度 33.0 | 资产：BNB、背手负鼠、PENGU、BREAKZ
+- 聪明钱跃迁层 | 强度 30.7 | 资产：BSB、背手负鼠、BREAKZ、半唐
+- 官方催化带 | 强度 25.6 | 资产：GENIUS、OPG
 
 ## 场景引擎
 - GENIUS 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- STAKE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BSB 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - B2 Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- GIDORAH | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- WOLVERINE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
-- STAKE | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - B2 | Frontier Orbit | Alpha 前沿强度高
-- BNKR | Core Orbit | 社媒热度已形成外部引力
 - BNB | Core Orbit | 社媒热度已形成外部引力
-- TRALALERO | Core Orbit | 聪明钱或信号确认偏强
-- SPCX | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - GENIUS | Catalyst Orbit | 官方催化已入场
+- BSB | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
+- ZEST | Frontier Orbit | Alpha 前沿强度高
+- QUQ | Frontier Orbit | Alpha 前沿强度高
+- 背手负鼠 | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
-- STAKE | STAKE 当前位于 Spec 级观测轨道
-- 摘要：聪明钱或信号确认偏强；社媒热度已形成外部引力
+- B2 | B2 当前位于 Spec 级观测轨道
+- 摘要：Alpha 前沿强度高
 
 ## 广播封包
-- 标题：引力压缩 | 社媒引力场 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 社媒引力场，优先跟踪资产为 STAKE，首要风险关注 GIDORAH。
-- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「社媒引力场」，优先跟踪资产为 STAKE。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
+- 标题：引力压缩 | Alpha 前沿层 监测摘要
+- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 Alpha 前沿层，优先跟踪资产为 B2，首要风险关注 WOLVERINE。
+- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「Alpha 前沿层」，优先跟踪资产为 B2。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
