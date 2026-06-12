@@ -1,36 +1,35 @@
 # 币安事件地平线
 
-- 生成时间：2026-06-12T21:21:25.394245+00:00
+- 生成时间：2026-06-12T22:51:18.324261+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 35.3 | 资产：VELVET、BEAT、BANANAS31、QUQ
-- 聪明钱跃迁层 | 强度 33.2 | 资产：ICPX、TRILLIONAIRE、蝴蝶骑士、黄金人生
-- Launchpad 迷因团 | 强度 33.2 | 资产：ICPX、TRILLIONAIRE、蝴蝶骑士、黄金人生
-- 社媒引力场 | 强度 29.1 | 资产：PLAY、BTC、ETH、SOL
-- 官方催化带 | 强度 25.5 | 资产：NIGHT、SPCXB、XUSD、SPCX
+- Alpha 前沿层 | 强度 36.6 | 资产：VELVET、PLAY、QUQ、BANANAS31
+- 社媒引力场 | 强度 30.8 | 资产：PLAY、BTC、ETH、SOL
+- 聪明钱跃迁层 | 强度 30.0 | 资产：ZUL、GUTGENUG、世界杯、TRIPLET
+- Launchpad 迷因团 | 强度 30.0 | 资产：ZUL、GUTGENUG、世界杯、TRIPLET
+- 官方催化带 | 强度 25.8 | 资产：NIGHT、SPCXB、XUSD、SPCX
 
 ## 场景引擎
 - SPCX 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ICPX 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- ZUL 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - VELVET Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - NAORIS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- CDOF | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - PHAROS | Medium | 链上风险或标签风险偏高
-- GRASS | Medium | 链上风险或标签风险偏高
+- BASKETBALL | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - VELVET | Frontier Orbit | Alpha 前沿强度高
-- BEAT | Frontier Orbit | Alpha 前沿强度高
-- ICPX | Core Orbit | 聪明钱或信号确认偏强
-- BANANAS31 | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
-- CLO | Frontier Orbit | Alpha 前沿强度高
-- TRILLIONAIRE | Core Orbit | 聪明钱或信号确认偏强
 - PLAY | Frontier Orbit | Alpha 前沿强度高
+- QUQ | Frontier Orbit | Alpha 前沿强度高
+- BANANAS31 | Frontier Orbit | Alpha 前沿强度高
+- CLO | Frontier Orbit | Alpha 前沿强度高
+- COAI | Frontier Orbit | Alpha 前沿强度高
+- SKYAI | Frontier Orbit | Alpha 前沿强度高
+- ESPORTS | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - VELVET | VELVET 当前位于 Shadow 级观测轨道
