@@ -1,30 +1,30 @@
 # 币安事件地平线
 
-- 生成时间：2026-06-15T11:24:57.228581+00:00
+- 生成时间：2026-06-15T16:24:11.474360+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 36.9 | 资产：OPG、QUQ、BEAT、VVV
-- 官方催化带 | 强度 34.5 | 资产：OPG、BTC、BNB、SPCX
-- 社媒引力场 | 强度 32.2 | 资产：BTC、VVV、ZEC、XRP
-- Launchpad 迷因团 | 强度 24.7 | 资产：JAMESON、JOTCHUA、溜溜梅、SUI
-- 聪明钱跃迁层 | 强度 23.6 | 资产：JAMESON、JOTCHUA、AIRDROPBASE、USA250
+- Alpha 前沿层 | 强度 37.6 | 资产：OPG、QUQ、BEAT、VVV
+- 官方催化带 | 强度 36.7 | 资产：OPG、BTC、BNB、SPCXB
+- 社媒引力场 | 强度 33.8 | 资产：BTC、VVV、MU、XRP
+- Launchpad 迷因团 | 强度 25.8 | 资产：MU、BOUNTYWORK、命、PENGU
+- 聪明钱跃迁层 | 强度 24.1 | 资产：IDIOT、BOUNTYWORK、命、SPCX
 
 ## 场景引擎
 - BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- JAMESON 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- IDIOT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - OPG Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - GRASS | Medium | 链上风险或标签风险偏高
+- NR | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - CHARON | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- MAG3NT | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- IPTV | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- ATHENA | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - AERO | Medium | 链上风险或标签风险偏高
-- PRXVT | Medium | 链上风险或标签风险偏高
-- BR | Medium | 链上风险或标签风险偏高
-- STAR | Medium | 链上风险或标签风险偏高
-- ZORA | Medium | 链上风险或标签风险偏高
+- AVL | Medium | 链上风险或标签风险偏高
+- MYSQL | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - OPG | Frontier Orbit | Alpha 前沿强度高
@@ -33,8 +33,8 @@
 - BNB | Catalyst Orbit | 官方催化已入场
 - BEAT | Frontier Orbit | Alpha 前沿强度高
 - VVV | Frontier Orbit | Alpha 前沿强度高
-- JAMESON | Core Orbit | 聪明钱或信号确认偏强
-- COAI | Frontier Orbit | Alpha 前沿强度高
+- MU | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- BANANAS31 | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - OPG | OPG 当前位于 Spec 级观测轨道
