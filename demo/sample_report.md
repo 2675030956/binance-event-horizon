@@ -1,34 +1,35 @@
 # 币安事件地平线
 
-- 生成时间：2026-06-30T20:15:12.168401+00:00
+- 生成时间：2026-06-30T21:48:22.598663+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 40.5 | 资产：OPG、MSFTB、METAB、PLTRB
-- Launchpad 迷因团 | 强度 39.6 | 资产：OCCAM、MSFTB、METAB、PLTRB
-- 社媒引力场 | 强度 37.4 | 资产：OPG、BTC、SOL、ETH
-- 聪明钱跃迁层 | 强度 36.5 | 资产：OCCAM、QBX、世界杯、TATE
-- Alpha 前沿层 | 强度 34.8 | 资产：CAP、QUQ、NES、RAVE
+- 官方催化带 | 强度 39.4 | 资产：OPG、QQQB、MSFTB、METAB
+- Launchpad 迷因团 | 强度 38.9 | 资产：FLORK、QQQB、MSFTB、METAB
+- 社媒引力场 | 强度 37.4 | 资产：OPG、ANSEM、BTC、SOL
+- Alpha 前沿层 | 强度 34.2 | 资产：IN、NES、QUQ、BAS
+- 聪明钱跃迁层 | 强度 29.1 | 资产：FLORK、BARRON、ADS、走个面儿
 
 ## 场景引擎
 - OPG 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- OCCAM 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- CAP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- FLORK 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- IN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- OUSD | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- VRA | Medium | 链上风险或标签风险偏高；流动性偏薄
+- KODY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- REACT | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- CLAWBANK | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - OPG | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- OCCAM | Core Orbit | 聪明钱或信号确认偏强
+- FLORK | Core Orbit | 聪明钱或信号确认偏强
+- QQQB | Catalyst Orbit | 官方催化已入场
 - MSFTB | Catalyst Orbit | 官方催化已入场
+- IN | Frontier Orbit | Alpha 前沿强度高
 - METAB | Catalyst Orbit | 官方催化已入场
+- ANSEM | Core Orbit | 社媒热度已形成外部引力
 - PLTRB | Catalyst Orbit | 官方催化已入场
-- LITEB | Catalyst Orbit | 官方催化已入场
-- BTC | Core Orbit | 社媒热度已形成外部引力
-- QBX | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
 - OPG | OPG 当前位于 Spec 级观测轨道
@@ -36,5 +37,5 @@
 
 ## 广播封包
 - 标题：引力压缩 | 官方催化带 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 官方催化带，优先跟踪资产为 OPG，首要风险关注 OUSD。
+- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 官方催化带，优先跟踪资产为 OPG，首要风险关注 KODY。
 - Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「官方催化带」，优先跟踪资产为 OPG。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
