@@ -1,36 +1,36 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-07T18:28:40.671978+00:00
+- 生成时间：2026-07-07T20:25:48.024184+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 37.6 | 资产：TAC、MU、QUQ、EVAA
-- 官方催化带 | 强度 37.0 | 资产：USDC
-- 社媒引力场 | 强度 33.7 | 资产：BTC、MU、SOL、ZEC
-- Launchpad 迷因团 | 强度 29.1 | 资产：MU、ANDY、SOXLB、SPYB
-- 聪明钱跃迁层 | 强度 25.7 | 资产：ANDY、CUT、CUPSEY、SWR
+- Alpha 前沿层 | 强度 38.3 | 资产：TAC、MU、EVAA、LAB
+- 官方催化带 | 强度 37.6 | 资产：USDC
+- 社媒引力场 | 强度 34.2 | 资产：BTC、MU、ZEC、SOL
+- Launchpad 迷因团 | 强度 30.4 | 资产：MU、KORI、SOXLB、NBISB
+- 聪明钱跃迁层 | 强度 22.2 | 资产：KORI、CODEX、CZ、CZ
 
 ## 场景引擎
 - USDC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ANDY 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- KORI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - TAC Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - AERO | Medium | 链上风险或标签风险偏高
+- OS | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- SWR | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - PHAROS | Medium | 链上风险或标签风险偏高
-- CHECK | Medium | 链上风险或标签风险偏高
-- USWR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - TAC | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - USDC | Catalyst Orbit | 官方催化已入场
 - MU | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- QUQ | Frontier Orbit | Alpha 前沿强度高
 - EVAA | Frontier Orbit | Alpha 前沿强度高
 - LAB | Frontier Orbit | Alpha 前沿强度高
-- 人生K线 | Frontier Orbit | Alpha 前沿强度高
+- EDGE | Frontier Orbit | Alpha 前沿强度高
+- CLO | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - TAC | TAC 当前位于 Spec 级观测轨道
