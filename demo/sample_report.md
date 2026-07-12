@@ -1,36 +1,35 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-12T20:21:34.392584+00:00
+- 生成时间：2026-07-12T21:09:29.604523+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 38.9 | 资产：LAB、ZEC、BTC、CUPSEY
-- Alpha 前沿层 | 强度 38.1 | 资产：LAB、NES、EVAA、QUQ
-- 聪明钱跃迁层 | 强度 33.6 | 资产：CUPSEY、W26、HOME、打劫猫
-- Launchpad 迷因团 | 强度 33.0 | 资产：W26、HOME、打劫猫、BIBI
+- 社媒引力场 | 强度 38.5 | 资产：LAB、BTC、ZEC、ETH
+- Alpha 前沿层 | 强度 38.0 | 资产：LAB、NES、EVAA、QUQ
+- Launchpad 迷因团 | 强度 31.6 | 资产：HEYI、SXT、TCC、W26
+- 聪明钱跃迁层 | 强度 30.5 | 资产：HEYI、TCC、W26、CZ
 - 官方催化带 | 强度 22.9 | 资产：FUN、BILL
 
 ## 场景引擎
 - FUN 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- W26 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- HEYI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - LAB Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - ROCKETB20 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- BABYCZ | Medium | 链上风险或标签风险偏高；流动性偏薄
 - B20 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - BILL | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - LAB | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- ZEC | Core Orbit | 社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- CUPSEY | Core Orbit | 社媒热度已形成外部引力
-- W26 | Core Orbit | 聪明钱或信号确认偏强
+- ZEC | Core Orbit | 社媒热度已形成外部引力
 - NES | Frontier Orbit | Alpha 前沿强度高
 - EVAA | Frontier Orbit | Alpha 前沿强度高
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- QUQ | Frontier Orbit | Alpha 前沿强度高
+- HEYI | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
 - LAB | LAB 当前位于 Spec 级观测轨道
