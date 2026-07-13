@@ -1,35 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-13T18:57:59.376049+00:00
+- 生成时间：2026-07-13T20:12:46.437154+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 41.2 | 资产：SKHYB、BTC、AERO、ETH
-- Alpha 前沿层 | 强度 36.5 | 资产：AERO、LAB、EVAA、QUQ
-- Launchpad 迷因团 | 强度 34.8 | 资产：SKHYB、FEBU、MARSCOIN、STAR
-- 聪明钱跃迁层 | 强度 31.0 | 资产：FEBU、MARSCOIN、STAR、MENSA
-- 官方催化带 | 强度 27.3 | 资产：BNB、SKHY
+- 社媒引力场 | 强度 40.4 | 资产：SKHYB、AERO、BTC、ETH
+- Alpha 前沿层 | 强度 36.7 | 资产：AERO、LAB、QUQ、NES
+- Launchpad 迷因团 | 强度 33.2 | 资产：SKHYB、ARC、垃圾、黄马
+- 聪明钱跃迁层 | 强度 28.9 | 资产：ARC、垃圾、黄马、SDM
+- 官方催化带 | 强度 24.9 | 资产：BNB、SDM、SKHY
 
 ## 场景引擎
-- BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- FEBU 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- SDM 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- ARC 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AERO Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - B20 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- ALLO | Medium | 链上风险或标签风险偏高；流动性偏薄
 - BILL | Medium | 链上风险或标签风险偏高
 - PAPERSWELOVE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- DAM | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - SKHYB | Core Orbit | 社媒热度已形成外部引力
-- BTC | Core Orbit | 社媒热度已形成外部引力
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- ETH | Core Orbit | 社媒热度已形成外部引力
+- BTC | Core Orbit | 社媒热度已形成外部引力
 - LAB | Frontier Orbit | Alpha 前沿强度高
-- FEBU | Core Orbit | 聪明钱或信号确认偏强
-- EVAA | Frontier Orbit | Alpha 前沿强度高
+- ETH | Core Orbit | 社媒热度已形成外部引力
+- ARC | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - QUQ | Frontier Orbit | Alpha 前沿强度高
+- NES | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - SKHYB | SKHYB 当前位于 Spec 级观测轨道
