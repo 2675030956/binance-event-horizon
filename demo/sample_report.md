@@ -1,37 +1,40 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-13T06:40:57.120142+00:00
+- 生成时间：2026-07-13T09:57:58.628438+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 38.6 | 资产：BTC、ETH、ZEC、SOL
-- 官方催化带 | 强度 36.6 | 资产：BTC、ETH、BNB、FUN
-- Alpha 前沿层 | 强度 32.8 | 资产：QUQ、LAB、NES、B
-- 聪明钱跃迁层 | 强度 29.0 | 资产：WUKONG、老刘、BOOP、ANSEM
-- Launchpad 迷因团 | 强度 29.0 | 资产：WUKONG、老刘、BOOP、ANSEM
+- 社媒引力场 | 强度 40.6 | 资产：BTC、ETH、AERO、SOL
+- 聪明钱跃迁层 | 强度 36.9 | 资产：BIBI、QIQI、PATTYICE、最初的梦想
+- Launchpad 迷因团 | 强度 36.9 | 资产：BIBI、QIQI、PATTYICE、最初的梦想
+- Alpha 前沿层 | 强度 36.8 | 资产：AERO、LAB、QUQ、EVAA
+- 官方催化带 | 强度 35.0 | 资产：BTC、ETH、BNB、SKHYB
 
 ## 场景引擎
 - BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- WUKONG 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- QUQ Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- BIBI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- AERO Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - ROCKETB20 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- USMCA | Medium | 链上风险或标签风险偏高
-- WINDTERM | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - BILL | Medium | 链上风险或标签风险偏高
 - GRASS | Medium | 链上风险或标签风险偏高
+- WINDTERM | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- CANVASCONFETTI | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- EPT | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CHEATSH | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- SKR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
-- WUKONG | Core Orbit | 聪明钱或信号确认偏强
-- ZEC | Core Orbit | 社媒热度已形成外部引力
-- BNB | Catalyst Orbit | 官方催化已入场
-- QUQ | Frontier Orbit | Alpha 前沿强度高
+- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- BIBI | Core Orbit | 聪明钱或信号确认偏强
+- QIQI | Core Orbit | 聪明钱或信号确认偏强
 - LAB | Frontier Orbit | Alpha 前沿强度高
-- NES | Frontier Orbit | Alpha 前沿强度高
+- PATTYICE | Core Orbit | 聪明钱或信号确认偏强
+- BNB | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
