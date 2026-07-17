@@ -1,41 +1,41 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-16T23:12:15.699654+00:00
+- 生成时间：2026-07-17T00:11:56.449916+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 社媒引力场 | 强度 38.1 | 资产：ANSEM、BTC、ETH、TAO
-- Launchpad 迷因团 | 强度 37.6 | 资产：ANSEM、KITE、BOBAOPPA、KAITO
-- 聪明钱跃迁层 | 强度 34.1 | 资产：ANSEM、BOBAOPPA、OH、ACCOUNT
-- 官方催化带 | 强度 33.8 | 资产：KITE
-- Alpha 前沿层 | 强度 33.2 | 资产：BLUAI、AKE、NES、AERO
+- 社媒引力场 | 强度 37.1 | 资产：ANSEM、TRIPLET、BTC、ETH
+- Launchpad 迷因团 | 强度 36.2 | 资产：ANSEM、TRIPLET、KITE、KAITO
+- 官方催化带 | 强度 33.6 | 资产：KITE
+- Alpha 前沿层 | 强度 33.0 | 资产：BLUAI、AKE、NES、AERO
+- 聪明钱跃迁层 | 强度 29.8 | 资产：BRIAN、BASESHAKE、9无限、REPTILECOIN
 
 ## 场景引擎
 - KITE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ANSEM 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BRIAN 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BLUAI Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - STAR | Medium | 链上风险或标签风险偏高
-- MONEYPRINTERV2 | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ALGORITHMS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - BOB | Medium | 链上风险或标签风险偏高
-- METAGPT | Medium | 链上风险或标签风险偏高；流动性偏薄
 - PHAROS | Medium | 链上风险或标签风险偏高
+- CORLA | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
-- ANSEM | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
+- ANSEM | Core Orbit | 社媒热度已形成外部引力
+- TRIPLET | Core Orbit | 社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - BLUAI | Frontier Orbit | Alpha 前沿强度高
-- KITE | Catalyst Orbit | 官方催化已入场
+- BRIAN | Core Orbit | 聪明钱或信号确认偏强
 - AKE | Frontier Orbit | Alpha 前沿强度高
+- KITE | Catalyst Orbit | 官方催化已入场
 - NES | Frontier Orbit | Alpha 前沿强度高
-- BOBAOPPA | Core Orbit | 聪明钱或信号确认偏强
-- ETH | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - ANSEM | ANSEM 当前位于 Spec 级观测轨道
-- 摘要：聪明钱或信号确认偏强；社媒热度已形成外部引力
+- 摘要：社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：引力压缩 | 社媒引力场 监测摘要
