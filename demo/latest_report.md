@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-18T23:50:44.666615+00:00
+- 生成时间：2026-07-19T01:11:52.386300+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 57.5 | 资产：AERO
-- Alpha 前沿层 | 强度 40.6 | 资产：AERO、UP、AKE、STAR
-- 社媒引力场 | 强度 38.8 | 资产：AERO、BTC、ETH、SOL
-- Launchpad 迷因团 | 强度 34.5 | 资产：JIMOTHY、STAR、BENNY、B
-- 聪明钱跃迁层 | 强度 28.4 | 资产：JIMOTHY、BENNY、KXG、WINGIT
+- 官方催化带 | 强度 57.2 | 资产：AERO
+- Alpha 前沿层 | 强度 40.8 | 资产：AERO、UP、STAR、AKE
+- 社媒引力场 | 强度 38.7 | 资产：AERO、BTC、ETH、SOL
+- Launchpad 迷因团 | 强度 31.6 | 资产：STAR、JIMOTHY、B、HOME
+- 聪明钱跃迁层 | 强度 28.6 | 资产：JIMOTHY、BRIAN、KXG、GS
 
 ## 场景引擎
 - AERO 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -18,18 +18,17 @@
 
 ## 引力预警
 - VORF | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- KERNAL | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- 杀零狗 | Medium | 链上风险或标签风险偏高；流动性偏薄
+- VDOR | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - AERO | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高；社媒热度已形成外部引力
-- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强
 - UP | Frontier Orbit | Alpha 前沿强度高
-- AKE | Frontier Orbit | Alpha 前沿强度高
 - STAR | Frontier Orbit | Alpha 前沿强度高
+- AKE | Frontier Orbit | Alpha 前沿强度高
+- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- BENNY | Core Orbit | 聪明钱或信号确认偏强
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- NES | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - AERO | AERO 当前位于 Spec 级观测轨道
