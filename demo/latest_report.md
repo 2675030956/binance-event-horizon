@@ -1,34 +1,33 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-19T20:23:33.169929+00:00
+- 生成时间：2026-07-19T21:11:11.952623+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 50.0 | 资产：AERO
-- Alpha 前沿层 | 强度 38.4 | 资产：AERO、BANK、UP、AKE
-- Launchpad 迷因团 | 强度 34.8 | 资产：屎币、BTC、B、KAITO
-- 社媒引力场 | 强度 32.6 | 资产：BTC、XRP、ETH、SOL
-- 聪明钱跃迁层 | 强度 30.8 | 资产：屎币、猴子币、FOLK、旺旺
+- 官方催化带 | 强度 50.1 | 资产：AERO
+- Alpha 前沿层 | 强度 40.4 | 资产：AERO、PUMP、BANK、UP
+- Launchpad 迷因团 | 强度 37.4 | 资产：AGAMEMNON、JIMOTHY、BTC、B
+- 聪明钱跃迁层 | 强度 36.7 | 资产：AGAMEMNON、PUMP、JIMOTHY、旺旺
+- 社媒引力场 | 强度 33.1 | 资产：BTC、XRP、ETH、SOL
 
 ## 场景引擎
 - AERO 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- 屎币 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- BANK Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- AGAMEMNON 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - HANDL | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ALPS | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - AERO | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
-- 屎币 | Core Orbit | 聪明钱或信号确认偏强
+- AGAMEMNON | Core Orbit | 聪明钱或信号确认偏强
+- PUMP | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
+- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - BANK | Frontier Orbit | Alpha 前沿强度高
 - UP | Frontier Orbit | Alpha 前沿强度高
 - AKE | Frontier Orbit | Alpha 前沿强度高
-- XRP | Core Orbit | 社媒热度已形成外部引力
-- ESPORTS | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - AERO | AERO 当前位于 Spec 级观测轨道
