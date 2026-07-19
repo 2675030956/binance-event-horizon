@@ -1,19 +1,19 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-19T11:43:21.408677+00:00
+- 生成时间：2026-07-19T12:36:50.681747+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 56.9 | 资产：AERO
-- Alpha 前沿层 | 强度 39.5 | 资产：AERO、UP、BANK、AKE
-- 社媒引力场 | 强度 39.3 | 资产：AERO、BTC、ANSEM、ETH
-- Launchpad 迷因团 | 强度 35.3 | 资产：MAI、BTC、AGAMEMNON、ANSEM
-- 聪明钱跃迁层 | 强度 32.8 | 资产：MAI、AGAMEMNON、MRSUE、DOG
+- 官方催化带 | 强度 56.7 | 资产：AERO
+- Alpha 前沿层 | 强度 39.6 | 资产：AERO、UP、BANK、AKE
+- 社媒引力场 | 强度 38.6 | 资产：AERO、BTC、ETH、KAITO
+- Launchpad 迷因团 | 强度 33.3 | 资产：BTC、BISCOTTI、屁币、HELEN
+- 聪明钱跃迁层 | 强度 30.8 | 资产：BISCOTTI、屁币、HELEN、FNSD
 
 ## 场景引擎
 - AERO 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- MAI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BISCOTTI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - UP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -27,13 +27,13 @@
 
 ## 优先观察轨道
 - AERO | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高；社媒热度已形成外部引力
-- MAI | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - UP | Frontier Orbit | Alpha 前沿强度高
-- AGAMEMNON | Core Orbit | 聪明钱或信号确认偏强
+- BISCOTTI | Core Orbit | 聪明钱或信号确认偏强
 - BANK | Frontier Orbit | Alpha 前沿强度高
-- ANSEM | Core Orbit | 社媒热度已形成外部引力
 - AKE | Frontier Orbit | Alpha 前沿强度高
+- NES | Frontier Orbit | Alpha 前沿强度高
+- ETH | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - AERO | AERO 当前位于 Spec 级观测轨道
