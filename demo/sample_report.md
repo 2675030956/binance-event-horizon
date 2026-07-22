@@ -1,14 +1,14 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-22T20:00:19.420913+00:00
+- 生成时间：2026-07-22T21:16:37.112741+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 40.7 | 资产：PUMP、AERO、BTC、SOL
-- Alpha 前沿层 | 强度 40.5 | 资产：PUMP、AERO、NES、BANK
-- 聪明钱跃迁层 | 强度 34.1 | 资产：JIMOTHY、币有、RUSSELL、Z
-- Launchpad 迷因团 | 强度 32.6 | 资产：JIMOTHY、币有、Z、VANA
+- 社媒引力场 | 强度 41.4 | 资产：PUMP、AERO、BTC、ANSEM
+- Alpha 前沿层 | 强度 40.3 | 资产：PUMP、AERO、NES、BANK
+- Launchpad 迷因团 | 强度 32.8 | 资产：JIMOTHY、ANSEM、ROKO、CRWVB
+- 聪明钱跃迁层 | 强度 29.7 | 资产：JIMOTHY、ROKO、COMPUTE、MIGGLES
 - 官方催化带 | 强度 23.1 | 资产：BNB、VANA、ZEST
 
 ## 场景引擎
@@ -17,18 +17,18 @@
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- 奋斗人生 | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- GRASS | Medium | 链上风险或标签风险偏高
+- 奋斗人生 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- STAR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - JIMOTHY | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- NES | Frontier Orbit | Alpha 前沿强度高
-- BNB | Catalyst Orbit | 官方催化已入场
-- 币有 | Core Orbit | 聪明钱或信号确认偏强
+- ANSEM | Core Orbit | 社媒热度已形成外部引力
 - SOL | Core Orbit | 社媒热度已形成外部引力
+- ETH | Core Orbit | 社媒热度已形成外部引力
+- BNB | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
