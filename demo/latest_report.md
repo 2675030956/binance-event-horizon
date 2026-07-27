@@ -1,37 +1,38 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-27T22:01:38.298312+00:00
+- 生成时间：2026-07-27T23:13:39.344309+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 34.1 | 资产：PUMP、ESP、BANK、AERO
-- 聪明钱跃迁层 | 强度 34.0 | 资产：MARS、CODEX、BASTILLE、MEME
-- Launchpad 迷因团 | 强度 32.6 | 资产：CODEX、BASTILLE、MEME、CJ
-- 社媒引力场 | 强度 31.8 | 资产：PUMP、BTC、ETH、SOL
-- 官方催化带 | 强度 17.3 | 资产：BNB、AVA、NOK
+- Alpha 前沿层 | 强度 33.9 | 资产：PUMP、IDOL、BANK、BEAT
+- 社媒引力场 | 强度 33.4 | 资产：PUMP、JIMOTHY、BTC、ETH
+- 聪明钱跃迁层 | 强度 33.2 | 资产：IDOL、JIMOTHY、LOOKS、KIMCHI
+- Launchpad 迷因团 | 强度 31.6 | 资产：JIMOTHY、LOOKS、KIMCHI、KAITO
+- 官方催化带 | 强度 17.4 | 资产：BNB、AVA、NOK
 
 ## 场景引擎
 - AVA 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- MARS 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- IDOL 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - SPCXB | Medium | 链上风险或标签风险偏高
+- FUEL | Medium | 链上风险或标签风险偏高；流动性偏薄
 - TRACKERSLIST | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - PHAROS | Medium | 链上风险或标签风险偏高
+- BOLE | Medium | 链上风险或标签风险偏高；流动性偏薄
 - BOB | Medium | 链上风险或标签风险偏高
-- FUEL | Medium | 链上风险或标签风险偏高；流动性偏薄
 - GRASS | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- MARS | Core Orbit | 聪明钱或信号确认偏强
-- CODEX | Core Orbit | 聪明钱或信号确认偏强
-- ESP | Frontier Orbit | Alpha 前沿强度高
+- IDOL | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
+- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
+- LOOKS | Core Orbit | 聪明钱或信号确认偏强
 - BANK | Frontier Orbit | Alpha 前沿强度高
-- BASTILLE | Core Orbit | 聪明钱或信号确认偏强
-- MEME | Core Orbit | 聪明钱或信号确认偏强
+- BEAT | Frontier Orbit | Alpha 前沿强度高
+- KIMCHI | Core Orbit | 聪明钱或信号确认偏强
 - AERO | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
