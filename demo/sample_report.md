@@ -1,14 +1,14 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-27T19:48:54.556709+00:00
+- 生成时间：2026-07-27T20:55:29.132757+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 33.9 | 资产：PUMP、BANK、AERO、ESP
-- 社媒引力场 | 强度 32.1 | 资产：PUMP、ETH、BTC、SOL
-- 聪明钱跃迁层 | 强度 30.8 | 资产：MARS、何必东奔西走币安全部都有、BREADCAT、PRCP
-- Launchpad 迷因团 | 强度 29.4 | 资产：何必东奔西走币安全部都有、BREADCAT、PRCP、CATE
+- Alpha 前沿层 | 强度 34.4 | 资产：PUMP、BANK、ESP、AERO
+- 社媒引力场 | 强度 33.7 | 资产：PUMP、JIMOTHY、ETH、BTC
+- 聪明钱跃迁层 | 强度 32.7 | 资产：MARS、JIMOTHY、BASEMATE、EVO
+- Launchpad 迷因团 | 强度 28.2 | 资产：JIMOTHY、KAITO、MARSCOIN、CPO
 - 官方催化带 | 强度 17.3 | 资产：BNB、AVA、NOK
 
 ## 场景引擎
@@ -25,11 +25,11 @@
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - MARS | Core Orbit | 聪明钱或信号确认偏强
+- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - BANK | Frontier Orbit | Alpha 前沿强度高
-- AERO | Frontier Orbit | Alpha 前沿强度高
 - ESP | Frontier Orbit | Alpha 前沿强度高
-- QUQ | Frontier Orbit | Alpha 前沿强度高
-- 何必东奔西走币安全部都有 | Core Orbit | 聪明钱或信号确认偏强
+- AERO | Frontier Orbit | Alpha 前沿强度高
+- BASEMATE | Core Orbit | 聪明钱或信号确认偏强
 - BEAT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
