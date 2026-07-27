@@ -1,14 +1,14 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-27T20:55:29.132757+00:00
+- 生成时间：2026-07-27T22:01:38.298312+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 34.4 | 资产：PUMP、BANK、ESP、AERO
-- 社媒引力场 | 强度 33.7 | 资产：PUMP、JIMOTHY、ETH、BTC
-- 聪明钱跃迁层 | 强度 32.7 | 资产：MARS、JIMOTHY、BASEMATE、EVO
-- Launchpad 迷因团 | 强度 28.2 | 资产：JIMOTHY、KAITO、MARSCOIN、CPO
+- Alpha 前沿层 | 强度 34.1 | 资产：PUMP、ESP、BANK、AERO
+- 聪明钱跃迁层 | 强度 34.0 | 资产：MARS、CODEX、BASTILLE、MEME
+- Launchpad 迷因团 | 强度 32.6 | 资产：CODEX、BASTILLE、MEME、CJ
+- 社媒引力场 | 强度 31.8 | 资产：PUMP、BTC、ETH、SOL
 - 官方催化带 | 强度 17.3 | 资产：BNB、AVA、NOK
 
 ## 场景引擎
@@ -18,22 +18,24 @@
 
 ## 引力预警
 - SPCXB | Medium | 链上风险或标签风险偏高
+- TRACKERSLIST | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - PHAROS | Medium | 链上风险或标签风险偏高
 - BOB | Medium | 链上风险或标签风险偏高
+- FUEL | Medium | 链上风险或标签风险偏高；流动性偏薄
 - GRASS | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - MARS | Core Orbit | 聪明钱或信号确认偏强
-- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
-- BANK | Frontier Orbit | Alpha 前沿强度高
+- CODEX | Core Orbit | 聪明钱或信号确认偏强
 - ESP | Frontier Orbit | Alpha 前沿强度高
+- BANK | Frontier Orbit | Alpha 前沿强度高
+- BASTILLE | Core Orbit | 聪明钱或信号确认偏强
+- MEME | Core Orbit | 聪明钱或信号确认偏强
 - AERO | Frontier Orbit | Alpha 前沿强度高
-- BASEMATE | Core Orbit | 聪明钱或信号确认偏强
-- BEAT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
-- PUMP | PUMP 当前位于 Spec 级观测轨道
+- PUMP | PUMP 当前位于 Shadow 级观测轨道
 - 摘要：Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 广播封包
