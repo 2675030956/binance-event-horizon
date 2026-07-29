@@ -1,27 +1,29 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-29T10:01:52.442350+00:00
+- 生成时间：2026-07-29T12:09:48.958425+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 40.6 | 资产：BTC、ETH、USDC、EUL
-- 社媒引力场 | 强度 37.9 | 资产：BTC、ETH、AERO、KAITO
-- Alpha 前沿层 | 强度 34.2 | 资产：AERO、BANK、AEON、ON
-- Launchpad 迷因团 | 强度 30.4 | 资产：MARKETCAT、TCC、PIPECAT、KAITO
-- 聪明钱跃迁层 | 强度 29.1 | 资产：MARKETCAT、TCC、PIPECAT、UNDERDOG
+- 官方催化带 | 强度 39.5 | 资产：BTC、ETH、USDC、BNB
+- 社媒引力场 | 强度 36.8 | 资产：BTC、ETH、AERO、SOL
+- Alpha 前沿层 | 强度 33.4 | 资产：AERO、BANK、AEON、PUMP
+- Launchpad 迷因团 | 强度 31.7 | 资产：DREGG、MARSCOIN、CATJAK、YOTS
+- 聪明钱跃迁层 | 强度 30.2 | 资产：DREGG、CATJAK、YOTS、a2808e4444
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- MARKETCAT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- DREGG 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AERO Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - DAM | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CHINATEXTBOOK | Medium | 链上风险或标签风险偏高；流动性偏薄
+- SPCXB | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- VIRTUAL | Medium | 链上风险或标签风险偏高
 - CTR | Medium | 链上风险或标签风险偏高
-- TRANSLUCENTTB | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- BOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - DN | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
@@ -29,10 +31,10 @@
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - USDC | Catalyst Orbit | 官方催化已入场
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- MARKETCAT | Core Orbit | 聪明钱或信号确认偏强
-- EUL | Catalyst Orbit | 官方催化已入场
 - BANK | Frontier Orbit | Alpha 前沿强度高
 - BNB | Catalyst Orbit | 官方催化已入场
+- DREGG | Core Orbit | 聪明钱或信号确认偏强
+- MARSCOIN | Core Orbit | 多源信号有初步共振，但尚未形成绝对单边
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
