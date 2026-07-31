@@ -1,40 +1,42 @@
 # 币安事件地平线
 
-- 生成时间：2026-07-30T23:47:57.072000+00:00
+- 生成时间：2026-07-31T01:16:42.418228+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 43.2 | 资产：GRVT、MARSCOIN、CAP、MU
-- Launchpad 迷因团 | 强度 35.6 | 资产：MARSCOIN、MU、LINKR、SNXXB
-- 官方催化带 | 强度 35.0 | 资产：GRVT、CAP、MIRA、JMKE
-- 社媒引力场 | 强度 33.9 | 资产：MARSCOIN、MU、BTC、ETH
-- 聪明钱跃迁层 | 强度 25.2 | 资产：LINKR、YILONGMA、FINDER、DECLAN
+- 官方催化带 | 强度 42.0 | 资产：CAP、GRVT、COM、MIRA
+- Alpha 前沿层 | 强度 41.7 | 资产：CAP、GRVT、MARSCOIN、MU
+- Launchpad 迷因团 | 强度 38.2 | 资产：COM、MARSCOIN、LINKR、MU
+- 聪明钱跃迁层 | 强度 35.4 | 资产：COM、LINKR、TBB、QQQB
+- 社媒引力场 | 强度 32.9 | 资产：MARSCOIN、MU、SURPLUS、BTC
 
 ## 场景引擎
-- GRVT 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- LINKR 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- MARSCOIN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- CAP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- COM 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- GRVT Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- SPCXB | Medium | 链上风险或标签风险偏高
 - PHAROS | Medium | 链上风险或标签风险偏高
+- NVDAB | Medium | 链上风险或标签风险偏高
+- HTTPX | Medium | 链上风险或标签风险偏高；流动性偏薄
+- PRIVATEGPT | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
-- GRVT | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
-- MARSCOIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - CAP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
-- MU | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- GRVT | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- COM | Catalyst Orbit | 官方催化已入场；聪明钱或信号确认偏强
+- MARSCOIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - LINKR | Core Orbit | 聪明钱或信号确认偏强
-- BANK | Frontier Orbit | Alpha 前沿强度高
-- AEON | Frontier Orbit | Alpha 前沿强度高
+- MU | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - MIRA | Catalyst Orbit | 官方催化已入场
+- TBB | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
-- GRVT | GRVT 当前位于 Spec 级观测轨道
+- CAP | CAP 当前位于 Spec 级观测轨道
 - 摘要：官方催化已入场；Alpha 前沿强度高
 
 ## 广播封包
-- 标题：引力压缩 | Alpha 前沿层 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 Alpha 前沿层，优先跟踪资产为 GRVT，首要风险关注 SPCXB。
-- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「Alpha 前沿层」，优先跟踪资产为 GRVT。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
+- 标题：引力压缩 | 官方催化带 监测摘要
+- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 官方催化带，优先跟踪资产为 CAP，首要风险关注 PHAROS。
+- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「官方催化带」，优先跟踪资产为 CAP。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
