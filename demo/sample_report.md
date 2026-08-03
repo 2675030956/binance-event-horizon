@@ -1,36 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-03T22:18:32.756071+00:00
+- 生成时间：2026-08-03T23:30:37.083907+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 46.6 | 资产：GRVT
-- Alpha 前沿层 | 强度 35.5 | 资产：GRVT、BLESS、AEON、UAI
-- 社媒引力场 | 强度 34.0 | 资产：BTC、ETH、SURPLUS、XRP
-- Launchpad 迷因团 | 强度 28.4 | 资产：TURTLENECK、HORSE、CRWVB、KAITO
-- 聪明钱跃迁层 | 强度 27.9 | 资产：TURTLENECK、HORSE、SURPLUS、ANTHROPIC
+- 官方催化带 | 强度 46.5 | 资产：GRVT
+- Alpha 前沿层 | 强度 35.1 | 资产：GRVT、AEON、UAI、IDOL
+- 社媒引力场 | 强度 32.2 | 资产：BTC、ETH、KAITO、SOL
+- Launchpad 迷因团 | 强度 27.8 | 资产：领头羊、SHIPY、CRWVB、KAITO
+- 聪明钱跃迁层 | 强度 26.3 | 资产：领头羊、SHIPY、BLESS、ANTHROPIC
 
 ## 场景引擎
 - GRVT 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- TURTLENECK 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- BLESS Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- 领头羊 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- AEON Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - VVV | Medium | 链上风险或标签风险偏高
-- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- EXCEPTIONLESS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- REVOLUTION | Medium | 链上风险或标签风险偏高；流动性偏薄
+- RYTUNEX | Medium | 链上风险或标签风险偏高；流动性偏薄
 - TRUST | Medium | 链上风险或标签风险偏高
+- OPENSNITCH | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - GRVT | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
-- BLESS | Frontier Orbit | Alpha 前沿强度高
 - AEON | Frontier Orbit | Alpha 前沿强度高
 - UAI | Frontier Orbit | Alpha 前沿强度高
 - IDOL | Frontier Orbit | Alpha 前沿强度高
 - PUMP | Frontier Orbit | Alpha 前沿强度高
+- BEAT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - GRVT | GRVT 当前位于 Spec 级观测轨道
