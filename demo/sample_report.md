@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-04T11:40:53.114787+00:00
+- 生成时间：2026-08-04T13:23:24.517366+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 47.3 | 资产：BTC、GRVT
-- 社媒引力场 | 强度 37.9 | 资产：BTC、ETH、PUMP、XRP
-- Alpha 前沿层 | 强度 36.8 | 资产：GRVT、PUMP、UAI、AEON
-- Launchpad 迷因团 | 强度 30.4 | 资产：TIKTOK、MARSCOIN、SNXXB、帕鲁
-- 聪明钱跃迁层 | 强度 28.9 | 资产：TIKTOK、MARSCOIN、KIMCHI、PHENIX
+- 官方催化带 | 强度 46.7 | 资产：BTC、GRVT
+- 社媒引力场 | 强度 41.6 | 资产：BTC、QUID、ETH、PUMP
+- Alpha 前沿层 | 强度 39.3 | 资产：GRVT、QUID、PUMP、UAI
+- Launchpad 迷因团 | 强度 29.7 | 资产：TIKTOK、MARSCOIN、SNXXB、RTX
+- 聪明钱跃迁层 | 强度 27.2 | 资产：TIKTOK、MARSCOIN、RTX、USUR
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -18,20 +18,20 @@
 
 ## 引力预警
 - CYS | Medium | 链上风险或标签风险偏高
-- AI | Medium | 链上风险或标签风险偏高；流动性偏薄
-- SERVER | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - VVV | Medium | 链上风险或标签风险偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- MINIO | Medium | 链上风险或标签风险偏高；流动性偏薄
+- GOFAKEIT | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - GRVT | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- QUID | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - TIKTOK | Core Orbit | 聪明钱或信号确认偏强
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - UAI | Frontier Orbit | Alpha 前沿强度高
 - AEON | Frontier Orbit | Alpha 前沿强度高
-- IDOL | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
