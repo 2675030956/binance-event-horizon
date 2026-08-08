@@ -1,39 +1,38 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-08T11:58:48.320237+00:00
+- 生成时间：2026-08-08T12:55:58.457278+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 35.0 | 资产：BTC、QUID、ETH、KAITO
-- Alpha 前沿层 | 强度 32.9 | 资产：QUID、ON、QUQ、GWEI
-- Launchpad 迷因团 | 强度 28.4 | 资产：NEEGY、币有、KAITO、SUN
-- 官方催化带 | 强度 27.2 | 资产：BTC、USD1、BNB、BSTOCKS
-- 聪明钱跃迁层 | 强度 26.2 | 资产：NEEGY、币有、FROGBUTT、ATLAS
+- 社媒引力场 | 强度 36.1 | 资产：BTC、QUID、ETH、SOL
+- 官方催化带 | 强度 33.6 | 资产：BTC、USD1、BNB、POWER
+- Alpha 前沿层 | 强度 32.1 | 资产：QUID、QUQ、ON、BEAT
+- 聪明钱跃迁层 | 强度 29.3 | 资产：RWA3D、PIZZA、时间、稳马胜奔熊低头窗下跑
+- Launchpad 迷因团 | 强度 29.3 | 资产：RWA3D、PIZZA、时间、稳马胜奔熊低头窗下跑
 
 ## 场景引擎
-- BSTOCKS 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- NEEGY 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- RWA3D 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - QUID Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - SPCXB | Medium | 链上风险或标签风险偏高
-- XUI | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- BSTOCKS | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- FUEL | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
-- BTC | Core Orbit | 社媒热度已形成外部引力
+- BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - QUID | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- NEEGY | Core Orbit | 聪明钱或信号确认偏强
-- ON | Frontier Orbit | Alpha 前沿强度高
+- USD1 | Catalyst Orbit | 官方催化已入场
+- BNB | Catalyst Orbit | 官方催化已入场
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - QUQ | Frontier Orbit | Alpha 前沿强度高
-- GWEI | Frontier Orbit | Alpha 前沿强度高
-- BSB | Frontier Orbit | Alpha 前沿强度高
+- ON | Frontier Orbit | Alpha 前沿强度高
+- RWA3D | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
-- 摘要：社媒热度已形成外部引力
+- 摘要：官方催化已入场；社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：高热分歧 | 社媒引力场 监测摘要
