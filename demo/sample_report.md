@@ -1,34 +1,34 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-12T21:59:27.972821+00:00
+- 生成时间：2026-08-12T22:48:40.456596+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 46.6 | 资产：BTC、ETH、BNB、DOS
-- 社媒引力场 | 强度 45.1 | 资产：BTC、ETH、BNB、PUMP
-- Alpha 前沿层 | 强度 34.8 | 资产：DOS、PUMP、BEAT、AEON
-- Launchpad 迷因团 | 强度 33.5 | 资产：UTILITY、GME、TOAD、NBISB
-- 聪明钱跃迁层 | 强度 32.8 | 资产：UTILITY、GME、TOAD、GTA6
+- 官方催化带 | 强度 48.9 | 资产：BTC、BSTOCKS、ETH、BNB
+- 社媒引力场 | 强度 45.5 | 资产：BTC、ETH、BNB、PUMP
+- 聪明钱跃迁层 | 强度 37.9 | 资产：BSTOCKS、GTA、ELONCOIN、MEIMEI
+- Launchpad 迷因团 | 强度 37.9 | 资产：BSTOCKS、GTA、ELONCOIN、MEIMEI
+- Alpha 前沿层 | 强度 35.0 | 资产：DOS、PUMP、BEAT、AEON
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- UTILITY 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BSTOCKS 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - DOS Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- INFNTY | Medium | 链上风险或标签风险偏高；流动性偏薄
-- CYS | Medium | 链上风险或标签风险偏高
+- GULD | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CHIPS | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
+- BSTOCKS | Catalyst Orbit | 官方催化已入场；聪明钱或信号确认偏强
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - DOS | Frontier Orbit | Alpha 前沿强度高
-- UTILITY | Core Orbit | 聪明钱或信号确认偏强
-- GME | Core Orbit | 聪明钱或信号确认偏强
+- GTA | Core Orbit | 聪明钱或信号确认偏强
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- BEAT | Frontier Orbit | Alpha 前沿强度高
+- ELONCOIN | Core Orbit | 聪明钱或信号确认偏强
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
@@ -36,5 +36,5 @@
 
 ## 广播封包
 - 标题：高热分歧 | 官方催化带 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 官方催化带，优先跟踪资产为 BTC，首要风险关注 INFNTY。
+- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 官方催化带，优先跟踪资产为 BTC，首要风险关注 GULD。
 - Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「高热分歧」，主导驱动为「官方催化带」，优先跟踪资产为 BTC。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
