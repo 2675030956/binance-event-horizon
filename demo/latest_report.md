@@ -1,46 +1,45 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-15T05:54:12.090257+00:00
+- 生成时间：2026-08-15T06:22:20.096223+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 41.0 | 资产：CAP、USDC
-- Alpha 前沿层 | 强度 37.6 | 资产：CAP、ROBO、LAB、APR
-- 社媒引力场 | 强度 33.7 | 资产：LAB、BTC、PUMP、ETH
-- 聪明钱跃迁层 | 强度 31.3 | 资产：牛来、CZBNB、CHINAMAXXING、BNB
-- Launchpad 迷因团 | 强度 31.3 | 资产：牛来、CZBNB、CHINAMAXXING、BNB
+- 官方催化带 | 强度 37.7 | 资产：BINANCE
+- 聪明钱跃迁层 | 强度 36.5 | 资产：BINANCE、牛来、QENIS、BNB
+- Launchpad 迷因团 | 强度 36.5 | 资产：BINANCE、牛来、QENIS、BNB
+- Alpha 前沿层 | 强度 34.0 | 资产：LAB、ROBO、APR、PUMP
+- 社媒引力场 | 强度 33.6 | 资产：LAB、BTC、PUMP、ETH
 
 ## 场景引擎
-- CAP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- BINANCE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - 牛来 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- ROBO Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- LAB Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - CYS | Medium | 链上风险或标签风险偏高
-- STORM | Medium | 链上风险或标签风险偏高；流动性偏薄
-- VNPY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- DALLEMINI | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- CSVIDEOCOURSES | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - STAR | Medium | 链上风险或标签风险偏高
 - ACU | Medium | 链上风险或标签风险偏高
-- WINDTERM | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ZJUICICLES | Medium | 链上风险或标签风险偏高；流动性偏薄
-- LIVEPORTRAIT | Medium | 链上风险或标签风险偏高；流动性偏薄
+- LIBRECHAT | Medium | 链上风险或标签风险偏高；流动性偏薄
+- AFFINE | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
-- CAP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- BINANCE | Catalyst Orbit | 官方催化已入场
 - 牛来 | Core Orbit | 聪明钱或信号确认偏强
-- USDC | Catalyst Orbit | 官方催化已入场
-- ROBO | Frontier Orbit | Alpha 前沿强度高
+- QENIS | Core Orbit | 聪明钱或信号确认偏强
+- BNB | Core Orbit | 聪明钱或信号确认偏强
 - LAB | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
+- ROBO | Frontier Orbit | Alpha 前沿强度高
 - APR | Frontier Orbit | Alpha 前沿强度高
-- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 聚焦资产
-- CAP | CAP 当前位于 Spec 级观测轨道
-- 摘要：官方催化已入场；Alpha 前沿强度高
+- BINANCE | BINANCE 当前位于 Shadow 级观测轨道
+- 摘要：官方催化已入场
 
 ## 广播封包
 - 标题：引力压缩 | 官方催化带 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 官方催化带，优先跟踪资产为 CAP，首要风险关注 CYS。
-- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「官方催化带」，优先跟踪资产为 CAP。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
+- X：币安事件地平线最新监测：当前市场处于 引力压缩 阶段，主导驱动为 官方催化带，优先跟踪资产为 BINANCE，首要风险关注 CYS。
+- Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「引力压缩」，主导驱动为「官方催化带」，优先跟踪资产为 BINANCE。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
