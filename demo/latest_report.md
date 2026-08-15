@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-15T11:00:57.445370+00:00
+- 生成时间：2026-08-15T11:27:36.372317+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 40.5 | 资产：CAP、USDC
-- Alpha 前沿层 | 强度 37.2 | 资产：CAP、APR、ROBO、PUMP
-- 聪明钱跃迁层 | 强度 32.8 | 资产：牛来、豹拉、MOLLIE、POPTART
-- Launchpad 迷因团 | 强度 32.8 | 资产：牛来、豹拉、MOLLIE、POPTART
-- 社媒引力场 | 强度 32.2 | 资产：BTC、PUMP、ETH、XRP
+- 官方催化带 | 强度 40.9 | 资产：CAP、USDC
+- Alpha 前沿层 | 强度 37.7 | 资产：CAP、APR、ROBO、PUMP
+- 社媒引力场 | 强度 32.6 | 资产：BTC、PUMP、ETH、XRP
+- Launchpad 迷因团 | 强度 30.4 | 资产：牛来、QENIS、BNB、TILLY
+- 聪明钱跃迁层 | 强度 29.7 | 资产：牛来、QENIS、TILLY、MARSCOIN
 
 ## 场景引擎
 - CAP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -18,10 +18,12 @@
 
 ## 引力预警
 - CYS | Medium | 链上风险或标签风险偏高
+- 50PROJECTS50DAYS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - STAR | Medium | 链上风险或标签风险偏高
-- STANFORDALPACA | Medium | 链上风险或标签风险偏高；流动性偏薄
-- JAN | Medium | 链上风险或标签风险偏高；流动性偏薄
-- ESBUILD | Medium | 链上风险或标签风险偏高
+- ACU | Medium | 链上风险或标签风险偏高
+- PAYUM | Medium | 链上风险或标签风险偏高；流动性偏薄
+- PYDANTICAI | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ZJUICICLES | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - CAP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
