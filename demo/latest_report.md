@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-15T12:40:36.995817+00:00
+- 生成时间：2026-08-15T13:16:22.893244+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 41.0 | 资产：CAP、USDC
-- Alpha 前沿层 | 强度 36.8 | 资产：CAP、APR、PUMP、BEAT
-- 聪明钱跃迁层 | 强度 33.0 | 资产：牛来、SHINJUKU、豹拉、LOOKSMAX
-- Launchpad 迷因团 | 强度 33.0 | 资产：牛来、SHINJUKU、豹拉、LOOKSMAX
-- 社媒引力场 | 强度 32.4 | 资产：BTC、PUMP、ETH、XRP
+- 官方催化带 | 强度 39.7 | 资产：CAP、USDC
+- Alpha 前沿层 | 强度 35.7 | 资产：CAP、APR、PUMP、BEAT
+- 聪明钱跃迁层 | 强度 34.9 | 资产：牛来、巨兽BEHEMOTH、SUMMER、牛来
+- Launchpad 迷因团 | 强度 34.9 | 资产：牛来、巨兽BEHEMOTH、SUMMER、牛来
+- 社媒引力场 | 强度 31.1 | 资产：BTC、PUMP、ETH、XRP
 
 ## 场景引擎
 - CAP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -20,19 +20,20 @@
 - CYS | Medium | 链上风险或标签风险偏高
 - PHAROS | Medium | 链上风险或标签风险偏高
 - GRASS | Medium | 链上风险或标签风险偏高
-- WEBDAV | Medium | 链上风险或标签风险偏高；流动性偏薄
-- VUE2ELM | Medium | 链上风险或标签风险偏高；流动性偏薄
-- SPOTUBE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- VEGETA | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- KII | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- ZANK | Medium | 链上风险或标签风险偏高；流动性偏薄
+- SUP | Medium | 链上风险或标签风险偏高
+- F3D | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ETCHER | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - CAP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - 牛来 | Core Orbit | 聪明钱或信号确认偏强
 - USDC | Catalyst Orbit | 官方催化已入场
 - APR | Frontier Orbit | Alpha 前沿强度高
+- 巨兽BEHEMOTH | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- ETH | Core Orbit | 社媒热度已形成外部引力
 - BEAT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
