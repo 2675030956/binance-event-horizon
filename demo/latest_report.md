@@ -1,39 +1,39 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-15T14:51:07.092026+00:00
+- 生成时间：2026-08-15T15:05:21.567301+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
 - 官方催化带 | 强度 40.7 | 资产：CAP、USDC
-- Alpha 前沿层 | 强度 37.0 | 资产：CAP、APR、KII、BEAT
-- 社媒引力场 | 强度 31.5 | 资产：BTC、PUMP、ETH、XRP
-- 聪明钱跃迁层 | 强度 30.5 | 资产：LOOKSMAX、STOCKMEMES、牛来、羊高
-- Launchpad 迷因团 | 强度 30.5 | 资产：LOOKSMAX、STOCKMEMES、牛来、羊高
+- Alpha 前沿层 | 强度 38.0 | 资产：CAP、MARSCOIN、APR、KII
+- 社媒引力场 | 强度 31.6 | 资产：BTC、PUMP、ETH、XRP
+- Launchpad 迷因团 | 强度 30.8 | 资产：MARSCOIN、豹拉、BNB、LICKINGCAT
+- 聪明钱跃迁层 | 强度 27.9 | 资产：MARSCOIN、豹拉、LICKINGCAT、ALON
 
 ## 场景引擎
 - CAP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- LOOKSMAX 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- MARSCOIN 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - APR Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - CYS | Medium | 链上风险或标签风险偏高
-- VRA | Medium | 链上风险或标签风险偏高；流动性偏薄
 - PHAROS | Medium | 链上风险或标签风险偏高
 - GRASS | Medium | 链上风险或标签风险偏高
-- ROCKET | Medium | 链上风险或标签风险偏高；流动性偏薄
-- GOPROMPT | Medium | 链上风险或标签风险偏高；流动性偏薄
-- DOCKEROSX | Medium | 链上风险或标签风险偏高；流动性偏薄
+- FOMO | Medium | 链上风险或标签风险偏高；流动性偏薄
+- XXNET | Medium | 链上风险或标签风险偏高；流动性偏薄
+- DEEPFACE | Medium | 链上风险或标签风险偏高；流动性偏薄
+- 30DAYSOFREACT | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - CAP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- MARSCOIN | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
 - USDC | Catalyst Orbit | 官方催化已入场
 - APR | Frontier Orbit | Alpha 前沿强度高
-- KII | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- LOOKSMAX | Core Orbit | 聪明钱或信号确认偏强
+- 豹拉 | Core Orbit | 聪明钱或信号确认偏强
+- KII | Frontier Orbit | Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
-- ROBO | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - CAP | CAP 当前位于 Spec 级观测轨道
