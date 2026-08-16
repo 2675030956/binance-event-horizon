@@ -1,34 +1,33 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-16T16:57:24.379592+00:00
+- 生成时间：2026-08-16T17:19:21.612600+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 41.3 | 资产：CYS、MARSCOIN、CAP、AEON
-- 社媒引力场 | 强度 38.6 | 资产：CYS、MARSCOIN、BTC、ETH
-- 官方催化带 | 强度 38.5 | 资产：CAP、USDC
-- Launchpad 迷因团 | 强度 32.6 | 资产：MARSCOIN、币有、孫悟空、牛逼
-- 聪明钱跃迁层 | 强度 25.8 | 资产：币有、孫悟空、周一来、BASECAT
+- Alpha 前沿层 | 强度 41.1 | 资产：CYS、MARSCOIN、CAP、AEON
+- 官方催化带 | 强度 38.9 | 资产：CAP、USDC
+- 社媒引力场 | 强度 38.3 | 资产：CYS、MARSCOIN、BTC、ETH
+- Launchpad 迷因团 | 强度 34.5 | 资产：MARSCOIN、FROCK、币有、MOMOTA
+- 聪明钱跃迁层 | 强度 29.8 | 资产：FROCK、币有、MOMOTA、NIU6900
 
 ## 场景引擎
 - CAP 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- 币有 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- FROCK 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - CYS Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - VRA | Medium | 链上风险或标签风险偏高；流动性偏薄
-- FTR | Medium | 链上风险或标签风险偏高；流动性偏薄
+- LLAMA | Medium | 链上风险或标签风险偏高；流动性偏薄
 - Q | Medium | 链上风险或标签风险偏高
 - CTR | Medium | 链上风险或标签风险偏高
-- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - CYS | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - MARSCOIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - CAP | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- FROCK | Core Orbit | 聪明钱或信号确认偏强
 - USDC | Catalyst Orbit | 官方催化已入场
-- 币有 | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - AEON | Frontier Orbit | Alpha 前沿强度高
 - KII | Frontier Orbit | Alpha 前沿强度高
