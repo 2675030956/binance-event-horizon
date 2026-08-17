@@ -1,16 +1,16 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-17T20:00:00.160666+00:00
+- 生成时间：2026-08-17T20:34:15.525730+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
 - 官方催化带 | 强度 42.6 | 资产：BTC、BNB、USDC、COMP
-- 社媒引力场 | 强度 42.6 | 资产：BTC、BNB、ETH、SNDK
-- Alpha 前沿层 | 强度 37.0 | 资产：CYS、BEAT、BTW、CAP
-- Launchpad 迷因团 | 强度 34.9 | 资产：BULLSHIT、ACE、SNDK、MU
-- 聪明钱跃迁层 | 强度 33.8 | 资产：BULLSHIT、BTW、熊猫、SPACEXCOIN
-- 杠杆热层 | 强度 31.6 | 资产：ACE、ONG、BICO、BMT
+- 社媒引力场 | 强度 42.5 | 资产：BTC、BNB、ETH、SNDK
+- Alpha 前沿层 | 强度 36.6 | 资产：CYS、BEAT、DOS、XPIN
+- Launchpad 迷因团 | 强度 36.1 | 资产：BULLSHIT、EYE、ACE、SNDK
+- 聪明钱跃迁层 | 强度 32.8 | 资产：BULLSHIT、EYE、SPACEXCOIN、MARSCOIN
+- 杠杆热层 | 强度 31.4 | 资产：ACE、BICO、ONG、BMT
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -21,20 +21,19 @@
 ## 引力预警
 - STAR | Medium | 链上风险或标签风险偏高
 - COIN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- PDFMATHTRANSLATE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - ACE | Medium | 合约杠杆热度偏高
-- GRASS | Medium | 链上风险或标签风险偏高
+- ATMOSPHERE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - VVV | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- BULLSHIT | Core Orbit | 聪明钱或信号确认偏强
 - CYS | Frontier Orbit | Alpha 前沿强度高
+- BULLSHIT | Core Orbit | 聪明钱或信号确认偏强
 - BEAT | Frontier Orbit | Alpha 前沿强度高
-- BTW | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
+- EYE | Core Orbit | 聪明钱或信号确认偏强
 - ETH | Core Orbit | 社媒热度已形成外部引力
-- ACE | Volatility Orbit | 合约热度明显抬升
+- USDC | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
