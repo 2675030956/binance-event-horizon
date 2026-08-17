@@ -1,36 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-17T20:34:15.525730+00:00
+- 生成时间：2026-08-17T20:57:32.610006+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 42.6 | 资产：BTC、BNB、USDC、COMP
-- 社媒引力场 | 强度 42.5 | 资产：BTC、BNB、ETH、SNDK
-- Alpha 前沿层 | 强度 36.6 | 资产：CYS、BEAT、DOS、XPIN
-- Launchpad 迷因团 | 强度 36.1 | 资产：BULLSHIT、EYE、ACE、SNDK
-- 聪明钱跃迁层 | 强度 32.8 | 资产：BULLSHIT、EYE、SPACEXCOIN、MARSCOIN
-- 杠杆热层 | 强度 31.4 | 资产：ACE、BICO、ONG、BMT
+- 官方催化带 | 强度 42.3 | 资产：BTC、BNB、USDC、COMP
+- 社媒引力场 | 强度 42.0 | 资产：BTC、BNB、ETH、SNDK
+- Alpha 前沿层 | 强度 37.0 | 资产：CYS、BEAT、DOS、BTW
+- Launchpad 迷因团 | 强度 34.2 | 资产：ACE、EYE、SNDK、MU
+- 杠杆热层 | 强度 32.6 | 资产：ACE、BICO、ONG、HOME
+- 聪明钱跃迁层 | 强度 32.3 | 资产：EYE、BTW、熊猫、SPACEXCOIN
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - ACE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- BULLSHIT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- EYE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - CYS Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- STAR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
-- STAR | Medium | 链上风险或标签风险偏高
-- COIN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ACE | Medium | 合约杠杆热度偏高
-- ATMOSPHERE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- STAR | High | 链上风险或标签风险偏高
+- SUSD | Medium | 链上风险或标签风险偏高；流动性偏薄
 - VVV | Medium | 链上风险或标签风险偏高
+- ACE | Medium | 合约杠杆热度偏高
+- BICO | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - CYS | Frontier Orbit | Alpha 前沿强度高
-- BULLSHIT | Core Orbit | 聪明钱或信号确认偏强
 - BEAT | Frontier Orbit | Alpha 前沿强度高
+- ACE | Volatility Orbit | 合约热度明显抬升
 - EYE | Core Orbit | 聪明钱或信号确认偏强
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - USDC | Catalyst Orbit | 官方催化已入场
