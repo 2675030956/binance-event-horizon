@@ -1,47 +1,45 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-17T16:37:59.450777+00:00
+- 生成时间：2026-08-17T16:59:45.998911+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 39.8 | 资产：BTC、AEON、BNB、ETH
-- Alpha 前沿层 | 强度 37.1 | 资产：AEON、CYS、CAP、DOS
-- 官方催化带 | 强度 35.1 | 资产：BTC、BNB、USDC、WAL
-- 杠杆热层 | 强度 32.3 | 资产：CAP、ACE、BICO、ONG
-- Launchpad 迷因团 | 强度 31.4 | 资产：ACE、SPCX、MARSCOIN、PORTAL
-- 聪明钱跃迁层 | 强度 28.7 | 资产：MARSCOIN、BEAT、犇犇、MANLET
+- 社媒引力场 | 强度 44.6 | 资产：BTC、BNB、AEON、ETH
+- 官方催化带 | 强度 42.7 | 资产：BTC、BNB、USDC、WAL
+- Alpha 前沿层 | 强度 38.4 | 资产：AEON、CYS、BEAT、CAP
+- 杠杆热层 | 强度 33.2 | 资产：CAP、ACE、BICO、ONG
+- Launchpad 迷因团 | 强度 32.8 | 资产：ACE、SPCX、ANSEM、MU
+- 聪明钱跃迁层 | 强度 27.8 | 资产：ANSEM、犇犇、HOBBES、巨兽BEHEMOTH
 
 ## 场景引擎
-- BSTOCKS 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - ACE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- MARSCOIN 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- ANSEM 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AEON Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
-- STAR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
-- STAR | High | 链上风险或标签风险偏高
-- FHE | Medium | 链上风险或标签风险偏高
+- STAR | Medium | 链上风险或标签风险偏高
+- LEETCODEMASTER | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- BICO | Medium | 合约杠杆热度偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- C50 | Medium | 链上风险或标签风险偏高；流动性偏薄
-- BALD | Medium | 链上风险或标签风险偏高；流动性偏薄
-- BASE | Medium | 链上风险或标签风险偏高；流动性偏薄
-- ZORA | Medium | 链上风险或标签风险偏高
-- CHECK | Medium | 链上风险或标签风险偏高
+- VNPY | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- ACE | Medium | 合约杠杆热度偏高
+- ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
-- BTC | Core Orbit | 社媒热度已形成外部引力
+- BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
+- BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - AEON | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - CYS | Frontier Orbit | Alpha 前沿强度高
-- BNB | Core Orbit | 社媒热度已形成外部引力
-- CAP | Frontier Orbit | Alpha 前沿强度高
 - ETH | Core Orbit | 社媒热度已形成外部引力
-- DOS | Frontier Orbit | Alpha 前沿强度高
-- XPIN | Frontier Orbit | Alpha 前沿强度高
+- BEAT | Frontier Orbit | Alpha 前沿强度高
+- USDC | Catalyst Orbit | 官方催化已入场
+- CAP | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
-- 摘要：社媒热度已形成外部引力
+- 摘要：官方催化已入场；社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：高热分歧 | 社媒引力场 监测摘要
