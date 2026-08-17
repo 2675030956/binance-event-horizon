@@ -1,30 +1,30 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-17T21:49:20.736227+00:00
+- 生成时间：2026-08-17T22:07:50.094141+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 41.8 | 资产：BTC、BNB、USDC、COMP
-- 社媒引力场 | 强度 40.9 | 资产：BTC、BNB、ETH、SNDK
+- 官方催化带 | 强度 42.1 | 资产：BTC、BNB、USDC、COMP
+- 社媒引力场 | 强度 41.5 | 资产：BTC、BNB、ETH、SNDK
 - Alpha 前沿层 | 强度 36.5 | 资产：CYS、BEAT、DOS、XPIN
 - 杠杆热层 | 强度 31.2 | 资产：ACE、BICO、HOME、ONG
-- Launchpad 迷因团 | 强度 30.1 | 资产：ACE、SNDK、HOBBES、PORTAL
-- 聪明钱跃迁层 | 强度 24.3 | 资产：HOBBES、BLUEHARDHAT、EYE、CATE
+- Launchpad 迷因团 | 强度 30.8 | 资产：ACE、SNDK、PORTAL、BLUEHARDHAT
+- 聪明钱跃迁层 | 强度 25.9 | 资产：BLUEHARDHAT、ALIENS、MEOW、EYE
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - ACE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- HOBBES 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BLUEHARDHAT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - CYS Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 - STAR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
 - STAR | High | 链上风险或标签风险偏高
+- GRASS | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- GPTS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- AIOHTTP | Medium | 链上风险或标签风险偏高；流动性偏薄
+- BICO | Medium | 合约杠杆热度偏高
 - ZORA | Medium | 链上风险或标签风险偏高
 - CHECK | Medium | 链上风险或标签风险偏高
 - TRUST | Medium | 链上风险或标签风险偏高
@@ -34,10 +34,10 @@
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - CYS | Frontier Orbit | Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
-- USDC | Catalyst Orbit | 官方催化已入场
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- USDC | Catalyst Orbit | 官方催化已入场
+- DOS | Frontier Orbit | Alpha 前沿强度高
 - ACE | Volatility Orbit | 合约热度明显抬升
-- COMP | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
