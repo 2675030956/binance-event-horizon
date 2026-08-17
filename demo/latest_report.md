@@ -1,30 +1,30 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-17T15:25:20.362642+00:00
+- 生成时间：2026-08-17T15:48:04.071747+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 39.8 | 资产：BTC、AEON、BNB、ETH
-- Alpha 前沿层 | 强度 38.3 | 资产：AEON、CYS、CAP、BEAT
-- 官方催化带 | 强度 34.9 | 资产：BTC、BNB、USDC、WAL
-- 杠杆热层 | 强度 33.0 | 资产：CAP、BICO、ACE、HOME
-- Launchpad 迷因团 | 强度 31.2 | 资产：ACE、LAYOO、犇犇、PUMPCAT
-- 聪明钱跃迁层 | 强度 30.0 | 资产：LAYOO、犇犇、PUMPCAT、MARSCOIN
+- 社媒引力场 | 强度 40.1 | 资产：BTC、AEON、BNB、ETH
+- Alpha 前沿层 | 强度 38.0 | 资产：AEON、CYS、CAP、BEAT
+- 官方催化带 | 强度 35.1 | 资产：BTC、BNB、USDC、WAL
+- 杠杆热层 | 强度 32.7 | 资产：CAP、BICO、ACE、HOME
+- Launchpad 迷因团 | 强度 30.7 | 资产：ACE、SPCX、BASEJUICE、CRASHIUS
+- 聪明钱跃迁层 | 强度 27.1 | 资产：BASEJUICE、CRASHIUS、CUPSEY、WALLSTREET
 
 ## 场景引擎
 - BSTOCKS 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - CAP 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- LAYOO 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BASEJUICE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AEON Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
-- STAR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
-- STAR | High | 链上风险或标签风险偏高
+- STAR | Medium | 链上风险或标签风险偏高
+- PARALLELHASHMAP | Medium | 链上风险或标签风险偏高；流动性偏薄
+- OPENVOICE | Medium | 链上风险或标签风险偏高；流动性偏薄
 - VVV | Medium | 链上风险或标签风险偏高
-- SOCIALAPP | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- THEALGORITHM | Medium | 链上风险或标签风险偏高
-- INSTAPY | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- AZUL | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CHECK | Medium | 链上风险或标签风险偏高
 - BICO | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
@@ -35,7 +35,7 @@
 - CAP | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
 - DOS | Frontier Orbit | Alpha 前沿强度高
-- BICO | Volatility Orbit | 合约热度明显抬升
+- ETH | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
