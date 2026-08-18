@@ -1,39 +1,40 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-18T13:54:50.015276+00:00
+- 生成时间：2026-08-18T14:25:37.960525+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 49.6 | 资产：BTC、ETH、KII、BNB
-- 社媒引力场 | 强度 43.4 | 资产：BTC、ETH、XRP、MU
-- Alpha 前沿层 | 强度 39.6 | 资产：KII、BEAT、ON、牛来
-- Launchpad 迷因团 | 强度 34.0 | 资产：RED、牛来、MU、ACE
+- 官方催化带 | 强度 49.7 | 资产：BTC、ETH、KII、BNB
+- 社媒引力场 | 强度 46.3 | 资产：BTC、ETH、LAYOOO、XRP
+- Alpha 前沿层 | 强度 39.4 | 资产：KII、BEAT、牛来、ON
+- Launchpad 迷因团 | 强度 37.1 | 资产：LAYOOO、RED、牛来、MU
+- 聪明钱跃迁层 | 强度 32.7 | 资产：LAYOOO、熊猫、67COIN、BASEUNC
 - 杠杆热层 | 强度 31.9 | 资产：RED、BICO
-- 聪明钱跃迁层 | 强度 20.1 | 资产：67COIN、COPXON、老吴、XAVIER
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - RED 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- 67COIN 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- LAYOOO 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - KII Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - PHAROS | Medium | 链上风险或标签风险偏高
-- A18 | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - GRASS | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
 - RED | Medium | 合约杠杆热度偏高
+- PLUMBER | Medium | 链上风险或标签风险偏高；流动性偏薄
+- TRENCHER | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - KII | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- LAYOOO | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - RED | Volatility Orbit | 合约热度明显抬升
 - BNB | Catalyst Orbit | 官方催化已入场
+- APR | Catalyst Orbit | 官方催化已入场
 - PROM | Catalyst Orbit | 官方催化已入场
-- BEAT | Frontier Orbit | Alpha 前沿强度高
-- ON | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
