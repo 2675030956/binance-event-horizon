@@ -1,16 +1,16 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-18T21:50:32.340964+00:00
+- 生成时间：2026-08-18T22:05:49.448825+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- 官方催化带 | 强度 48.6 | 资产：BTC、ETH、KII、PROM
-- Alpha 前沿层 | 强度 44.9 | 资产：KII、牛来、PUMP、BEAT
-- 社媒引力场 | 强度 43.9 | 资产：BTC、ETH、COHR、SKHY
-- Launchpad 迷因团 | 强度 38.9 | 资产：牛来、ACE、COHR、SKHY
-- 聪明钱跃迁层 | 强度 37.2 | 资产：牛来、PUMP、盘古币、b0955f7777
-- 杠杆热层 | 强度 35.0 | 资产：PROM、ACE、HOME、RED
+- 官方催化带 | 强度 49.0 | 资产：BTC、ETH、KII、OMO
+- 社媒引力场 | 强度 43.6 | 资产：BTC、ETH、COHR、SKHY
+- Alpha 前沿层 | 强度 42.7 | 资产：牛来、KII、STAR、BEAT
+- Launchpad 迷因团 | 强度 41.4 | 资产：牛来、OMO、ACE、COHR
+- 聪明钱跃迁层 | 强度 37.2 | 资产：牛来、OMO、BOLLOCKS、NGL
+- 杠杆热层 | 强度 33.1 | 资产：ACE、HOME、RED
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -20,19 +20,18 @@
 
 ## 引力预警
 - PHAROS | Medium | 链上风险或标签风险偏高
-- PRIVATEGPT | Medium | 链上风险或标签风险偏高；流动性偏薄
 - VVV | Medium | 链上风险或标签风险偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - HOME | Medium | 合约杠杆热度偏高
-- PEST | Medium | 链上风险或标签风险偏高；流动性偏薄
+- MUSICFREE | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ACE | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- KII | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
 - 牛来 | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
-- PUMP | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
+- KII | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- OMO | Catalyst Orbit | 官方催化已入场
 - PROM | Catalyst Orbit | 官方催化已入场
 - ACE | Volatility Orbit | 合约热度明显抬升
 - BNB | Catalyst Orbit | 官方催化已入场
