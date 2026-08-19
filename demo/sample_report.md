@@ -1,26 +1,27 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-19T17:53:46.815977+00:00
+- 生成时间：2026-08-19T18:19:13.312450+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 45.0 | 资产：UNITREE
+- 官方催化带 | 强度 44.8 | 资产：UNITREE
 - 社媒引力场 | 强度 39.6 | 资产：BTC、ETH、MRNA、SKHY
-- Alpha 前沿层 | 强度 37.4 | 资产：HEMI、KII、BTW、BEAT
-- Launchpad 迷因团 | 强度 33.4 | 资产：MRNA、ACE、墙外弱智吧联盟、SKHY
-- 杠杆热层 | 强度 33.0 | 资产：UNITREE、ACE、HOME、PROM
-- 聪明钱跃迁层 | 强度 28.9 | 资产：墙外弱智吧联盟、JARVIS、BI来、牛回
+- Alpha 前沿层 | 强度 38.3 | 资产：BTW、HEMI、KII、BEAT
+- 杠杆热层 | 强度 37.0 | 资产：UNITREE、BTW、ACE、HOME
+- Launchpad 迷因团 | 强度 33.0 | 资产：MRNA、ACE、SKHY、MRVL
+- 聪明钱跃迁层 | 强度 27.9 | 资产：CHAUVIN、AGOSTINO、TBC、BULLSHIT
 
 ## 场景引擎
 - UNITREE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - ACE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- 墙外弱智吧联盟 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- HEMI Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- CHAUVIN 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BTW Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - STAR | Medium | 链上风险或标签风险偏高
-- MLX | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- VRA | Medium | 链上风险或标签风险偏高；流动性偏薄
+- PHONEINFOGA | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - PHAROS | Medium | 链上风险或标签风险偏高
 - DOS | Medium | 链上风险或标签风险偏高
 - HOME | Medium | 合约杠杆热度偏高
@@ -30,10 +31,10 @@
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - UNITREE | Catalyst Orbit | 官方催化已入场；合约热度明显抬升
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- BTW | Frontier Orbit | Alpha 前沿强度高
 - HEMI | Frontier Orbit | Alpha 前沿强度高
 - KII | Frontier Orbit | Alpha 前沿强度高
 - MRNA | Core Orbit | 社媒热度已形成外部引力
-- BTW | Frontier Orbit | Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
