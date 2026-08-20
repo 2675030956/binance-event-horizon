@@ -1,21 +1,21 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-20T15:02:27.396342+00:00
+- 生成时间：2026-08-20T15:42:21.003436+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 44.0 | 资产：UNITREE
-- Alpha 前沿层 | 强度 42.0 | 资产：BTW、PUMP、MAGMA、BEAT
-- 杠杆热层 | 强度 39.7 | 资产：BTW、UNITREE、ACE、ONG
-- 社媒引力场 | 强度 38.1 | 资产：ETH、BTC、XRP、MRVL
-- Launchpad 迷因团 | 强度 35.9 | 资产：DIRECTORY、ACE、INTISMERAN、MRVL
-- 聪明钱跃迁层 | 强度 33.3 | 资产：DIRECTORY、INTISMERAN、DTF、PLUMBER
+- 官方催化带 | 强度 44.3 | 资产：UNITREE
+- Alpha 前沿层 | 强度 42.7 | 资产：BTW、BEAT、MAGMA、DOS
+- 杠杆热层 | 强度 42.6 | 资产：BTW、UNITREE、DOS、ACE
+- 社媒引力场 | 强度 38.0 | 资产：ETH、BTC、XRP、MRVL
+- Launchpad 迷因团 | 强度 33.0 | 资产：ACE、MRVL、牛来、BILIBILI
+- 聪明钱跃迁层 | 强度 26.8 | 资产：BILIBILI、2233、FAHHHH、来福
 
 ## 场景引擎
 - UNITREE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - ACE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- DIRECTORY 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- BILIBILI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BTW Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 - BR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
@@ -23,22 +23,25 @@
 - BR | High | 链上风险或标签风险偏高
 - WILD | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ACE | Medium | 合约杠杆热度偏高
+- HTMX | Medium | 链上风险或标签风险偏高；流动性偏薄
+- AVAAI | Medium | 合约杠杆热度偏高
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- EASYEFFECTS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ONG | Medium | 合约杠杆热度偏高
+- GITUPDATER | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
-- BTW | Frontier Orbit | Alpha 前沿强度高
-- UNITREE | Catalyst Orbit | 官方催化已入场；合约热度明显抬升
+- BTW | Frontier Orbit | 合约热度明显抬升；Alpha 前沿强度高
+- UNITREE | Catalyst Orbit | 官方催化已入场
 - ETH | Core Orbit | 社媒热度已形成外部引力
-- BTC | Core Orbit | 社媒热度已形成外部引力
-- PUMP | Frontier Orbit | Alpha 前沿强度高
-- MAGMA | Frontier Orbit | Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
+- BTC | Core Orbit | 社媒热度已形成外部引力
+- MAGMA | Frontier Orbit | Alpha 前沿强度高
 - DOS | Frontier Orbit | Alpha 前沿强度高
+- PUMP | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - BTW | BTW 当前位于 Spec 级观测轨道
-- 摘要：Alpha 前沿强度高
+- 摘要：合约热度明显抬升；Alpha 前沿强度高
 
 ## 广播封包
 - 标题：高热分歧 | 官方催化带 监测摘要
