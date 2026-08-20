@@ -1,25 +1,28 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-20T07:11:09.474665+00:00
+- 生成时间：2026-08-20T07:55:41.136996+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 47.6 | 资产：UNITREE
-- 社媒引力场 | 强度 38.6 | 资产：ETH、BTC、MRNA、SKHY
-- 杠杆热层 | 强度 36.8 | 资产：UNITREE、RED
-- Alpha 前沿层 | 强度 36.6 | 资产：BTW、KII、牛来、BEAT
-- Launchpad 迷因团 | 强度 35.9 | 资产：BTC、MRNA、牛来、SKHY
-- 聪明钱跃迁层 | 强度 27.1 | 资产：牛来、FXION、布鲁斯、现金猫
+- 官方催化带 | 强度 48.0 | 资产：UNITREE
+- 社媒引力场 | 强度 39.7 | 资产：ETH、BTC、MRNA、SKHY
+- Alpha 前沿层 | 强度 36.4 | 资产：BTW、KII、BEAT、DOS
+- 杠杆热层 | 强度 33.8 | 资产：UNITREE、RED、PORTAL
+- Launchpad 迷因团 | 强度 31.3 | 资产：MRNA、SKHY、MRVL、RED
+- 聪明钱跃迁层 | 强度 21.7 | 资产：PLUMBER、现金猫、TZU、现金牛
 
 ## 场景引擎
 - UNITREE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- 牛来 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- RED 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- PLUMBER 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - BTW Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - WILD | Medium | 链上风险或标签风险偏高；流动性偏薄
 - UNITREE | Medium | 合约杠杆热度偏高
+- FREETUBE | Medium | 链上风险或标签风险偏高；流动性偏薄
+- SERVER | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - UNITREE | Catalyst Orbit | 官方催化已入场；合约热度明显抬升
@@ -28,8 +31,8 @@
 - BTW | Frontier Orbit | Alpha 前沿强度高
 - KII | Frontier Orbit | Alpha 前沿强度高
 - MRNA | Core Orbit | 社媒热度已形成外部引力
-- 牛来 | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
+- DOS | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - UNITREE | UNITREE 当前位于 Spec 级观测轨道
