@@ -1,16 +1,16 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-21T17:44:29.325919+00:00
+- 生成时间：2026-08-21T18:04:14.127439+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 41.4 | 资产：CATE、BTC、PUMP、ETH
-- Alpha 前沿层 | 强度 38.3 | 资产：PUMP、HEMI、BEAT、BTW
-- Launchpad 迷因团 | 强度 36.7 | 资产：CATE、PRICELESS、SKHY、ACE
-- 聪明钱跃迁层 | 强度 35.5 | 资产：CATE、PRICELESS、肥嘟嘟、BUCKAZOID
-- 官方催化带 | 强度 35.1 | 资产：UNITREE
-- 杠杆热层 | 强度 30.9 | 资产：ONT、ACE、BICO
+- 社媒引力场 | 强度 41.7 | 资产：CATE、BTC、PUMP、ETH
+- Alpha 前沿层 | 强度 38.3 | 资产：PUMP、BEAT、HEMI、VVV
+- Launchpad 迷因团 | 强度 36.4 | 资产：CATE、SKHY、ACE、牛棚
+- 官方催化带 | 强度 35.6 | 资产：UNITREE
+- 聪明钱跃迁层 | 强度 34.0 | 资产：CATE、牛棚、TESTICLE、PANDA
+- 杠杆热层 | 强度 31.2 | 资产：ONT、ACE、BICO
 
 ## 场景引擎
 - UNITREE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
@@ -20,19 +20,19 @@
 
 ## 引力预警
 - VRA | Medium | 链上风险或标签风险偏高；流动性偏薄
-- WILD | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ZORA | Medium | 链上风险或标签风险偏高
+- WILD | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ONT | Medium | 合约杠杆热度偏高
-- CTR | Medium | 链上风险或标签风险偏高
+- LWAN | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - CATE | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- HEMI | Frontier Orbit | Alpha 前沿强度高
 - BEAT | Frontier Orbit | Alpha 前沿强度高
-- BTW | Frontier Orbit | Alpha 前沿强度高
+- HEMI | Frontier Orbit | Alpha 前沿强度高
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- VVV | Frontier Orbit | Alpha 前沿强度高
 - UNITREE | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
