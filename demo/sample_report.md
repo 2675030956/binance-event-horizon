@@ -1,21 +1,21 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-21T14:20:40.794433+00:00
+- 生成时间：2026-08-21T14:57:32.940092+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 37.5 | 资产：HEMI、PUMP、ASTER、AERO
-- 社媒引力场 | 强度 35.8 | 资产：BTC、ETH、AERO、BNB
-- 官方催化带 | 强度 33.9 | 资产：UNITREE
-- Launchpad 迷因团 | 强度 29.8 | 资产：ACE、SPCX、NANDMINE、ENA
-- 聪明钱跃迁层 | 强度 24.8 | 资产：NANDMINE、KIRK、币安驿站、ALON
-- 杠杆热层 | 强度 24.4 | 资产：ONT、ACE、ZORA
+- Alpha 前沿层 | 强度 37.2 | 资产：HEMI、PUMP、ASTER、AERO
+- 社媒引力场 | 强度 35.9 | 资产：BTC、ETH、AERO、BNB
+- 官方催化带 | 强度 33.8 | 资产：UNITREE
+- Launchpad 迷因团 | 强度 31.2 | 资产：ACE、SPCX、牛屎、NANDMINE
+- 聪明钱跃迁层 | 强度 27.6 | 资产：牛屎、NANDMINE、CATGPT、ZEUS
+- 杠杆热层 | 强度 25.4 | 资产：ACE、ONT、ZORA
 
 ## 场景引擎
 - UNITREE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ONT 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- NANDMINE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- ACE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- 牛屎 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - HEMI Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -23,6 +23,7 @@
 - VRA | Medium | 链上风险或标签风险偏高；流动性偏薄
 - GRASS | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
+- ACE | Medium | 合约杠杆热度偏高
 - ONT | Medium | 合约杠杆热度偏高
 - SUP | Medium | 链上风险或标签风险偏高
 
@@ -31,10 +32,10 @@
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - PUMP | Frontier Orbit | Alpha 前沿强度高
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- ACE | Volatility Orbit | 合约热度明显抬升
 - ASTER | Frontier Orbit | Alpha 前沿强度高
 - ONT | Volatility Orbit | 合约热度明显抬升
 - UNITREE | Catalyst Orbit | 官方催化已入场
-- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 聚焦资产
 - HEMI | HEMI 当前位于 Spec 级观测轨道
