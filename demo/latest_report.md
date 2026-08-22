@@ -1,15 +1,15 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-22T20:36:16.910983+00:00
+- 生成时间：2026-08-22T20:55:27.521128+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 36.0 | 资产：PUMP、ASTER、AERO、MAGMA
-- 社媒引力场 | 强度 34.9 | 资产：ETH、ZEC、AAVE、AERO
-- Launchpad 迷因团 | 强度 31.5 | 资产：MOVE、CATALYST、FARTCOIN、ACE
-- 杠杆热层 | 强度 29.5 | 资产：MOVE、COTI、ACE、ONG
-- 聪明钱跃迁层 | 强度 27.5 | 资产：CATALYST、苹果人生、BMONEY、CYBERLEEK
+- Alpha 前沿层 | 强度 36.2 | 资产：PUMP、ASTER、AERO、BEAT
+- 社媒引力场 | 强度 34.8 | 资产：ETH、ZEC、AAVE、AERO
+- Launchpad 迷因团 | 强度 32.2 | 资产：CATALYST、MOVE、FARTCOIN、苹果人生
+- 杠杆热层 | 强度 30.3 | 资产：MOVE、TUT、ACE、ONG
+- 聪明钱跃迁层 | 强度 29.9 | 资产：CATALYST、苹果人生、牛来、BASEHAT
 - 官方催化带 | 强度 16.0 | 资产：GWEI、KGEN
 
 ## 场景引擎
@@ -19,24 +19,24 @@
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- 존망코인 | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - VVV | Medium | 链上风险或标签风险偏高
 - FUEL | Medium | 链上风险或标签风险偏高；流动性偏薄
-- OPENVOICE | Medium | 链上风险或标签风险偏高；流动性偏薄
 - UP | Medium | 链上风险或标签风险偏高
 - DAM | Medium | 链上风险或标签风险偏高；流动性偏薄
 - ODOS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- IDK | Medium | 链上风险或标签风险偏高；流动性偏薄
+- TRUMP | Medium | 多项风险因子正在叠加
 - MOVE | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- CATALYST | Core Orbit | 聪明钱或信号确认偏强
 - ZEC | Core Orbit | 社媒热度已形成外部引力
-- AAVE | Core Orbit | 社媒热度已形成外部引力
 - ASTER | Frontier Orbit | Alpha 前沿强度高
-- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - MOVE | Volatility Orbit | 合约热度明显抬升
-- MAGMA | Frontier Orbit | Alpha 前沿强度高
+- AAVE | Core Orbit | 社媒热度已形成外部引力
+- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
@@ -44,5 +44,5 @@
 
 ## 广播封包
 - 标题：高热分歧 | Alpha 前沿层 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 Alpha 前沿层，优先跟踪资产为 PUMP，首要风险关注 존망코인。
+- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 Alpha 前沿层，优先跟踪资产为 PUMP，首要风险关注 VVV。
 - Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「高热分歧」，主导驱动为「Alpha 前沿层」，优先跟踪资产为 PUMP。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
