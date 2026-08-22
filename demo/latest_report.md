@@ -1,36 +1,41 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-22T09:59:05.753457+00:00
+- 生成时间：2026-08-22T10:28:21.122392+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 38.7 | 资产：PUMP、BTC、ETH、FARTCOIN
-- Alpha 前沿层 | 强度 36.4 | 资产：PUMP、FARTCOIN、ASTER、BEAT
-- 杠杆热层 | 强度 32.1 | 资产：MOVE、COTI
-- Launchpad 迷因团 | 强度 30.3 | 资产：FARTCOIN、SKHY、TOAD、ACE
-- 聪明钱跃迁层 | 强度 22.2 | 资产：TOAD、PURP、BLC、STBL
+- 社媒引力场 | 强度 34.5 | 资产：PUMP、BTC、ETH、FARTCOIN
+- Alpha 前沿层 | 强度 33.8 | 资产：PUMP、ASTER、ROBO、AEON
+- 杠杆热层 | 强度 28.9 | 资产：COTI、MOVE、PORTAL
+- Launchpad 迷因团 | 强度 27.8 | 资产：MOVE、FARTCOIN、ACE、LINK
 - 官方催化带 | 强度 16.0 | 资产：GWEI、KGEN
+- 聪明钱跃迁层 | 强度 15.6 | 资产：ALON、土豆、67、2HE
 
 ## 场景引擎
 - GWEI 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- MOVE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- TOAD 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- COTI 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- ALON 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- WIN | Medium | 链上风险或标签风险偏高；流动性偏薄
+- DAM | Medium | 链上风险或标签风险偏高；流动性偏薄
+- TRUMP | Medium | 链上风险或标签风险偏高；流动性偏薄
+- QRCODE | Medium | 链上风险或标签风险偏高；流动性偏薄
+- ZORA | Medium | 链上风险或标签风险偏高
+- COTI | Medium | 合约杠杆热度偏高
 - MOVE | Medium | 合约杠杆热度偏高
+- CSVIDEOCOURSES | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- ETH | Core Orbit | 社媒热度已形成外部引力
-- FARTCOIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - ASTER | Frontier Orbit | Alpha 前沿强度高
-- ZEC | Core Orbit | 社媒热度已形成外部引力
+- ETH | Core Orbit | 社媒热度已形成外部引力
+- COTI | Volatility Orbit | 合约热度明显抬升
+- ROBO | Frontier Orbit | Alpha 前沿强度高
+- AEON | Frontier Orbit | Alpha 前沿强度高
 - MOVE | Volatility Orbit | 合约热度明显抬升
-- SKHY | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
@@ -38,5 +43,5 @@
 
 ## 广播封包
 - 标题：高热分歧 | 社媒引力场 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 社媒引力场，优先跟踪资产为 PUMP，首要风险关注 WIN。
+- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 社媒引力场，优先跟踪资产为 PUMP，首要风险关注 DAM。
 - Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「高热分歧」，主导驱动为「社媒引力场」，优先跟踪资产为 PUMP。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
