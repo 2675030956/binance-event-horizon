@@ -1,42 +1,42 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-23T07:42:32.552898+00:00
+- 生成时间：2026-08-23T08:01:05.253307+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 41.4 | 资产：ZEC、PUMP、FARTCOIN、AERO
-- Alpha 前沿层 | 强度 39.2 | 资产：PUMP、FARTCOIN、AERO、ZAMA
-- 杠杆热层 | 强度 30.7 | 资产：MOVE、COTI、ACE
-- Launchpad 迷因团 | 强度 30.3 | 资产：FARTCOIN、ACE、牛布布、DINGER
-- 聪明钱跃迁层 | 强度 26.7 | 资产：ZEC、牛布布、DINGER、AIHEDGEFUND
+- 社媒引力场 | 强度 40.2 | 资产：ZEC、FARTCOIN、AERO、BTC
+- Alpha 前沿层 | 强度 37.7 | 资产：FARTCOIN、AERO、PUMP、ZAMA
+- 杠杆热层 | 强度 31.2 | 资产：MOVE、COTI、ACE
+- Launchpad 迷因团 | 强度 29.1 | 资产：FARTCOIN、ACE、MONEYCAT、CATE
+- 聪明钱跃迁层 | 强度 25.3 | 资产：ZEC、牛BEE、ONYX、PUMPARELLO
 - 官方催化带 | 强度 16.0 | 资产：GWEI、KGEN
 
 ## 场景引擎
 - GWEI 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - MOVE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
 - ZEC 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- FARTCOIN Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - CYS | Medium | 链上风险或标签风险偏高
 - PHAROS | Medium | 链上风险或标签风险偏高
 - 존망코인 | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- GRASS | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- MINIGPT4 | Medium | 链上风险或标签风险偏高；流动性偏薄
+- GRASS | Medium | 链上风险或标签风险偏高
+- FLOWCHARTJS | Medium | 链上风险或标签风险偏高；流动性偏薄
 - KOTAEMON | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - CTR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - ZEC | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
-- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - FARTCOIN | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
+- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - ZAMA | Frontier Orbit | Alpha 前沿强度高
-- KII | Frontier Orbit | Alpha 前沿强度高
+- MAGMA | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - ZEC | ZEC 当前位于 Spec 级观测轨道
