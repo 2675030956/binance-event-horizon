@@ -1,21 +1,21 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-24T09:54:44.960243+00:00
+- 生成时间：2026-08-24T10:30:25.241282+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 41.3 | 资产：PUMP、CATE、AERO、BTC
-- Alpha 前沿层 | 强度 38.2 | 资产：PUMP、AERO、VIRTUAL、ASTER
-- 聪明钱跃迁层 | 强度 34.7 | 资产：CATE、SINGIT、FACY、MARTIANS
-- Launchpad 迷因团 | 强度 34.4 | 资产：CATE、PORTAL、MRVL、MARTIANS
-- 杠杆热层 | 强度 28.4 | 资产：PORTAL、STORJ、ZHIPU、SAND
-- 官方催化带 | 强度 27.6 | 资产：UNITREE、BNB、GRAM、GWEI
+- 社媒引力场 | 强度 40.2 | 资产：PUMP、AERO、BTC、ETH
+- Alpha 前沿层 | 强度 38.7 | 资产：PUMP、AERO、VIRTUAL、ASTER
+- Launchpad 迷因团 | 强度 34.0 | 资产：PORTAL、DOPAMEME、MRVL、LITE
+- 聪明钱跃迁层 | 强度 33.5 | 资产：SINGIT、DOPAMEME、MAXI、3
+- 杠杆热层 | 强度 30.3 | 资产：PORTAL、STORJ、SAND
+- 官方催化带 | 强度 27.8 | 资产：UNITREE、BNB、GRAM、GWEI
 
 ## 场景引擎
 - UNITREE 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - PORTAL 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- CATE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- SINGIT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
@@ -23,20 +23,19 @@
 - GRASS | Medium | 链上风险或标签风险偏高
 - PHAROS | Medium | 链上风险或标签风险偏高
 - PORTAL | Medium | 合约杠杆热度偏高
-- BNBCAT | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - FUEL | Medium | 链上风险或标签风险偏高；流动性偏薄
 - PEAK | Medium | 链上风险或标签风险偏高
 - ZORA | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- CATE | Core Orbit | 社媒热度已形成外部引力
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - SINGIT | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
 - ETH | Core Orbit | 社媒热度已形成外部引力
 - UNITREE | Catalyst Orbit | 官方催化已入场
 - VIRTUAL | Frontier Orbit | Alpha 前沿强度高
+- PORTAL | Volatility Orbit | 合约热度明显抬升
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
