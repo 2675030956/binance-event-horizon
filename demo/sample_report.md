@@ -1,25 +1,27 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-25T10:57:40.851269+00:00
+- 生成时间：2026-08-25T11:28:05.277449+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 47.5 | 资产：BTC、ETH、AERO、PUMP
-- 官方催化带 | 强度 45.2 | 资产：BTC、ETH、BNB、USDC
-- Alpha 前沿层 | 强度 39.7 | 资产：AERO、PUMP、VELVET、UP
-- 杠杆热层 | 强度 35.0 | 资产：STORJ
-- Launchpad 迷因团 | 强度 31.0 | 资产：UP、DOGUE、BE、DANMAO
-- 聪明钱跃迁层 | 强度 30.8 | 资产：SINGIT、DOGUE、DANMAO、BASEUNC
+- 社媒引力场 | 强度 45.3 | 资产：BTC、ETH、AERO、PUMP
+- 官方催化带 | 强度 41.4 | 资产：BTC、ETH、BNB、UNITREE
+- Alpha 前沿层 | 强度 39.5 | 资产：AERO、PUMP、VELVET、UP
+- 杠杆热层 | 强度 34.7 | 资产：STORJ
+- Launchpad 迷因团 | 强度 31.3 | 资产：UP、TOTAKEKE、BE、MILO
+- 聪明钱跃迁层 | 强度 27.7 | 资产：TOTAKEKE、MILO、SUE、小黄鱼
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - STORJ 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- SINGIT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- TOTAKEKE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AERO Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - TMX | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- USOL | Medium | 链上风险或标签风险偏高
+- TASKBARGROUPS | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - BR | Medium | 链上风险或标签风险偏高
 - DAM | Medium | 链上风险或标签风险偏高；流动性偏薄
 - STORJ | Medium | 合约杠杆热度偏高
@@ -32,9 +34,9 @@
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - VELVET | Frontier Orbit | Alpha 前沿强度高
-- SINGIT | Core Orbit | 聪明钱或信号确认偏强
-- BNB | Catalyst Orbit | 官方催化已入场
-- USDC | Catalyst Orbit | 官方催化已入场
+- UP | Frontier Orbit | Alpha 前沿强度高
+- STORJ | Volatility Orbit | 合约热度明显抬升
+- VIRTUAL | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
