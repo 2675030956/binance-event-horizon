@@ -1,40 +1,43 @@
 # 币安事件地平线
 
-- 生成时间：2026-08-30T16:45:12.034975+00:00
+- 生成时间：2026-08-30T19:28:58.245275+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 40.8 | 资产：牛来、BNB、BTC、ETH
-- Alpha 前沿层 | 强度 39.8 | 资产：牛来、AKE、DOS、PUMP
-- 官方催化带 | 强度 37.1 | 资产：BNB、AKE、TAC、ENSO
-- Launchpad 迷因团 | 强度 36.2 | 资产：牛来、SPCX、FRUG、QUACKD
-- 聪明钱跃迁层 | 强度 29.9 | 资产：SPCX、FRUG、QUACKD、牛逼
-- 杠杆热层 | 强度 27.4 | 资产：ERA、TUT、SKR
+- 社媒引力场 | 强度 45.1 | 资产：牛来、JIMOTHY、BNB、BTC
+- Launchpad 迷因团 | 强度 42.6 | 资产：牛来、JIMOTHY、100、CUCKCAT
+- Alpha 前沿层 | 强度 39.9 | 资产：牛来、AKE、MAGMA、DOS
+- 聪明钱跃迁层 | 强度 37.6 | 资产：JIMOTHY、100、CUCKCAT、KURO
+- 官方催化带 | 强度 36.8 | 资产：BNB、AKE、TAC、ENSO
+- 杠杆热层 | 强度 26.1 | 资产：TUT、ERA、SKR
 
 ## 场景引擎
 - BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ERA 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- SPCX 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- TUT 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- JIMOTHY 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - 牛来 Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 - SKR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
-- SKR | High | 链上风险或标签风险偏高；合约杠杆热度偏高
-- RUN | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- SKR | Critical | 链上风险或标签风险偏高；合约杠杆热度偏高
 - CYS | Medium | 链上风险或标签风险偏高
-- ERA | Medium | 合约杠杆热度偏高
-- LUX | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- GRASS | Medium | 链上风险或标签风险偏高
+- 豹拉 | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- GAIA | Medium | 链上风险或标签风险偏高
+- VVV | Medium | 链上风险或标签风险偏高
+- TUT | Medium | 合约杠杆热度偏高
+- ZORA | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - 牛来 | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- JIMOTHY | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - AKE | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- 100 | Core Orbit | 聪明钱或信号确认偏强
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- SPCX | Core Orbit | 聪明钱或信号确认偏强
-- ERA | Volatility Orbit | 合约热度明显抬升
+- MAGMA | Frontier Orbit | Alpha 前沿强度高
 - DOS | Frontier Orbit | Alpha 前沿强度高
-- TAC | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - 牛来 | 牛来 当前位于 Spec 级观测轨道
