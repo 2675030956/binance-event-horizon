@@ -1,41 +1,40 @@
 # 币安事件地平线
 
-- 生成时间：2026-09-04T23:17:31.445214+00:00
+- 生成时间：2026-09-05T01:03:27.389608+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 64.8 | 资产：MARSCOIN
-- 社媒引力场 | 强度 42.8 | 资产：MARSCOIN、CP、BTC、AERO
-- Alpha 前沿层 | 强度 42.2 | 资产：MARSCOIN、CP、CYS、牛来
-- Launchpad 迷因团 | 强度 39.3 | 资产：MARSCOIN、Q币、FONE、NAILONG
-- 杠杆热层 | 强度 30.5 | 资产：CAP
-- 聪明钱跃迁层 | 强度 30.0 | 资产：Q币、FONE、NAILONG、STC
+- 官方催化带 | 强度 63.8 | 资产：MARSCOIN
+- 社媒引力场 | 强度 43.0 | 资产：MARSCOIN、CP、BTC、BASECAT
+- Alpha 前沿层 | 强度 41.5 | 资产：MARSCOIN、CP、PUMP、DEBIT
+- Launchpad 迷因团 | 强度 37.8 | 资产：MARSCOIN、BASECAT、BE、BNB
+- 杠杆热层 | 强度 29.8 | 资产：LA
+- 聪明钱跃迁层 | 强度 25.9 | 资产：CTO、STONK、COBIE、TITAN
 
 ## 场景引擎
 - MARSCOIN 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- CAP 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- Q币 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- LA 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- CTO 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - CP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
-- SLINK | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- MEME | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- ZORA | Medium | 链上风险或标签风险偏高
+- SLINK | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 - Q | Medium | 链上风险或标签风险偏高
+- ZORA | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- CAP | Medium | 合约杠杆热度偏高
+- LA | Medium | 合约杠杆热度偏高
 - SKR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - MARSCOIN | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高；社媒热度已形成外部引力
 - CP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- Q币 | Core Orbit | 聪明钱或信号确认偏强
-- CYS | Frontier Orbit | Alpha 前沿强度高
-- 牛来 | Frontier Orbit | Alpha 前沿强度高
+- BASECAT | Core Orbit | 社媒热度已形成外部引力
 - PUMP | Frontier Orbit | Alpha 前沿强度高
 - DEBIT | Frontier Orbit | Alpha 前沿强度高
+- 牛来 | Frontier Orbit | Alpha 前沿强度高
+- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 聚焦资产
 - MARSCOIN | MARSCOIN 当前位于 Watch 级观测轨道
