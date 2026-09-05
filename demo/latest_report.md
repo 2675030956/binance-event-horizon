@@ -1,38 +1,40 @@
 # 币安事件地平线
 
-- 生成时间：2026-09-05T21:28:13.401732+00:00
+- 生成时间：2026-09-05T23:09:04.832941+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 69.8 | 资产：MARSCOIN
-- Alpha 前沿层 | 强度 49.4 | 资产：MARSCOIN、COLLECT、UAI、4
-- Launchpad 迷因团 | 强度 46.0 | 资产：MARSCOIN、4、牛来、B
-- 社媒引力场 | 强度 45.5 | 资产：MARSCOIN、PUMP、BTC、TAO
-- 杠杆热层 | 强度 42.1 | 资产：COLLECT、UAI、4、牛来
-- 聪明钱跃迁层 | 强度 26.4 | 资产：BASEMEME、旺柴、CLANKER、PIZZA
+- 官方催化带 | 强度 68.1 | 资产：MARSCOIN
+- Alpha 前沿层 | 强度 45.7 | 资产：MARSCOIN、COLLECT、牛来、AKE
+- Launchpad 迷因团 | 强度 43.6 | 资产：MARSCOIN、牛来、BASECAT、4
+- 社媒引力场 | 强度 43.1 | 资产：MARSCOIN、BTC、BASECAT、PUMP
+- 杠杆热层 | 强度 36.0 | 资产：COLLECT、AKE、HEMI、4
+- 聪明钱跃迁层 | 强度 15.4 | 资产：9、红尘飞、ADS、FONE
 
 ## 场景引擎
 - MARSCOIN 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- COLLECT 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- BASEMEME 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- UAI Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- HEMI 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- 9 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- COLLECT Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - BULLA | Medium | 合约杠杆热度偏高
-- WIN | Medium | 链上风险或标签风险偏高；流动性偏薄
-- 4 | Medium | 合约杠杆热度偏高
+- AIRDROP | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- BLUE | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- ARC | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - HEMI | Medium | 合约杠杆热度偏高
+- AKE | Medium | 多项风险因子正在叠加
 
 ## 优先观察轨道
 - MARSCOIN | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高；社媒热度已形成外部引力
-- COLLECT | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
-- UAI | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
-- 4 | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
+- COLLECT | Frontier Orbit | Alpha 前沿强度高
 - 牛来 | Frontier Orbit | Alpha 前沿强度高
-- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- AKE | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
+- AKE | Frontier Orbit | 合约热度明显抬升；Alpha 前沿强度高
+- UAI | Frontier Orbit | Alpha 前沿强度高
+- ASTER | Frontier Orbit | Alpha 前沿强度高
+- BASECAT | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - MARSCOIN | MARSCOIN 当前位于 Watch 级观测轨道
