@@ -1,40 +1,41 @@
 # 币安事件地平线
 
-- 生成时间：2026-09-19T19:28:30.183014+00:00
+- 生成时间：2026-09-19T21:37:37.732033+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 40.1 | 资产：AKE、KII、VVV、CNPY
-- 社媒引力场 | 强度 38.3 | 资产：AKE、VVV、BTC、ZEC
-- 官方催化带 | 强度 32.5 | 资产：KII、BNB、USDC、SPY
-- 杠杆热层 | 强度 30.7 | 资产：F、AVA
-- 聪明钱跃迁层 | 强度 24.6 | 资产：WOW、FREEBOTS、CATBRAIN、SERV
-- Launchpad 迷因团 | 强度 24.3 | 资产：ONE、CATBRAIN、INJ、CZEC
+- Alpha 前沿层 | 强度 41.1 | 资产：AKE、KII、ZAMA、VVV
+- 社媒引力场 | 强度 40.9 | 资产：AKE、VCAT、BNB、ZEC
+- 官方催化带 | 强度 33.4 | 资产：KII、BNB、USDC、SPY
+- 聪明钱跃迁层 | 强度 33.0 | 资产：VCAT、旺柴、HOTAIR、うさぎ
+- 杠杆热层 | 强度 30.3 | 资产：F、ONE、AVA、G
+- Launchpad 迷因团 | 强度 28.8 | 资产：旺柴、ONE、うさぎ、ENA
 
 ## 场景引擎
 - KII 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - F 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- WOW 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- VCAT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AKE Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- BR 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
-- BR | Medium | 链上风险或标签风险偏高
+- BR | High | 链上风险或标签风险偏高
 - MEI | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- F | Medium | 合约杠杆热度偏高
 - GRASS | Medium | 链上风险或标签风险偏高
 - 果蝇 | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- MPRINT | Medium | 链上风险或标签风险偏高；流动性偏薄
+- KVCM | Medium | 链上风险或标签风险偏高；流动性偏薄
+- F | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - AKE | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - KII | Catalyst Orbit | 官方催化已入场；Alpha 前沿强度高
+- VCAT | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
+- BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
+- ZAMA | Frontier Orbit | Alpha 前沿强度高
+- ZEC | Core Orbit | 社媒热度已形成外部引力
 - VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- BNB | Catalyst Orbit | 官方催化已入场
-- USDC | Catalyst Orbit | 官方催化已入场
-- CNPY | Frontier Orbit | Alpha 前沿强度高
-- ZEC | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - AKE | AKE 当前位于 Spec 级观测轨道
