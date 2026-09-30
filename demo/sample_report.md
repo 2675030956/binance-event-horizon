@@ -1,49 +1,46 @@
 # 币安事件地平线
 
-- 生成时间：2026-09-30T01:21:25.228166+00:00
+- 生成时间：2026-09-30T06:51:44.138300+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 49.6 | 资产：PUMP、STONK、XDP、ZRO
-- Alpha 前沿层 | 强度 46.9 | 资产：PUMP、XDP、SOON、VVV
-- 杠杆热层 | 强度 42.5 | 资产：PUMP、SOON、NMR、QNT
-- 官方催化带 | 强度 38.3 | 资产：XDP、USDC、SAMSUNG
-- Launchpad 迷因团 | 强度 26.1 | 资产：BERA、ETHFI、BEB、NVDAB
-- 聪明钱跃迁层 | 强度 23.1 | 资产：STONK、GN、SURPLUS、BNCB
+- 社媒引力场 | 强度 47.7 | 资产：PUMP、BTC、SI、XDP
+- Alpha 前沿层 | 强度 44.0 | 资产：PUMP、XDP、VVV、ASTER
+- 官方催化带 | 强度 41.9 | 资产：BTC、XDP、ETH、USDC
+- 聪明钱跃迁层 | 强度 37.3 | 资产：SI、SPIKE、暴走板栗、派人生
+- Launchpad 迷因团 | 强度 33.4 | 资产：SPIKE、暴走板栗、派人生、SPCX
+- 杠杆热层 | 强度 28.0 | 资产：NMR、MEW
 
 ## 场景引擎
 - USDC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- SOON 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- STONK 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- MEW 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- SI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
-- GRASS 高热坍缩预案 | Gravity Collapse | 窗口 1h-6h | 触发：低流动性、高杠杆或风险标签继续共振，价格出现快速回吐。
 
 ## 引力预警
-- GRASS | Critical | 链上风险或标签风险偏高；合约杠杆热度偏高
-- SOON | High | 合约杠杆热度偏高
-- BTW | Medium | 合约杠杆热度偏高
-- UP | Medium | 链上风险或标签风险偏高
-- НАNDУ | Medium | 链上风险或标签风险偏高；流动性偏薄
-- ESPORTS | Medium | 合约杠杆热度偏高
-- JAN | Medium | 链上风险或标签风险偏高
-- PHAROS | Medium | 链上风险或标签风险偏高
+- MEW | Medium | 合约杠杆热度偏高
+- OKHTTP | Medium | 链上风险或标签风险偏高；流动性偏薄
+- GRASS | Medium | 链上风险或标签风险偏高
+- CATPPUCCIN | Medium | 链上风险或标签风险偏高；流动性偏薄
+- 拉布布 | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CTR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- STONK | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
-- XDP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- SOON | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
-- ZRO | Core Orbit | 社媒热度已形成外部引力
-- VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- ASTER | Frontier Orbit | Alpha 前沿强度高
+- SI | Core Orbit | 聪明钱或信号确认偏强；社媒热度已形成外部引力
+- XDP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- ETH | Core Orbit | 社媒热度已形成外部引力
+- SPIKE | Core Orbit | 聪明钱或信号确认偏强
+- ZRO | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
-- PUMP | PUMP 当前位于 Watch 级观测轨道
+- PUMP | PUMP 当前位于 Spec 级观测轨道
 - 摘要：Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：高热分歧 | 社媒引力场 监测摘要
-- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 社媒引力场，优先跟踪资产为 PUMP，首要风险关注 GRASS。
+- X：币安事件地平线最新监测：当前市场处于 高热分歧 阶段，主导驱动为 社媒引力场，优先跟踪资产为 PUMP，首要风险关注 MEW。
 - Square：币安事件地平线基于现货、合约、Alpha、社媒热度、聪明钱与官方公告等多源数据，对当前市场阶段、重点驱动、优先跟踪资产与风险暴露进行统一整理。 当前阶段为「高热分歧」，主导驱动为「社媒引力场」，优先跟踪资产为 PUMP。 若后续继续出现承接增强与信号扩散，相关场景的关注优先级将进一步提升。
