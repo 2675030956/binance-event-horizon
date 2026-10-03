@@ -1,42 +1,40 @@
 # 币安事件地平线
 
-- 生成时间：2026-10-02T23:27:40.392190+00:00
+- 生成时间：2026-10-03T02:13:22.580618+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 50.5 | 资产：BTC、ETH、BNB
-- 社媒引力场 | 强度 49.7 | 资产：BTC、ETH、PUMP、BNB
-- Alpha 前沿层 | 强度 43.1 | 资产：PUMP、AI、CT、龙虾
-- Launchpad 迷因团 | 强度 38.4 | 资产：AI、SAND、AIKOL、WWW
-- 聪明钱跃迁层 | 强度 36.3 | 资产：AI、AIKOL、WWW、DRB
-- 杠杆热层 | 强度 35.7 | 资产：SAND、GTC
+- 官方催化带 | 强度 50.3 | 资产：BTC、ETH、BNB
+- 社媒引力场 | 强度 49.3 | 资产：BTC、ETH、BNB、PUMP
+- Alpha 前沿层 | 强度 39.3 | 资产：PUMP、AERO、MAGMA、龙虾
+- 杠杆热层 | 强度 38.7 | 资产：SAND
+- Launchpad 迷因团 | 强度 31.7 | 资产：SAND、OP、SPCX、SWORDCAT
+- 聪明钱跃迁层 | 强度 26.4 | 资产：OP、SWORDCAT、WDYT、BAN人生
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - SAND 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- AI 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- OP 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - GM | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- GRAFANA | Medium | 链上风险或标签风险偏高；流动性偏薄
 - SAND | Medium | 合约杠杆热度偏高
-- HUDDLE | Medium | 链上风险或标签风险偏高；流动性偏薄
-- Q | Medium | 链上风险或标签风险偏高
 - VVV | Medium | 链上风险或标签风险偏高
-- ODOO | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- BACKGROUNDMUSIC | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- TOBETOPJAVAER | Medium | 链上风险或标签风险偏高
+- PHAROS | Medium | 链上风险或标签风险偏高
+- CSVIDEOCOURSES | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- AI | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高
-- CT | Frontier Orbit | Alpha 前沿强度高
-- 龙虾 | Frontier Orbit | Alpha 前沿强度高
+- PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- SAND | Volatility Orbit | 合约热度明显抬升
+- MAGMA | Frontier Orbit | Alpha 前沿强度高
+- ZEC | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
