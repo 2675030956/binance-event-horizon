@@ -1,43 +1,44 @@
 # 币安事件地平线
 
-- 生成时间：2026-10-08T07:18:04.938824+00:00
+- 生成时间：2026-10-08T14:39:30.031658+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 48.2 | 资产：PUMP、BTC、ETH、SPCX
-- 官方催化带 | 强度 45.8 | 资产：BTC、ETH、BNB
-- Alpha 前沿层 | 强度 45.8 | 资产：MET、PUMP、龙虾、VVV
-- 杠杆热层 | 强度 34.5 | 资产：MET、MINA、NATGAS、BSP
-- Launchpad 迷因团 | 强度 31.6 | 资产：SPCX、PENGU、骑士小猫、PANTHEON
-- 聪明钱跃迁层 | 强度 31.2 | 资产：SPCX、RAY、骑士小猫、PANTHEON
+- 社媒引力场 | 强度 49.9 | 资产：MET、PUMP、BTC、ETH
+- Alpha 前沿层 | 强度 47.8 | 资产：MET、PUMP、AERO、VVV
+- 官方催化带 | 强度 38.9 | 资产：BTC、ETH、BNB、MRVL
+- 杠杆热层 | 强度 31.5 | 资产：OGN、CTSI、ERA、NATGAS
+- 聪明钱跃迁层 | 强度 31.3 | 资产：AERO、HOOKED、LINK、DATACENTER
+- Launchpad 迷因团 | 强度 29.3 | 资产：CTSI、SPCX、HOOKED、DATACENTER
 
 ## 场景引擎
-- BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- MET 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- SPCX 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- BNB 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
+- OGN 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- AERO 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- MET Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - PHAROS | Medium | 链上风险或标签风险偏高
-- 旺柴 | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- CTR | Medium | 链上风险或标签风险偏高
-- MET | Medium | 合约杠杆热度偏高
-- GRAPHITEBOOM | Medium | 链上风险或标签风险偏高；流动性偏薄
+- OGN | Medium | 合约杠杆热度偏高
+- SUP | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CTSI | Medium | 合约杠杆热度偏高
+- PUBLIC | Medium | 链上风险或标签风险偏高；流动性偏薄
+- INTERN | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 
 ## 优先观察轨道
-- MET | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
+- MET | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- SPCX | Core Orbit | 社媒热度已形成外部引力
-- BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
-- 龙虾 | Frontier Orbit | Alpha 前沿强度高
+- BTC | Core Orbit | 社媒热度已形成外部引力
+- ETH | Core Orbit | 社媒热度已形成外部引力
+- AERO | Frontier Orbit | 聪明钱或信号确认偏强；Alpha 前沿强度高；社媒热度已形成外部引力
 - VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- OGN | Volatility Orbit | 合约热度明显抬升
+- BNB | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - MET | MET 当前位于 Spec 级观测轨道
-- 摘要：合约热度明显抬升；Alpha 前沿强度高
+- 摘要：Alpha 前沿强度高；社媒热度已形成外部引力
 
 ## 广播封包
 - 标题：高热分歧 | 社媒引力场 监测摘要
