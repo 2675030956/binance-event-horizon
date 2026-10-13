@@ -1,37 +1,42 @@
 # 币安事件地平线
 
-- 生成时间：2026-10-12T23:16:26.169408+00:00
+- 生成时间：2026-10-13T03:36:27.664354+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 43.2 | 资产：PUMP、DOS、AERO、XDP
-- 社媒引力场 | 强度 42.1 | 资产：PUMP、AERO、XDP、VVV
-- 杠杆热层 | 强度 35.9 | 资产：DOS、RSR、BLUR、CTK
-- Launchpad 迷因团 | 强度 28.3 | 资产：CTK、SPCX、POPO、LILANSEM
-- 聪明钱跃迁层 | 强度 24.6 | 资产：POPO、BASENYANCAT、LILANSEM、DJT
-- 官方催化带 | 强度 20.5 | 资产：USDC、MON、JPMB、LLYB
+- Alpha 前沿层 | 强度 41.4 | 资产：PUMP、AERO、XDP、VVV
+- 社媒引力场 | 强度 41.4 | 资产：PUMP、AERO、XDP、VVV
+- 官方催化带 | 强度 32.9 | 资产：USDC、LAB
+- 杠杆热层 | 强度 31.9 | 资产：RSR、CTK、SKL
+- Launchpad 迷因团 | 强度 25.4 | 资产：CTK、领头羊、ENA、SUI
+- 聪明钱跃迁层 | 强度 24.2 | 资产：ZEC、领头羊、ADS、UB
 
 ## 场景引擎
 - USDC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- DOS 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- POPO 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- RSR 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- ZEC 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - OKT | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- BLUR | Medium | 合约杠杆热度偏高
+- THIS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- VIMIUM | Medium | 链上风险或标签风险偏高；流动性偏薄
 - RSR | Medium | 合约杠杆热度偏高
+- Q | Medium | 链上风险或标签风险偏高
+- CTR | Medium | 链上风险或标签风险偏高
+- NIRI | Medium | 链上风险或标签风险偏高；流动性偏薄
+- JADX | Medium | 链上风险或标签风险偏高；流动性偏薄
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- DOS | Volatility Orbit | 合约热度明显抬升；Alpha 前沿强度高
 - AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - XDP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- RSR | Volatility Orbit | 合约热度明显抬升
 - USDC | Catalyst Orbit | 官方催化已入场
+- RSR | Volatility Orbit | 合约热度明显抬升
+- ICP | Core Orbit | 社媒热度已形成外部引力
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
