@@ -1,32 +1,32 @@
 # 币安事件地平线
 
-- 生成时间：2026-10-27T20:34:54.393301+00:00
+- 生成时间：2026-10-27T23:57:26.052726+00:00
 - 市场相位：引力压缩
 - 相位摘要：市场并非无机会，但需要更严格地筛掉拥挤和高风险噪音。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 40.8 | 资产：PUMP、Q、BANK、AKE
-- 社媒引力场 | 强度 35.1 | 资产：PUMP、BTC、XRP、ETH
-- 官方催化带 | 强度 30.0 | 资产：SPCX、USDC、AXIS、TICK
-- 杠杆热层 | 强度 29.8 | 资产：DOOD、BULLA
-- Launchpad 迷因团 | 强度 26.3 | 资产：HUMA、MEAT、REZ、NIL
-- 聪明钱跃迁层 | 强度 9.7 | 资产：MEAT、ANT、JAN、TRENCHORS
+- Alpha 前沿层 | 强度 39.7 | 资产：PUMP、Q、BANK、AKE
+- 社媒引力场 | 强度 33.1 | 资产：PUMP、BTC、ETH、XRP
+- 杠杆热层 | 强度 31.9 | 资产：DOOD
+- 官方催化带 | 强度 30.1 | 资产：SPCX、USDC、AXIS、TICK
+- Launchpad 迷因团 | 强度 27.6 | 资产：HUMA、PUMPCAT、GOOGLB、HAEDAL
+- 聪明钱跃迁层 | 强度 21.5 | 资产：PUMPCAT、ELON、CZ、慈善AIPRO
 
 ## 场景引擎
 - SPCX 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
 - DOOD 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- MEAT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- PUMPCAT 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - GRASS | Medium | 链上风险或标签风险偏高
+- REMOTEJOBS | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- XAN | Medium | 链上风险或标签风险偏高
 - TRENCHORS | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- ACU | Medium | 链上风险或标签风险偏高
+- DOOD | Medium | 合约杠杆热度偏高
 - AXIS | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
 - ANT | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- WTFPYTHON | Medium | 链上风险或标签风险偏高；流动性偏薄
-- SMARTTUBE | Medium | 链上风险或标签风险偏高；流动性偏薄
-- DOOD | Medium | 合约杠杆热度偏高
-- ACU | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
@@ -34,9 +34,9 @@
 - BANK | Frontier Orbit | Alpha 前沿强度高
 - AKE | Frontier Orbit | Alpha 前沿强度高
 - AGT | Frontier Orbit | Alpha 前沿强度高
-- AIN | Frontier Orbit | Alpha 前沿强度高
 - SPCX | Catalyst Orbit | 官方催化已入场
 - USDC | Catalyst Orbit | 官方催化已入场
+- JCT | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
