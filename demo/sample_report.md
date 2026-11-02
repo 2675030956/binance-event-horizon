@@ -1,37 +1,37 @@
 # 币安事件地平线
 
-- 生成时间：2026-11-01T22:43:50.579485+00:00
+- 生成时间：2026-11-02T01:50:22.095645+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- Alpha 前沿层 | 强度 35.1 | 资产：UAI、AKE、PUMP、ON
-- 杠杆热层 | 强度 32.8 | 资产：HOT、POWR
-- 社媒引力场 | 强度 31.6 | 资产：PUMP、BTC、DOGE、ETH
-- 官方催化带 | 强度 28.9 | 资产：HOT、PREDICT
-- Launchpad 迷因团 | 强度 22.7 | 资产：ANTHROPIC、UNI、BEAMX、ENA
-- 聪明钱跃迁层 | 强度 21.4 | 资产：ORE、LYX、RWHAK、LEARJET
+- Alpha 前沿层 | 强度 37.0 | 资产：PUMP、AKE、UAI、Q
+- 社媒引力场 | 强度 33.5 | 资产：PUMP、BTC、DOGE、ETH
+- 杠杆热层 | 强度 31.9 | 资产：HOT、POWR、CSOPSKHYNIX2L
+- 官方催化带 | 强度 28.3 | 资产：HOT、ERA、PREDICT
+- 聪明钱跃迁层 | 强度 24.5 | 资产：LYX、ORE、CICI、FAGENT
+- Launchpad 迷因团 | 强度 22.1 | 资产：UNI、超级屎壳郎、BEAMX、LEARJET
 
 ## 场景引擎
 - HOT 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- ORE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
-- UAI Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
+- POWR 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- LYX 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - GRASS | Medium | 链上风险或标签风险偏高
-- DOCS | Medium | 链上风险或标签风险偏高；流动性偏薄
+- OPENVOICE | Medium | 链上风险或标签风险偏高；流动性偏薄
 - HOT | Medium | 合约杠杆热度偏高
-- CTR | Medium | 链上风险或标签风险偏高
 
 ## 优先观察轨道
 - HOT | Catalyst Orbit | 官方催化已入场；合约热度明显抬升
-- UAI | Frontier Orbit | Alpha 前沿强度高
-- AKE | Frontier Orbit | Alpha 前沿强度高
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
+- AKE | Frontier Orbit | Alpha 前沿强度高
+- UAI | Frontier Orbit | Alpha 前沿强度高
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- ON | Frontier Orbit | Alpha 前沿强度高
-- APR | Frontier Orbit | Alpha 前沿强度高
+- POWR | Volatility Orbit | 合约热度明显抬升
 - DOGE | Core Orbit | 社媒热度已形成外部引力
+- Q | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - HOT | HOT 当前位于 Spec 级观测轨道
