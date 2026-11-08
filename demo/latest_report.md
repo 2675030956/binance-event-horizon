@@ -1,42 +1,39 @@
 # 币安事件地平线
 
-- 生成时间：2026-11-08T07:58:24.392958+00:00
+- 生成时间：2026-11-08T14:52:08.375754+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 社媒引力场 | 强度 43.1 | 资产：PUMP、BTC、AERO、ETH
-- Alpha 前沿层 | 强度 41.0 | 资产：PUMP、AERO、UAI、AKE
-- 官方催化带 | 强度 39.1 | 资产：BTC、ERA、ETH、USDC
-- 杠杆热层 | 强度 33.0 | 资产：ERA、BMT、LSK
-- Launchpad 迷因团 | 强度 30.5 | 资产：BMT、SPCX、ANTHROPIC、CALYPSO
-- 聪明钱跃迁层 | 强度 14.0 | 资产：CALYPSO、NVIDIASI、RANT、BB
+- 社媒引力场 | 强度 40.9 | 资产：PUMP、BTC、ETH、AERO
+- Alpha 前沿层 | 强度 39.6 | 资产：PUMP、UAI、AERO、IDOL
+- 官方催化带 | 强度 37.0 | 资产：BTC、ETH、ERA、USDC
+- 杠杆热层 | 强度 32.3 | 资产：HOT、JCT、CYBER、BMT
+- Launchpad 迷因团 | 强度 27.9 | 资产：BMT、SKHY、SPCX、ANTHROPIC
+- 聪明钱跃迁层 | 强度 15.9 | 资产：PIRATE、FFF、APPLESI、CAKEKING
 
 ## 场景引擎
 - ERA 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- BMT 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- CALYPSO 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- HOT 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- PIRATE 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - PUMP Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - GRASS | Medium | 链上风险或标签风险偏高
-- BB | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- VIOR | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- IOSRULESCRIPT | Medium | 链上风险或标签风险偏高；流动性偏薄
-- BOB | Medium | 链上风险或标签风险偏高；流动性偏薄
-- RANT | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- D2LZH | Medium | 链上风险或标签风险偏高；流动性偏薄
-- DIA | Medium | 链上风险或标签风险偏高；流动性偏薄
+- JCT | Medium | 多项风险因子正在叠加
+- CAKEKING | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
+- HOT | Medium | 合约杠杆热度偏高
+- CYBER | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - PUMP | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
 - BTC | Core Orbit | 社媒热度已形成外部引力
-- ERA | Catalyst Orbit | 官方催化已入场
-- AERO | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- ETH | Core Orbit | 社媒热度已形成外部引力
 - UAI | Frontier Orbit | Alpha 前沿强度高
-- USDC | Catalyst Orbit | 官方催化已入场
-- BMT | Volatility Orbit | 合约热度明显抬升
+- ETH | Core Orbit | 社媒热度已形成外部引力
+- AERO | Frontier Orbit | Alpha 前沿强度高
+- ERA | Catalyst Orbit | 官方催化已入场
+- HOT | Volatility Orbit | 合约热度明显抬升
+- IDOL | Frontier Orbit | Alpha 前沿强度高
 
 ## 聚焦资产
 - PUMP | PUMP 当前位于 Spec 级观测轨道
