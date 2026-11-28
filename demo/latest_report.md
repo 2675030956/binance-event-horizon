@@ -1,30 +1,29 @@
 # 币安事件地平线
 
-- 生成时间：2026-11-27T21:55:16.087240+00:00
+- 生成时间：2026-11-28T03:40:53.715575+00:00
 - 市场相位：高热分歧
 - 相位摘要：注意力先跑，资金确认跟得不够，容易出现热度先行的分歧行情。
 
 ## 信号星图
-- 官方催化带 | 强度 51.2 | 资产：BTC、AKE、ETH、BNB
-- 社媒引力场 | 强度 48.9 | 资产：BTC、ETH、BNB、VVV
-- Alpha 前沿层 | 强度 44.8 | 资产：AKE、VVV、ELSA、EVAA
-- Launchpad 迷因团 | 强度 32.3 | 资产：PORTAL、SOXL、QQQ、SPY
-- 杠杆热层 | 强度 30.0 | 资产：THE、BLUR、HAEDAL
-- 聪明钱跃迁层 | 强度 26.9 | 资产：BLR、MUTUN、GEMCX、DRV
+- 官方催化带 | 强度 53.0 | 资产：BTC、AKE、ETH、BNB
+- 社媒引力场 | 强度 50.6 | 资产：BTC、ETH、BNB、VVV
+- Alpha 前沿层 | 强度 44.1 | 资产：AKE、VVV、EVAA、AIOT
+- 杠杆热层 | 强度 35.7 | 资产：CFG、HAEDAL
+- Launchpad 迷因团 | 强度 34.4 | 资产：PORTAL、HAEDAL、HAWKING、QQQ
+- 聪明钱跃迁层 | 强度 29.4 | 资产：HAWKING、QUEENCOIN、JESTER、DRV
 
 ## 场景引擎
 - BTC 点火突破窗 | Official Ignition | 窗口 6h-24h | 触发：新增配套产品、现货承接或公告后二次流动性扩散出现。
-- THE 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
-- BLR 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
+- CFG 杠杆挤压带 | Leverage Expansion | 窗口 3h-12h | 触发：资金费率和 5 分钟持仓继续共振，价格保持强势不回吐。
+- HAWKING 聪明钱跟随窗 | Smart Money Follow-Through | 窗口 6h-24h | 触发：信号数量增加或流入重新放大，价格不跌回触发前区间。
 - AKE Alpha 先行扩散 | Alpha Frontier Expansion | 窗口 12h-24h | 触发：Alpha 交易强度延续，并向更主流交易层扩散。
 
 ## 引力预警
 - VIOR | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
-- SPACEXCOIN | Medium | 链上风险或标签风险偏高；存在洗盘类风险标记
-- NACOS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- GPTS | Medium | 链上风险或标签风险偏高；流动性偏薄
-- THE | Medium | 合约杠杆热度偏高
-- CODEFORMER | Medium | 链上风险或标签风险偏高；流动性偏薄
+- CFG | Medium | 合约杠杆热度偏高
+- OKHTTP | Medium | 链上风险或标签风险偏高；流动性偏薄
+- VEGETA | Medium | 链上风险或标签风险偏高；流动性偏薄；存在洗盘类风险标记
+- HAEDAL | Medium | 合约杠杆热度偏高
 
 ## 优先观察轨道
 - BTC | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
@@ -32,9 +31,9 @@
 - ETH | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - BNB | Catalyst Orbit | 官方催化已入场；社媒热度已形成外部引力
 - VVV | Frontier Orbit | Alpha 前沿强度高；社媒热度已形成外部引力
-- ELSA | Frontier Orbit | Alpha 前沿强度高
 - EVAA | Frontier Orbit | Alpha 前沿强度高
 - PORTAL | Core Orbit | 社媒热度已形成外部引力
+- NVDA | Catalyst Orbit | 官方催化已入场
 
 ## 聚焦资产
 - BTC | BTC 当前位于 Spec 级观测轨道
